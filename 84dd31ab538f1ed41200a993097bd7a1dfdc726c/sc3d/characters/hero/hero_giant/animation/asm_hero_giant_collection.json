@@ -1,0 +1,27 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_basic_idle | ec79f249-1aec-a82f-7aaf-6ad4c2222647","TransInTime":0.4,"TransOutTime":0.4},
+		{"Type":"AnimClip","Name":"IdleBreak01","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_idle01 | ec79f249-919f-e022-917f-aaba7bef7b58","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_giant/card_hero_giant_idlebreak_01 | 0e32651a-c772-73df-e754-2688134ea8fa"}]},
+		{"Type":"AnimClip","Name":"IdleBreak02","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_idle02 | ec79f249-52a8-3240-b2bf-5692fe183e37","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_giant/card_hero_giant_idlebreak_02 | 0e32651a-5a74-73e0-9a56-2688134fa8fa"}]},
+		{"Type":"AnimClip","Name":"IdleBreak03","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_idle03 | ec79f249-2892-edb0-2854-54cd4ef21ecd","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_giant/card_hero_giant_idlebreak_03 | 0e32651a-ed75-73e1-4d58-26881350a8fa"}]},
+		{"Type":"Random","Name":"Idle","SubStates":["BasicIdle","IdleBreak01","BasicIdle","BasicIdle","IdleBreak02","BasicIdle","BasicIdle","IdleBreak03"]},
+		{
+			"Type":"AnimClip",
+			"Name":"Intro",
+			"Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_intro | ec79f249-cbc6-bb99-6b7d-0f78ba6099b1",
+			"TransOutTime":0.4,
+			"Events":[
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_giant/effect/prefabs/meta/vfx_giant_hero_meta_intro_01 | 28de9f14-aee5-2d72-4e9c-b6279dac5e00"},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_giant/effect/prefabs/meta/vfx_giant_hero_meta_intro_02 | 28de9f14-8cbe-6705-2cb9-a195f709ee92","Frame":40},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_giant/effect/prefabs/meta/vfx_giant_hero_meta_intro_03 | 28de9f14-a356-f3a7-031a-8b7aacfcd528","Frame":113},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_giant/card_hero_giant_idlebreak_intro | 0e32651a-26c3-6491-e609-dece68dd0e53"}
+			]
+		},
+		{"Type":"AnimClip","Name":"SkillStart","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_skill | ec79f249-d872-a9db-58b3-2c4be9b68713","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":0,"EndFrame":30},
+		{"Type":"AnimClip","Name":"SkillLoop","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_skill | ec79f249-d872-a9db-58b3-2c4be9b68713","TransInTime":0.4,"TransOutTime":0.4,"StartFrame":31,"EndFrame":59},
+		{"Type":"Sequence","Name":"Skill","SubStates":["SkillStart","SkillLoop","SkillLoop","SkillLoop","SkillLoop","SkillEnd"]},
+		{"Type":"AnimClip","Name":"SkillEnd","Animation":"sc3d/characters/hero/hero_giant/animation/hero_giant_meta_skill | ec79f249-d872-a9db-58b3-2c4be9b68713","TransInTime":0.4,"TransOutTime":0.4,"StartFrame":59,"EndFrame":90},
+		{"Type":"Random","Name":"RandomIdleBreak","SubStates":["IdleBreak01","IdleBreak02","IdleBreak03"]}
+	],
+	"DefaultState":"Idle"
+}

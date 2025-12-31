@@ -1,0 +1,25 @@
+{
+	"components":[
+		{"_c":"Ability","AbilityBaseRef":"logic/autochess/character/musketeer/ability/musketeer_attack | 9c17865c-c8a5-63b8-a876-529c3d434b02","AbilitySuperRef":"logic/autochess/character/musketeer/ability/musketeer_super | 9c17865c-6974-2c5d-c98c-930a1e5720cd"},
+		{"_c":"AutoChessMovement"},
+		{"_c":"Behavior","FSMData":"logic/autochess/fsm/shared/normal_character | d81930b5-4f30-e469-af4a-636df46a895f"},
+		{"_c":"Hitpoint"},
+		{"_c":"Transform"},
+		{"_c":"AutoChessUnit","Tid":"TID_AUTOCHESS_SET_1_MUSKTEER","Icon":"sc/ui_autochess_icons/ac_musketeer | 49e9c85e-2f08-49b1-8340-cf96f20dad0c","Traits":["logic/autochess/traits/royal/trait_royal | cac04ecf-3391-620e-53d3-8d16338a38d8","logic/autochess/traits/superstar/trait_superstar | cac04ecf-2a83-3b69-aaca-58983cd99a61"]},
+		{"_c":"Buff"},
+		{
+			"_c":"Attribute",
+			"AttributeSheetList":["logic/autochess/battle_rule/autochess_unit_attributes | ca8ffa0e-668e-7a3b-2682-12f8d3ddf546"],
+			"AttributeOverrides":[
+				{"Name":"movespeed","Value":[3000]},
+				{"Name":"curhp","Value":[769]},
+				{"Name":"maxhp","Value":[769],"LevelUpFactor":200},
+				{"Name":"initenergy","Value":[0]},
+				{"Name":"maxenergy","Value":[900]},
+				{"Name":"energyperattack","Value":[180,225,300,450]}
+			]
+		},
+		{"_c":"CircleCollision","Radius":500},
+		{"_c":"Display","Prefab":"sc3d/characters/musketeer/chr_prefab_musketeer | 28de9f14-8846-b207-68ac-f1be21e623ad"}
+	]
+}

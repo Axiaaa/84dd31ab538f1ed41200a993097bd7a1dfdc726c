@@ -1,0 +1,43 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_idle | ec79f249-8799-a395-0722-e9a4b125fdb5","TransInTime":0.4,"TransOutTime":0.4},
+		{
+			"Type":"AnimClip",
+			"Name":"IdleBreak01",
+			"Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_idlebreak01 | ec79f249-69bb-eaf2-099f-498ab5a33432",
+			"TransInTime":0.4,
+			"TransOutTime":0.4,
+			"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_knight/card_hero_knight_idlebreak_01 | 0e32651a-c700-a748-878b-1b6255ae895c","Frame":20}]
+		},
+		{"Type":"AnimClip","Name":"IdleBreak02","Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_idlebreak02 | ec79f249-b722-a26b-57e3-17ea5c65b69f","TransInTime":0.4,"TransOutTime":0.4,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_knight/card_hero_knight_idlebreak_02 | 0e32651a-5a02-a749-3a8d-1b6255af895c"}]},
+		{"Type":"Random","Name":"Idle","SubStates":["BasicIdle","BasicIdle","IdleBreak01","BasicIdle","BasicIdle","IdleBreak02","BasicIdle"]},
+		{
+			"Type":"AnimClip",
+			"Name":"IdleBreak03",
+			"Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_idlebreak03 | ec79f249-4a89-2189-2adb-aee07091562e",
+			"TransInTime":0.4,
+			"TransOutTime":0.4,
+			"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_knight/card_hero_knight_idlebreak_03 | 0e32651a-ed03-a74a-ed8e-1b6255b0895c","Frame":11.5}]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"Intro",
+			"Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_intro | ec79f249-758d-f1aa-95f0-bf091baa28ae",
+			"TransOutTime":0.4,
+			"Events":[
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_knight/effect/prefabs/meta/vfx_knight_hero_meta_intro_01 | 28de9f14-0f99-7db8-8fbd-bea8b7bb5f2e","Frame":15},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_knight/effect/prefabs/meta/vfx_knight_hero_meta_intro_02 | 28de9f14-cfd8-7c02-af63-32aee58230f4","Frame":45},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_knight/effect/prefabs/meta/vfx_knight_hero_meta_intro_03 | 28de9f14-6b75-b455-8b1e-9f03c6e16245","Frame":58},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_knight/effect/prefabs/meta/vfx_knight_hero_meta_intro_04 | 28de9f14-ba61-e694-7ac9-c0e5932d6444","Frame":78},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_knight/effect/prefabs/meta/vfx_knight_hero_meta_intro_05 | 28de9f14-478b-76a4-67c0-59d6573d1908","Frame":113},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_knight/card_hero_knight_idlebreak_intro | 0e32651a-265d-a903-8691-ce818acb9f3c"}
+			]
+		},
+		{"Type":"AnimClip","Name":"SkillStart","Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_skill | ec79f249-1a52-7d33-5afe-6c101ce0f5ec","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":0,"EndFrame":25},
+		{"Type":"Random","Name":"RandomIdleBreak","SubStates":["IdleBreak01","IdleBreak02","IdleBreak03"]},
+		{"Type":"AnimClip","Name":"SkillLoop","Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_skill | ec79f249-1a52-7d33-5afe-6c101ce0f5ec","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":26,"EndFrame":64},
+		{"Type":"AnimClip","Name":"SkillEnd","Animation":"sc3d/characters/hero/hero_knight/animations/chr_hero_knight_meta_skill | ec79f249-1a52-7d33-5afe-6c101ce0f5ec","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":65,"EndFrame":70},
+		{"Type":"Sequence","Name":"Skill","SubStates":["SkillStart","SkillLoop","SkillEnd"]}
+	],
+	"DefaultState":"Idle"
+}

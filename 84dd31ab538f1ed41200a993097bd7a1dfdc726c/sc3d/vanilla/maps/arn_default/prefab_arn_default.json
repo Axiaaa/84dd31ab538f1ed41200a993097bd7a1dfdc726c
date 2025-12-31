@@ -1,0 +1,56 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{"name":"model","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]},
+			{
+				"name":"camera_root",
+				"pos":[0,0,0],
+				"rot":[-34.999996,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"camera",
+						"pos":[0,0,20],
+						"rot":[-90,10427406e-11,-180],
+						"scl":[1,1,1],
+						"components":[{"objectType":5011,"Near":2,"Far":1000,"IsOrtho":true,"Fov":45,"OrthoWidth":36,"OrthoHeight":64}]
+					}
+				]
+			},
+			{
+				"name":"light",
+				"pos":[0,0,0],
+				"rot":[-60,-179.99992,-40.999992],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":2,
+						"MainLight":true,
+						"Color":{"r":255,"g":255,"b":255,"a":255},
+						"Ambient":{"r":108,"g":94,"b":87,"a":25}
+					}
+				]
+			},
+			{
+				"name":"Node",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[2,2,2],
+				"components":[{"objectType":5006,"Prefab":" | 28de9f14-4985-2e63-296e-9070b049d9e3"}]
+			},
+			{
+				"name":"Node.000",
+				"pos":[-1,1,0],
+				"rot":[0,0,0],
+				"scl":[2,2,2],
+				"components":[{"objectType":5006,"Prefab":" | 28de9f14-4985-2e63-296e-9070b049d9e3"}]
+			}
+		]
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"camera",
+				"pos":[-0.41582566,-32.284687,18.262226],
+				"rot":[-25.529058,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":0.961538,"Far":1000,"Fov":23.3721}]
+			},
+			{
+				"name":"vfx",
+				"pos":[0,0,3],
+				"rot":[90,179.99998,-179.99998],
+				"scl":[1,1,1],
+				"children":[
+					{"name":"hit","pos":[-7.3848376,0.9882183,0.8809883],"rot":[0,-74.99998,90],"scl":[1,1,1]},
+					{
+						"name":"pjt",
+						"pos":[-7.42,0,0],
+						"rot":[0,0,0],
+						"scl":[0.9,0.9,0.9],
+						"children":[{"name":"offset","pos":[-9536743e-13,0.6666665,17143691e-16],"rot":[0,120,90],"scl":[1.1111112,1.1111112,1.1111112]}]
+					}
+				]
+			},
+			{
+				"name":"pos_arena",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"Tower_Hit",
+						"pos":[-7.421446,0,0.18],
+						"rot":[0,0,90],
+						"scl":[1.2,1.2,1.2],
+						"children":[
+							{
+								"name":"king",
+								"pos":[-0.0053557716,-0.04278183,1.9171742],
+								"rot":[0,0,-9.999996],
+								"scl":[1,1,1],
+								"components":[{"objectType":5006,"Prefab":"sc3d/rulers/king/default/rul_prefab_king | 28de9f14-046a-e9db-24e0-b9548c0b472f"}]
+							}
+						],
+						"components":[{"objectType":5006,"Prefab":"sc3d/rulers/king/default/stand/rs_prefab_king | 28de9f14-c2fc-a9ed-a2e4-46ea7a0badf3"}]
+					},
+					{
+						"name":"Tower_Attack",
+						"pos":[7.42,0,0.32],
+						"rot":[0,0,90],
+						"scl":[1.2,1.2,1.2],
+						"children":[
+							{
+								"name":"ruler",
+								"pos":[0.013792227,-0.025224686,0.11106601],
+								"rot":[0,0,-179.9999],
+								"scl":[1,1,1],
+								"components":[{"objectType":5006,"Prefab":"sc3d/rulers/battlemachine/default/rul_prefab_battlemachine | 28de9f14-bd43-6ca0-7d63-05d1498a877d"}]
+							}
+						]
+					},
+					{
+						"name":"Grass",
+						"pos":[0,0,0],
+						"rot":[0,0,90],
+						"scl":[2,2,1],
+						"components":[{"objectType":5006,"Prefab":"sc3d/effects/ruler_attacks/meta_scene/default/grass | 28de9f14-6797-60a9-c723-7b44cdacbb3a"}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"meta_ra_t4_battlemachine_def_timeline","asset":"sc3d/effects/ruler_attacks/t4/battlemachine/timelines/meta_ra_t4_battlemachine_def_timeline | 0644802f-b7f5-3c8f-5785-fa221e16d37a"}]},
+			{"objectType":5016,"TimelineName":"meta_ra_t4_battlemachine_def_timeline"}
+		]
+	}
+}

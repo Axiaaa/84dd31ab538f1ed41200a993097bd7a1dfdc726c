@@ -1,0 +1,62 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[-0.19939452,18801037e-15,0.43011776],
+				"rot":[-90,180,-180],
+				"scl":[1.25,1.25,1.25],
+				"children":[
+					{
+						"name":"shadow_plane",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[3,3,3],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/props/uv_animation_test/test_planer | ec79f249-467d-58a3-a6c8-287d8b343860","Geometries":[{"Name":"Plane","MaterialOverride":"sc3d/shared/materials/mat_shadow_as_alpha | c0cd0c6d-2556-aa21-0553-b959cccc06ab"}]}
+						]
+					}
+				],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Color":-7524085,
+						"Model":"sc3d/characters/hero/hero_musketeer/model/hero_musketeer_lod0_rig | ec79f249-9a73-3b43-3a7d-ebdf569ed0a5",
+						"Geometries":[{"Name":"main_LOD0","MaterialOverride":"sc3d/characters/hero/mat_rimlight_heroes_collection | c0cd0c6d-123f-2c55-32d2-7d103e61bb90","GeomIndex":2},{"Name":"weapon_LOD0","MaterialOverride":"sc3d/characters/hero/mat_rimlight_heroes_collection | c0cd0c6d-123f-2c55-32d2-7d103e61bb90"},{"Name":"turret_LOD0","MaterialOverride":"sc3d/characters/hero/mat_rimlight_heroes_collection | c0cd0c6d-123f-2c55-32d2-7d103e61bb90","GeomIndex":1}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/characters/hero/hero_musketeer/animations/asm_hero_musketeer_collection | defe63bc-194c-a463-59ea-8d52ea1f1368"}
+				]
+			},
+			{
+				"name":"camera",
+				"pos":[0,2.1,6.514351],
+				"rot":[-84.699615,-179.9999,179.9999],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":2,"Far":1000,"Fov":37.7341}]
+			},
+			{
+				"name":"light.000",
+				"pos":[0,0,0],
+				"rot":[-36.55778,-162.64807,132.14517],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":2.5,
+						"MainLight":true,
+						"Color":{"r":177,"g":184,"b":191,"a":255},
+						"Ambient":{"r":84,"g":69,"b":78,"a":25}
+					}
+				]
+			}
+		]
+	}
+}

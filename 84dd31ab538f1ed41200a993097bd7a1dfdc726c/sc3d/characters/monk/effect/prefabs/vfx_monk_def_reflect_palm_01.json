@@ -1,0 +1,33 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_palm",
+						"pos":[0,-0.016176432,0],
+						"rot":[0,-179.99995,0],
+						"scl":[2,2,2],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/object/sm_palm_100 | ec79f249-8f1c-3fc4-6fd9-61e4d8e9407b","Geometries":[{"Name":"sm_palm_100","MaterialOverride":"sc3d/characters/monk/effect/materials/chr_monk_def_buff_reflect_palm | c0cd0c6d-9d83-7ca9-5d43-96aa86249e18"}]}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_monk_def_reflect_palm_timeline","asset":"sc3d/characters/monk/effect/timeline/vfx_monk_def_reflect_palm_timeline | 0644802f-0033-750e-8034-297f4d685b5b"}],"defaultTimeline":"vfx_monk_def_reflect_palm_timeline"},
+			{"objectType":5016,"TimelineName":"vfx_monk_def_reflect_palm_timeline"}
+		]
+	}
+}

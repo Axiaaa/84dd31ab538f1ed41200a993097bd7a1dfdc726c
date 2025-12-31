@@ -1,0 +1,16 @@
+{
+	"description":"TID_SKILL_SET_1_XBOW_DES",
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/xbow/ability/xbow_attack_flow | d88fcdc1-b746-76e7-b7fb-6ad7c3217c9a",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"AttributeOverrides":[
+		{"Name":"damage","Value":[200],"LevelUpFactor":160},
+		{"Name":"speed","Value":[333]},
+		{"Name":"range","Value":[8]},
+		{"Name":"criticalrate","Value":[15]},
+		{"Name":"criticalvalue","Value":[50]}
+	],
+	"HitEffect":"sc3d/characters/xbow/effect/prefabs/vfx_xbow_def_hit | 28de9f14-35c2-77de-f5df-99f6f680b914",
+	"TargetAlgorithm":2
+}

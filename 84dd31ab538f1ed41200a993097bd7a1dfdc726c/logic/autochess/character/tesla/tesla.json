@@ -1,0 +1,18 @@
+{
+	"components":[
+		{"_c":"Ability","AbilityBaseRef":"logic/autochess/character/tesla/ability/tesla_attack | 9c17865c-1bd4-aa4b-9b89-bc708cb77bd1"},
+		{"_c":"AutoChessMovement"},
+		{"_c":"Behavior","FSMData":"logic/autochess/fsm/shared/tesla_fsm | d81930b5-3282-b64a-3226-6098f8371d41"},
+		{"_c":"Hitpoint"},
+		{"_c":"Transform"},
+		{"_c":"AutoChessUnit","Tid":"TID_AUTOCHESS_SET_1_TESLA","Icon":"sc/ui_autochess_icons/ac_tesla | 49e9c85e-31e5-4cb7-9068-a9acfa8dd997","DoNotOccupyTeamSize":true,"CanNotSell":true,"NotWinCondition":true,"IsBuilding":true},
+		{"_c":"Buff","DefaultBuffs":["logic/autochess/character/common/buff/building_passive_buff | f5fa09ea-1ca7-7844-9cb0-7dac69d8cfea"]},
+		{
+			"_c":"Attribute",
+			"AttributeSheetList":["logic/autochess/battle_rule/autochess_unit_attributes | ca8ffa0e-668e-7a3b-2682-12f8d3ddf546","logic/autochess/battle_rule/autochess_building_attributes | ca8ffa0e-9876-7fa6-7825-f36015a0a5d0"],
+			"AttributeOverrides":[{"Name":"movespeed","Value":[0]},{"Name":"curhp","Value":[600]},{"Name":"maxhp","Value":[600],"LevelUpFactor":200}]
+		},
+		{"_c":"CircleCollision","Radius":500},
+		{"_c":"Display","Prefab":"sc3d/characters/tesla/chr_prefab_tesla | 28de9f14-b657-eeed-160c-da5af029b4a9"}
+	]
+}
