@@ -1,0 +1,30 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/characters/monkspirit/exorcist/model/chr_echomonk_exorcist_spirit_rig | ec79f249-0344-2976-c331-c8d4ff7d891f",
+						"Geometries":[{"Name":"main_LOD0","MaterialOverride":"sc3d/rulers/echomonk/exorcist/materials/mat_exorcist_spirit | c0cd0c6d-0804-f359-c897-44e04ba67038"},{"Name":"eyes_LOD0","MaterialOverride":"sc3d/rulers/echomonk/exorcist/materials/mat_exorcist_spirit | c0cd0c6d-0804-f359-c897-44e04ba67038","GeomIndex":1}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5014,"timelines":[{"name":"11","asset":"sc3d/characters/_prototype/material_test/test/tl_test | 0644802f-2012-246c-20f0-f94bd8d100db"}]}
+		]
+	}
+}

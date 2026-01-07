@@ -1,0 +1,9 @@
+{
+	"anims":{
+		"nodes":["pos/vfx_impact"],
+		"data":[
+			{"events":[{"_t":1857824372,"Time":0.34346977,"Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/subs/vfx_icegolem_hero_meta_idlebreak02_impact | 28de9f14-5383-f755-b314-5a927f1ed8d2"}]}
+		]
+	},
+	"total_time":1
+}

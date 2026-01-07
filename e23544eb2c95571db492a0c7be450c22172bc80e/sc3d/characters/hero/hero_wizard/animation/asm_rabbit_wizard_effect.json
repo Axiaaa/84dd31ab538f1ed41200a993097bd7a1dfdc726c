@@ -1,0 +1,8 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/rabbit/animation/chr_rabbit_basic_idle | ec79f249-4609-3a29-a612-06459bdd6181"},
+		{"Type":"AnimClip","Name":"IdleBreak","Animation":"sc3d/characters/rabbit/animation/chr_rabbit_idle_break | ec79f249-aca2-669e-2ce1-376811d71b51"},
+		{"Type":"Random","Name":"Idle","Loop":true,"SubStates":["BasicIdle","IdleBreak"]}
+	],
+	"DefaultState":"Idle"
+}

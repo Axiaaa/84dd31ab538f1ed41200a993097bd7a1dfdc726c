@@ -1,0 +1,42 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_idle | ec79f249-6ca5-7da7-6cca-414079aef171","TransInTime":0.2,"TransOutTime":0.2},
+		{"Type":"AnimClip","Name":"IdleBreak01","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_idle01 | ec79f249-fdbb-ae90-fd69-309b0a49be06","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_idlebreak_01 | 0e32651a-40ea-fc00-c056-e6650d4aa321"}]},
+		{
+			"Type":"AnimClip",
+			"Name":"IdleBreak02",
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_idle02 | ec79f249-d69c-7d9b-b668-4fdf1bb11518",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Effect","Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/meta/vfx_icegolem_hero_meta_idlebreak02 | 28de9f14-8cb8-7f6d-0c81-a7229842bfe8"},{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_idlebreak_02 | 0e32651a-f9ee-fc03-d95b-e6650d4da321"}]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"IdleBreak03",
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_idle03 | ec79f249-b5c4-e4ce-75b7-e81834edf9dc",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Effect","Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/meta/vfx_icegolem_hero_meta_idlebreak03 | 28de9f14-0ce0-71cb-ccbd-3985d5c1ba94"},{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_idlebreak_03 | 0e32651a-66ed-fc02-265a-e6650d4ca321"}]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"Intro",
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_intro | ec79f249-00c0-a551-80f0-48e3066ea349",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Effect","Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/meta/vfx_icegolem_hero_meta_intro | 28de9f14-0be3-6aa3-4bc8-895bc8090cb5","Frame":35},{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_idlebreak_intro | 0e32651a-e7f5-32b2-270e-680893d56eec"}]
+		},
+		{"Type":"AnimClip","Name":"SkillStart","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_skill_idle | ec79f249-fffa-233a-fff8-aa29b34718f3","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":0,"EndFrame":32},
+		{
+			"Type":"Random",
+			"Name":"Idle",
+			"SubStates":["BasicIdle","BasicIdle","IdleBreak01","BasicIdle","BasicIdle","IdleBreak02","BasicIdle","BasicIdle","IdleBreak03","BasicIdle",
+				"BasicIdle","BasicIdle","BasicIdle"]
+		},
+		{"Type":"Random","Name":"RandomIdleBreak","SubStates":["IdleBreak01","IdleBreak02","IdleBreak03"]},
+		{"Type":"AnimClip","Name":"SkillLoop","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_skill_idle | ec79f249-fffa-233a-fff8-aa29b34718f3","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":33,"EndFrame":68},
+		{"Type":"AnimClip","Name":"SkillEnd","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_meta_skill_idle | ec79f249-fffa-233a-fff8-aa29b34718f3","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":69,"EndFrame":96},
+		{"Type":"Sequence","Name":"Skill","SubStates":["SkillStart","SkillLoop","SkillLoop","SkillEnd"]}
+	],
+	"DefaultState":"Idle"
+}

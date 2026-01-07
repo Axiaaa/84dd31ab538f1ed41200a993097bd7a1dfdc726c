@@ -1,0 +1,30 @@
+{
+	"emitterDataVersion":6,
+	"emitter":{
+		"maxParticleCount":30,
+		"emitterDelay":0.05,
+		"lifetime":0.6,
+		"lifetimeJitter":0.2,
+		"mass":1,
+		"spawnPointOffset":{},
+		"components":[
+			{"__class":"SpawnRate","duration":0.3,"spawnRate":20},
+			{"__class":"SpawnLocation","spawnShape":2,"spawnMinSize":0.3,"spawnMaxSize":0.55},
+			{"__class":"SpawnCone","direction":[0,1,0],"velocity":0.01}
+		]
+	},
+	"render":{
+		"globalScale":0.1,
+		"scale":[0,0.7786459,0,1.0104167,0.03,0.05],
+		"scaleJitter":0.02,
+		"color":[1,1,1],
+		"alpha":1,
+		"gradient":[{"a":1},{"offset":1,"r":1,"g":1,"b":1,"a":1}],
+		"angle":-90,
+		"angleJitter":15,
+		"orientToDirection":true,
+		"trailDuration":1,
+		"trailWidth":1
+	},
+	"movieclip":["sc/vfx_autochess/vmc_ra_t4_femalemonk_def_spark_01 | 49e9c85e-7921-4f22-bfbd-e0cf30c91762","sc/vfx_autochess/vmc_ra_t4_femalemonk_def_spark_02 | 49e9c85e-da92-4742-b59e-b2c8ec6c2fb6","sc/vfx_autochess/vmc_ra_t4_femalemonk_def_spark_03 | 49e9c85e-ce1f-43d5-a466-3b861f90a72c"]
+}

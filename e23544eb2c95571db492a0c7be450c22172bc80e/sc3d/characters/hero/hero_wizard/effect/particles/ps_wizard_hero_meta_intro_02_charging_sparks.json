@@ -1,0 +1,26 @@
+{
+	"emitterDataVersion":6,
+	"emitter":{
+		"maxParticleCount":20,
+		"lifetime":[0.5052084,0.028645843,0.5729167,0.9557292,0.5,0.9],
+		"mass":1,
+		"spawnPointOffset":{},
+		"followEmitter":true,
+		"components":[{"__class":"SpawnRate","duration":0.6,"spawnRate":30},{"__class":"SpawnPlanar","spawnMinSize":0.01,"spawnMaxSize":0.01,"maxAngle":360,"randomAngle":true}]
+	},
+	"render":{
+		"globalScale":0.1,
+		"scale":[0.53125,-0.002604127,0.609375,0.98697925,0.25,0.2],
+		"scaleJitter":0.075,
+		"color":[0.25520834,0.27864584,0.3776042,0.9791667,[0.67647064,1,0],[1,0.97058827,0]],
+		"alpha":[0,0.5286459,0.07291669,0.99479175,0,1],
+		"gradient":[{"a":1},{"offset":1,"r":1,"g":1,"b":1,"a":1}],
+		"angle":360,
+		"angleJitter":360,
+		"orientToDirection":true,
+		"trailDuration":1,
+		"trailWidth":1,
+		"blendMode":2
+	},
+	"movieclip":["sc/vfx_autochess/vmc_ra_t2_001_goblinqueen_witch_01_charging_spark_01 | 49e9c85e-b7e4-4ecf-a4ff-c50eae47bb82","sc/vfx_autochess/vmc_ra_t2_001_goblinqueen_witch_01_charging_spark_02 | 49e9c85e-3ac4-4f8c-ad14-3dabf0940f88","sc/vfx_autochess/vmc_ra_t2_001_goblinqueen_witch_01_charging_spark_03 | 49e9c85e-7af6-45a9-be9e-31ad6e0eda7a"]
+}

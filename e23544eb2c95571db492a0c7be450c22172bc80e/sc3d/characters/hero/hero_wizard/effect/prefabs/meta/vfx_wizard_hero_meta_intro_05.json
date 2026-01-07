@@ -1,0 +1,66 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[-0.55978566,-0.31834728,0.7505795],
+				"rot":[0,0,0],
+				"scl":[0.2,0.2,0.2],
+				"children":[
+					{
+						"name":"vfx_backglow",
+						"pos":[-71525574e-14,0,0.6493017],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":1,"Particle":"sc3d/effects/traits/fire/particles/ps_trait_fire_buff_backglow | 21fb952f-431d-225d-4382-c2a994278372","FollowScale":true,"Offset":[0,0,0]}]
+					},
+					{"name":"vfx_flame","pos":[-71525574e-14,0,-0.90667725],"rot":[0,0,0],"scl":[1,1,1]},
+					{
+						"name":"vfx_sparks",
+						"pos":[-71525574e-14,0,-2.2234254],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/effects/traits/fire/particles/ps_trait_fire_buff_sparks | 21fb952f-4032-fff6-80db-461ec8a9d33c","FollowScale":true,"Layer":1,"Offset":[0,0,0.5]}]
+					},
+					{
+						"name":"vfx_fire",
+						"pos":[16994624e-15,-0.38879195,1.4499304],
+						"rot":[0,-90.00008,-90.00008],
+						"scl":[1.4999266,1,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/materials/mat_wizard_hero_meta_idle_active_fire | c0cd0c6d-76fa-f24f-7693-4a2e4f74ee32"}]}
+						]
+					},
+					{
+						"name":"vfx_fire_loop",
+						"pos":[1699462e-14,-0.38877666,1.1058743],
+						"rot":[0,-90.00008,90],
+						"scl":[1.2,1.2,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/materials/mat_wizard_hero_meta_idle_fire | c0cd0c6d-10fa-30b7-303d-ea5d3038b66c"}]}
+						]
+					},
+					{
+						"name":"vfx_fire_glow",
+						"pos":[0,23841858e-14,0.7146704],
+						"rot":[0,-90,89.99988],
+						"scl":[1,1,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/materials/mat_wizard_hero_meta_intro_pjt_backglow | c0cd0c6d-6a5f-eb7e-cae2-e1928851ee11"}]}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_trait_fire_buff_timeline","asset":"sc3d/effects/traits/fire/buff/vfx_trait_fire_buff_timeline | 0644802f-79aa-ae69-b911-671b91f34c18"}]},
+			{"objectType":5016,"TimelineName":"vfx_trait_fire_buff_timeline"}
+		]
+	}
+}

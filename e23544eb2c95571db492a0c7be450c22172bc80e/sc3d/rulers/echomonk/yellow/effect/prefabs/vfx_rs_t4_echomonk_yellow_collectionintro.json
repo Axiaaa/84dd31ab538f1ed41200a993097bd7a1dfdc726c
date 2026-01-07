@@ -1,0 +1,321 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_flying",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"spine_mid_s",
+								"pos":[0,0,0],
+								"rot":[0,0,0],
+								"scl":[1,1,1],
+								"children":[
+									{
+										"name":"vfx_twinkle",
+										"pos":[0,0,0],
+										"rot":[0,0,0],
+										"scl":[1,1,1],
+										"components":[{"objectType":5004,"MinDeviceCap":1,"Particle":"sc3d/rulers/echomonk/yellow/effect/particles/ps_rs_t4_echomonk_yellow_collectionintro_twinkle | 21fb952f-9277-3336-3249-d2e0f3d5d28e","Layer":1,"Offset":[0,0,0]}]
+									}
+								],
+								"components":[{"objectType":5012,"BoneName":"spine_mid_s","Offset":[0,0,0]}]
+							},
+							{
+								"name":"vfx_trail_01",
+								"pos":[-0.5328948,-2.8895917,0.5801962],
+								"rot":[6.726474,0,-23.199886],
+								"scl":[0.7,7.99998,0.9999961],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":2,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_trail_01 | c0cd0c6d-1558-a7bf-15be-c5e40857468c"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_trail_02",
+								"pos":[-0.49717194,1.7975712,0.3533404],
+								"rot":[0,18.19998,97.79999],
+								"scl":[5.0000005,2.9999998,0.9999999],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":2,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_203 | ec79f249-0efd-7d8c-4e17-9afc817712a9",
+										"Geometries":[{"Name":"sm_plane_203","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_trail_01 | c0cd0c6d-1558-a7bf-15be-c5e40857468c"}]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_charging",
+						"pos":[0,0,1.9],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_backglow",
+								"pos":[-110204975e-22,3,0],
+								"rot":[90,0,0],
+								"scl":[3,3,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_glow_01 | c0cd0c6d-4e72-3b88-6e2b-3b7e998849b9"}]}
+								]
+							},
+							{
+								"name":"vfx_helix_01",
+								"pos":[-0.1,2.8716927,-0.18695378],
+								"rot":[-90,180,-180],
+								"scl":[1,1,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_202 | ec79f249-f3dd-e49d-b31a-f2eb67f65509","Geometries":[{"Name":"sm_plane_202","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_charging_helix | c0cd0c6d-2648-65fa-06ee-f7cbf658b8e6"}]}
+								]
+							},
+							{
+								"name":"vfx_helix_02",
+								"pos":[0.20328398,2.871692,0.20681143],
+								"rot":[65.3079,56.940983,-90.71065],
+								"scl":[1,1,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_202 | ec79f249-f3dd-e49d-b31a-f2eb67f65509","Geometries":[{"Name":"sm_plane_202","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_charging_helix | c0cd0c6d-2648-65fa-06ee-f7cbf658b8e6"}]}
+								]
+							},
+							{
+								"name":"vfx_helix_03",
+								"pos":[-0.05,2,0],
+								"rot":[65.30789,56.94102,-90.71065],
+								"scl":[1.3000004,1.3,0.99999994],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_203 | ec79f249-0efd-7d8c-4e17-9afc817712a9","Geometries":[{"Name":"sm_plane_203","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_charging_helix | c0cd0c6d-2648-65fa-06ee-f7cbf658b8e6"}]}
+								]
+							},
+							{
+								"name":"vfx_wave",
+								"pos":[0,1,0],
+								"rot":[90,0,0],
+								"scl":[0.5000442,0.5000442,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":2,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+										"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_collectionintro_wave | c0cd0c6d-01e6-70b3-a1ca-60347d584f27"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_spark",
+								"pos":[0,1.9999988,0],
+								"rot":[0,0,0],
+								"scl":[1,1,1],
+								"components":[{"objectType":5004,"MinDeviceCap":2,"Delay":2.4,"Particle":"sc3d/rulers/echomonk/yellow/effect/particles/ps_rs_t4_echomonk_yellow_collectionintro_spark | 21fb952f-ee01-6687-4e8b-79706a559702","Offset":[0,0,0]}]
+							}
+						]
+					},
+					{
+						"name":"vfx_impact",
+						"pos":[-0.1,0,2.1],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_ring",
+								"pos":[0,0,0],
+								"rot":[0,0,0],
+								"scl":[1,1,1],
+								"components":[{"objectType":5004,"MinDeviceCap":2,"Delay":2.95,"Particle":"sc3d/rulers/echomonk/yellow/effect/particles/ps_rs_t4_echomonk_yellow_collectionintro_ring | 21fb952f-8e95-a31e-ce05-84de8743a195","Layer":1,"Offset":[0,0,0]}]
+							},
+							{
+								"name":"vfx_flare_rainbow",
+								"pos":[0,0,0],
+								"rot":[90,0,0],
+								"scl":[1.5,1.5,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":2,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_flare_rainbow | c0cd0c6d-afdd-bd56-4f15-df1579bdef47"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_flare_01",
+								"pos":[0,0,0],
+								"rot":[25.000006,90,90],
+								"scl":[2,2,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_flare_03 | c0cd0c6d-a0c9-6d9f-0091-59cead857d1b"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_flare_02",
+								"pos":[0,0,0],
+								"rot":[90,0,0],
+								"scl":[2.2,2,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_flare_03 | c0cd0c6d-a0c9-6d9f-0091-59cead857d1b"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_backglow",
+								"pos":[0,0,0],
+								"rot":[90,180,-180],
+								"scl":[2,2,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_glow_01 | c0cd0c6d-4e72-3b88-6e2b-3b7e998849b9"}]}
+								]
+							},
+							{
+								"name":"vfx_impact_01",
+								"pos":[0,0,0],
+								"rot":[0,90,90],
+								"scl":[0.15,0.4,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_flare_02 | c0cd0c6d-93ef-2afb-3315-b42b9a2396d6"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add",
+								"pos":[0.1,0,0],
+								"rot":[90,0,0],
+								"scl":[1.5,1.5,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_glow_add | c0cd0c6d-23ee-364d-4305-17946a9849d0"}]}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_rush",
+						"pos":[0,0,1.6],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_shockwave_01",
+								"pos":[0,-6.00006,14305115e-13],
+								"rot":[-90,0,0],
+								"scl":[1.5,1.5,1.5],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/shockwave/sm_bowl_02 | ec79f249-cab1-a1a1-eac7-cf59255034f2","Geometries":[{"Name":"sm_bowl_02","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_shockwave | c0cd0c6d-f842-e494-187a-810cbe90cbb2"}]}
+								]
+							},
+							{
+								"name":"vfx_shockwave_02",
+								"pos":[0,-6,0],
+								"rot":[-90,0,0],
+								"scl":[1,1,2],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":2,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+										"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_collectionintro_shockwave | c0cd0c6d-2efd-e326-8e0b-e515bcfb0e15"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_backglow",
+								"pos":[0,2,-0.5],
+								"rot":[90,180,-180],
+								"scl":[2.5,2.5,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_glow_01 | c0cd0c6d-4e72-3b88-6e2b-3b7e998849b9"}]}
+								]
+							},
+							{
+								"name":"vfx_aura_01",
+								"pos":[0,-2,0.19999993],
+								"rot":[0,-60,-90],
+								"scl":[1.2,1.7,0.9999999],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_101 | ec79f249-48f6-a872-2836-65f97a725f6d","Geometries":[{"Name":"sm_plane_101","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_aura_01 | c0cd0c6d-957c-763b-f547-452b976b4eca"}]}
+								]
+							},
+							{
+								"name":"vfx_aura_02",
+								"pos":[0,-1,0.19999993],
+								"rot":[0,-30,-90],
+								"scl":[2.2,1.5,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_02 | ec79f249-6d2c-fb21-0d41-dd61ff59b1c6","Geometries":[{"Name":"sm_plane_02","MaterialOverride":"sc3d/rulers/echomonk/yellow/effect/materials/mat_rs_t4_echomonk_yellow_collectionintro_aura_02 | c0cd0c6d-593f-f617-d997-7dc33bc4a6de"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add",
+								"pos":[0,-6.512608,43973327e-12],
+								"rot":[90,0,0],
+								"scl":[1,1,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/rulers/echomonk/default/effect/materials/mat_rs_t4_echomonk_def_idlebreak03_glow_add | c0cd0c6d-23ee-364d-4305-17946a9849d0"}]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_rs_t4_echomonk_yellow_collectionintro","asset":"sc3d/rulers/echomonk/yellow/effect/timeline/tml_rs_t4_echomonk_yellow_collectionintro_timeline | 0644802f-6e8a-b1bb-aec2-f68296e9d79c"}]},
+			{"objectType":5016,"TimelineName":"tml_rs_t4_echomonk_yellow_collectionintro"}
+		]
+	}
+}

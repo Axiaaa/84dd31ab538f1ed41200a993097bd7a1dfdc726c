@@ -1,0 +1,38 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0.16791314,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_smoke",
+						"pos":[0,0,-0.2854678],
+						"rot":[0,-179.9999,0],
+						"scl":[0.3,0.3,0.3],
+						"components":[
+							{
+								"objectType":5004,
+								"MinDeviceCap":1,
+								"Delay":0.2,
+								"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_04_smoke | 21fb952f-95ff-a77d-d5c2-51f9fc276267",
+								"FollowAngle":true,
+								"FollowScale":true,
+								"Layer":1,
+								"Offset":[0,0,0]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[{"objectType":5005}]
+	}
+}

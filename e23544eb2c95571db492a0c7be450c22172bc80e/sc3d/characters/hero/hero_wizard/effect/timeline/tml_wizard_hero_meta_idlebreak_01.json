@@ -1,0 +1,11 @@
+{
+	"anims":{
+		"nodes":["pos/idlebreak_01_01","pos/idlebreak_01_02","pos/idlebreak_01_03"],
+		"data":[
+			{"events":[{"_t":1857824372,"Time":1,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idlebreak_01_smoke | 28de9f14-66e4-350e-86ee-6ba93a6091ee","Attached":true}]},
+			{"events":[{"_t":1857824372,"Time":2.5,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idlebreak_01_smoke | 28de9f14-66e4-350e-86ee-6ba93a6091ee","Attached":true}]},
+			{"events":[{"_t":1857824372,"Time":4,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idle_fire | 28de9f14-7425-a1df-b4ac-4989447ed9a5"}]}
+		]
+	},
+	"total_time":5
+}

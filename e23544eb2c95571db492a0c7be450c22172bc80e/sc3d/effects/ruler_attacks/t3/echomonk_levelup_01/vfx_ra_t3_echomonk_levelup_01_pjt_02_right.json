@@ -1,0 +1,126 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,9.999998],
+				"scl":[1.2,1.2,1],
+				"children":[
+					{
+						"name":"vfx_glow",
+						"pos":[-14486019e-13,-1.5,0],
+						"rot":[0,0,-179.9999],
+						"scl":[1.8,3,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t4/echomonk/materials/mat_ra_t4_echomonk_def_pjt_glow | c0cd0c6d-ae75-67fe-8e9f-be4cbe21b56b"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_trail",
+						"pos":[0,-0.2,0],
+						"rot":[0,0,-90],
+						"scl":[3.5,1.3,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t4/echomonk/materials/mat_ra_t4_echomonk_def_pjt_trail_02 | c0cd0c6d-2c77-b9a7-4cfe-6f95977beae1"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_trail_add",
+						"pos":[-33613638e-15,-1.2,0],
+						"rot":[0,0,90],
+						"scl":[1.7,1,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_02 | ec79f249-6d2c-fb21-0d41-dd61ff59b1c6",
+								"Geometries":[{"Name":"sm_plane_02","MaterialOverride":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/materials/mat_ra_t3_echomonk_levelup_01_pjt_trail_01 | c0cd0c6d-19e3-e7b1-b9db-a93731d0eeca"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_hand",
+						"pos":[0,-0.35,20124494e-15],
+						"rot":[90,0,-180],
+						"scl":[0.75,0.75,0.75],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/object/sm_hand_300 | ec79f249-85ba-22a1-458f-44001aa9fd6d","Geometries":[{"Name":"sm_hand_300","MaterialOverride":"sc3d/effects/ruler_attacks/t4/echomonk/materials/mat_ra_t4_echomonk_def_pjt_hand | c0cd0c6d-54fa-f527-74fc-9df4b3efe35d"}]}
+						]
+					},
+					{
+						"name":"vfx_spark",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/effects/ruler_attacks/t4/echomonk/particles/ps_ra_t4_echomonk_def_pjt_spark | 21fb952f-1b1b-ad6f-dbeb-a44ffc09d24c","FollowAngle":true,"FollowScale":true,"Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_wave",
+						"pos":[0,0.70000005,0],
+						"rot":[0,-90,-90],
+						"scl":[1.7564037,1.7564037,2.990515],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/shockwave/sm_bowl_02 | ec79f249-cab1-a1a1-eac7-cf59255034f2",
+								"Geometries":[{"Name":"sm_bowl_02","MaterialOverride":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/materials/mat_ra_t3_echomonk_levelup_01_pjt_wave | c0cd0c6d-a64e-6fa1-c640-cefc636d7e2f"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_glow_add",
+						"pos":[37910172e-14,-2,0],
+						"rot":[0,0,-179.9999],
+						"scl":[2,4,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t4/echomonk/materials/mat_ra_t4_echomonk_def_pjt_glow_add | c0cd0c6d-c16b-6571-a185-0258371288e6"}]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_ra_t3_echomonk_levelup_01_pjt_timeline","asset":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_02_right_timeline | 0644802f-ca98-7dac-6a53-e5568587de8f"}]},
+			{"objectType":5016,"TimelineName":"vfx_ra_t3_echomonk_levelup_01_pjt_timeline"},
+			{"objectType":5002,"Sound":"soundbanks/ruler_echo_monk_def/ruler_echo_monk_t3_levelup_01_atk_projectile 2 | 0e32651a-1b25-7a0b-db20-768f63a7d3f7"}
+		]
+	}
+}

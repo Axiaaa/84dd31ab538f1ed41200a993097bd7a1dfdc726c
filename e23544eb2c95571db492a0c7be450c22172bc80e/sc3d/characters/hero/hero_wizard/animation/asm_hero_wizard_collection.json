@@ -1,0 +1,57 @@
+{
+	"States":[
+		{
+			"Type":"AnimClip",
+			"Name":"BasicIdle",
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_meta_idle | ec79f249-0900-fad0-094b-9a56b79fd59b",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idle_fire | 28de9f14-7425-a1df-b4ac-4989447ed9a5","HasEndFrame":true,"EndFrame":59}]
+		},
+		{
+			"Type":"Random",
+			"Name":"Idle",
+			"SubStates":["BasicIdle","BasicIdle","BasicIdle","IdleBreak02","BasicIdle","BasicIdle","IdleBreak03","BasicIdle","BasicIdle","BasicIdle",
+				"IdleBreak01","BasicIdle","BasicIdle"]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"IdleBreak01",
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_meta_idle01 | ec79f249-a743-352d-27e8-0051460ebe0c",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/rabbit_wizard | 28de9f14-ec50-2624-ec52-51b99981a491","HasEndFrame":true,"EndFrame":105,"Frame":48},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idlebreak_01_smoke | 28de9f14-66e4-350e-86ee-6ba93a6091ee","EndFrame":105,"Frame":98},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idlebreak_01_smoke | 28de9f14-66e4-350e-86ee-6ba93a6091ee","EndFrame":105,"Frame":45},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idle_fire | 28de9f14-7425-a1df-b4ac-4989447ed9a5","HasEndFrame":true,"EndFrame":136,"Frame":115},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_idlebreak_01 | 0e32651a-f9cd-72e6-d96b-23d774d6ab7e"}
+			]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"IdleBreak02",
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_meta_idle02 | ec79f249-bc58-a963-5cdf-c471d624c00f",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idlebreak_02_fire | 28de9f14-7bd4-74f7-db6b-6907412463a8","Frame":20},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idlebreak_02_smoke | 28de9f14-77fc-2a4c-d7cc-189a1df5ed0f","Frame":32},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_idle_fire | 28de9f14-7425-a1df-b4ac-4989447ed9a5","HasEndFrame":true,"EndFrame":84,"Frame":76},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_idlebreak_02 | 0e32651a-40c9-72e3-c066-23d774d3ab7e"}
+			]
+		},
+		{"Type":"AnimClip","Name":"IdleBreak03","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_meta_idle03 | ec79f249-7ae7-208a-9ac3-0192f5a5cec4","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_idlebreak_03 | 0e32651a-d3ca-72e4-7368-23d774d4ab7e"}]},
+		{
+			"Type":"AnimClip",
+			"Name":"Intro",
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_meta_intro | ec79f249-a248-a4c5-c2e4-ce770922fac5",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_intro | 28de9f14-974c-a045-b738-40095abc6e33"},{"Event":"Effect","Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/meta/vfx_wizard_hero_meta_intro_05 | 28de9f14-fe90-b821-be3f-442ce700492d","Frame":150},{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_idlebreak_intro | 0e32651a-f08a-ffc7-b04b-b2daebe2b322"}]
+		},
+		{"Type":"AnimClip","Name":"Skill","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_meta_skill_idle | ec79f249-aafa-f32e-0a48-9586498558cc","TransInTime":0.2,"TransOutTime":0.2},
+		{"Type":"Random","Name":"RandomIdleBreak","SubStates":["IdleBreak01","IdleBreak02","IdleBreak03"]}
+	],
+	"DefaultState":"Idle"
+}

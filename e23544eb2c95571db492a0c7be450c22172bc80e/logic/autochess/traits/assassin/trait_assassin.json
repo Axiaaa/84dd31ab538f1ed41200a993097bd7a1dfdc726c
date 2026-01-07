@@ -1,0 +1,7 @@
+{
+	"TID":"TID_TRAIT_ASSASSIN",
+	"DescTID":"TID_TRAIT_ASSASSIN_DES",
+	"Icon":"sc/ui_trait_icon/trait_icon_assassin | 49e9c85e-506b-44f4-b2c9-0fd1dcfe7f94",
+	"Attributes":[{"Name":"bonuscritical","Value":[30,60]}],
+	"Tiers":[{"DescTid":"TID_TRAIT_ASSASSIN_DES_A_25Q3","MinUnits":2,"UnitEffects":["logic/autochess/traits/assassin/trait_assassin_effect | d88fcdc1-34fe-327a-344a-42346e51eeb1"],"ActivationVfx":"sc3d/effects/traits/assassin/activation/vfx_trait_assassin_active | 28de9f14-270a-e4dc-071f-30474e20e9a7"},{"DescTid":"TID_TRAIT_ASSASSIN_DES_A_25Q3","MinUnits":4,"UnitEffects":["logic/autochess/traits/assassin/trait_assassin_effect | d88fcdc1-34fe-327a-344a-42346e51eeb1"],"ActivationVfx":"sc3d/effects/traits/assassin/activation/vfx_trait_assassin_active | 28de9f14-270a-e4dc-071f-30474e20e9a7"}]
+}

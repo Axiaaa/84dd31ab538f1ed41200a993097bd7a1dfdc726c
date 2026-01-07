@@ -1,0 +1,43 @@
+{
+	"r":{
+		"name":"musketeer_super_projectile_flow",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[540,670],"m_nextNodeID":1002}},
+			{
+				"obj":{
+					"name":"DurationNode",
+					"id":1001,
+					"pos":[970,670],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{"node_action_type":10,"node_action_obj":{"m_duration":10,"m_track":1,"ForceMoveDuration":100,"ForceMoveRange":2000,"ForceMoveHeight":50}},
+						{"node_action_type":4,"node_action_obj":{"m_duration":100,"m_track":2,"BuffAsset":"logic/autochess/character/musketeer/buff/musketeer_super_stun_buff | f5fa09ea-8de1-e524-cdae-186527c97490","TargetType":1,"CustomBuffDuration":{"Value":1500},"CustomTargetVar":{}}}
+					]
+				}
+			},
+			{
+				"obj":{
+					"name":"dohurt",
+					"id":1002,
+					"pos":[770,670],
+					"m_nextNodeID":1001,
+					"node_actions":[
+						{"node_action_type":1,"node_action_obj":{"m_duration":1000,"m_track":1,"Damage":{"VariableName":"0"}}}
+					]
+				}
+			},
+			{
+				"obj":{
+					"name":"DurationNode",
+					"id":1003,
+					"pos":[680,940],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{"node_action_type":17,"node_action_obj":{"m_duration":1000,"m_track":1,"HPAbsorbRawValue":{"VariableName":"dmg"}}}
+					]
+				}
+			},
+			{"type":2,"obj":{"name":"OnHitNode","id":2000,"pos":[370,940],"m_nextNodeID":1003,"pvar":"dmg"}}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0.17,0],
+				"rot":[-90,0,0],
+				"scl":[1.1,1.1,1.1],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/default/model/rul_echomonk_rig | ec79f249-2653-7ebe-269b-c4ddb4b674a7","Geometries":[{"Name":"main_LOD0","MaterialOverride":"sc3d/rulers/echomonk/default/materials/mat_echomonk | c0cd0c6d-82e0-fc9d-82b2-6c3f36b57782"}]},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/echomonk/default/animation/asm_echomonk_clt | defe63bc-639e-2bcf-63af-b67dbba72cd6"}
+				]
+			},
+			{
+				"name":"light",
+				"pos":[0,0,0],
+				"rot":[-39.999996,-179.9999,143.79999],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"MainLight":true,
+						"Color":{"r":212,"g":221,"b":223,"a":255},
+						"Ambient":{"r":161,"g":123,"b":178,"a":25}
+					}
+				]
+			},
+			{
+				"name":"camera",
+				"pos":[19876388e-13,2.86,18.458702],
+				"rot":[-84.699615,-179.9999,179.9999],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":0.1,"Far":1000,"Fov":13.5}]
+			}
+		]
+	}
+}

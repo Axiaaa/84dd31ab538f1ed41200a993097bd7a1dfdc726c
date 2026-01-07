@@ -1,0 +1,8 @@
+{
+	"r":{
+		"name":"monk_spirit_growth_buff_flow",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[190,180],"m_nextNodeID":-1}}
+		]
+	}
+}

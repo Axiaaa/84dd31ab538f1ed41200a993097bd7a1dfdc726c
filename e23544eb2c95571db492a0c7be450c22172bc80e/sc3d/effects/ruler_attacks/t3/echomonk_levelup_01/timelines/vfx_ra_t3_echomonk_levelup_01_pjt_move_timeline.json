@@ -1,0 +1,62 @@
+{
+	"anims":{
+		"nodes":[
+			"pos",
+			"pos/pjt/pjt_01",
+			"pos/pjt/pjt_02",
+			"pos/pjt/pjt_03",
+			"pos/pjt/pjt_04",
+			"pos/pjt/pjt_05"
+		],
+		"data":[
+			{
+			},
+			{
+				"events":[
+					{
+						"_t":1857824372,
+						"Time":0.012499999,
+						"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_01 | 28de9f14-374f-2af9-f7a4-f19b0b7838d0"
+					}
+				]
+			},
+			{
+				"events":[
+					{
+						"_t":1857824372,
+						"Time":0.615,
+						"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_02_right | 28de9f14-a1cd-2fd6-a178-e966c6e24ca4"
+					}
+				]
+			},
+			{
+				"events":[
+					{
+						"_t":1857824372,
+						"Time":0.715,
+						"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_02_left | 28de9f14-ea84-6e9b-6a1a-7aded9804998"
+					}
+				]
+			},
+			{
+				"events":[
+					{
+						"_t":1857824372,
+						"Time":0.815,
+						"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_02_right | 28de9f14-a1cd-2fd6-a178-e966c6e24ca4"
+					}
+				]
+			},
+			{
+				"events":[
+					{
+						"_t":1857824372,
+						"Time":0.915,
+						"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_02_left | 28de9f14-ea84-6e9b-6a1a-7aded9804998"
+					}
+				]
+			}
+		]
+	},
+	"total_time":2
+}

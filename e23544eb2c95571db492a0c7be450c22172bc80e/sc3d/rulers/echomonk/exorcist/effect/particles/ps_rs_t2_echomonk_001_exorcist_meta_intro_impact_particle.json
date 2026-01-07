@@ -1,0 +1,17 @@
+{
+	"emitterDataVersion":6,
+	"emitter":{"maxParticleCount":10,"lifetime":0.6,"lifetimeJitter":0.3,"mass":1,"spawnPointOffset":{},"components":[{"__class":"SpawnRate","duration":0.1,"spawnRate":80}]},
+	"render":{
+		"globalScale":0.1,
+		"scale":[0,0.9739584,0,1.0104167,0.06,0.11],
+		"scaleJitter":0.03,
+		"color":[0.41176468,0.7923876,1],
+		"alpha":[0,0.41145834,0,1.0104167,0,1],
+		"gradient":[{"a":1},{"offset":1,"r":1,"g":1,"b":1,"a":1}],
+		"angleJitter":360,
+		"trailDuration":1,
+		"trailWidth":1,
+		"blendMode":2
+	},
+	"movieclip":["sc/vfx_autochess/vmc_ra_t2_001_loong_seahorse_hit_spark_blue_01 | 49e9c85e-c221-419c-8a1e-7aaeb76dcb52","sc/vfx_autochess/vmc_ra_t2_001_loong_seahorse_hit_spark_blue_02 | 49e9c85e-2aad-484f-8584-051ddb1709a2"]
+}

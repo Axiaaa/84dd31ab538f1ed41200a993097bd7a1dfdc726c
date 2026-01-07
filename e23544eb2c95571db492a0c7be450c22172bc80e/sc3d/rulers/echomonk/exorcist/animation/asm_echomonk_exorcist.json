@@ -1,0 +1,30 @@
+{
+	"States":[
+		{
+			"Type":"AnimClip",
+			"Name":"Attack",
+			"Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_attack | ec79f249-b3f6-3b1c-d3dd-ad2052c142cf",
+			"Events":[{"Event":"Marker","Name":"action_frame","Frame":26},{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]
+		},
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_basicidle | ec79f249-a4c7-b499-649e-3c48194c34eb","Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]},
+		{"Type":"AnimClip","Name":"IdleBreak","Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_idlebreak | ec79f249-cabc-fb58-eaba-97ed98d1c6a1","Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]},
+		{"Type":"AnimClip","Name":"DefeatedStart","Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_defeated | ec79f249-0902-7505-c908-5be3f159cb5a","StartFrame":0,"EndFrame":39},
+		{"Type":"AnimClip","Name":"DefeatedLoop","Loop":true,"Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_defeated | ec79f249-0902-7505-c908-5be3f159cb5a","StartFrame":40,"EndFrame":80},
+		{"Type":"AnimClip","Name":"OnHit","Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_onhit | ec79f249-f2cf-339a-928a-a81b3d128d9b","Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]},
+		{"Type":"AnimClip","Name":"Spawn","Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_spawn | ec79f249-63c3-6bda-c31a-03dcc2e5a0e9","BaseSpeed":0.8,"Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]},
+		{"Type":"AnimClip","Name":"VictoryStart","Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_victory | ec79f249-ed33-3b86-adb7-651eff9f5962","StartFrame":0,"EndFrame":91,"Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]},
+		{"Type":"Sequence","Name":"Defeated","SubStates":["DefeatedStart","DefeatedLoop"]},
+		{"Type":"Sequence","Name":"Victory","SubStates":["VictoryStart","VictoryLoop"]},
+		{"Type":"Random","Name":"Idle","SubStates":["BasicIdle","BasicIdle","BasicIdle","BasicIdle","BasicIdle","BasicIdle","BasicIdle","IdleBreak"]},
+		{
+			"Type":"AnimClip",
+			"Name":"VictoryLoop",
+			"Loop":true,
+			"Animation":"sc3d/rulers/echomonk/exorcist/animation/rul_echomonk_exorcist_victory | ec79f249-ed33-3b86-adb7-651eff9f5962",
+			"StartFrame":92,
+			"EndFrame":142,
+			"Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/echomonkball | 28de9f14-fc97-e922-7ca6-038e94b01d5f"}]
+		}
+	],
+	"DefaultState":"Idle"
+}

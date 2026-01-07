@@ -1,0 +1,302 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_ice_01",
+						"pos":[-0.4,0,0.09748565],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_glow_01",
+								"pos":[29802322e-15,31572414e-16,-0.07223293],
+								"rot":[90,0,0],
+								"scl":[0.31170896,0.3588851,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_backglow_blue | c0cd0c6d-5743-b88b-b754-39fd8718f0af"}]}
+								]
+							},
+							{
+								"name":"vfx_ice_01",
+								"pos":[0,0,0],
+								"rot":[0,-90,-90],
+								"scl":[0.12517264,0.07343219,0.9999999],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_ice_01 | c0cd0c6d-19f0-ea9b-5961-52830dd09d0a"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add_01",
+								"pos":[0,-13017641e-16,-0.07021953],
+								"rot":[90,0,0],
+								"scl":[0.16320042,0.16455899,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_glow_add_blue | c0cd0c6d-14fa-b451-3483-199d90cc2999"}]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_ice_02",
+						"pos":[-0.6690271,0.23869269,0.17],
+						"rot":[0,37.600002,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_ice_02",
+								"pos":[0,0,0],
+								"rot":[0,-90,-65.60998],
+								"scl":[0.25464806,0.101461366,0.9999998],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_ice_02 | c0cd0c6d-1886-fb9f-b8e8-a5a71e244b6a"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_02",
+								"pos":[0,0,-0.05],
+								"rot":[80.800026,-89.99995,-89.99995],
+								"scl":[0.30679506,0.5200816,0.9999999],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_backglow_blue | c0cd0c6d-5743-b88b-b754-39fd8718f0af"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add_02",
+								"pos":[0,-5662441e-13,-0.10000001],
+								"rot":[83.626305,-89.99988,-89.99988],
+								"scl":[0.14220507,0.17447135,0.5],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_glow_add_blue | c0cd0c6d-14fa-b451-3483-199d90cc2999"}]}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_ice_03",
+						"pos":[-0.16682945,0.14618666,0.093854696],
+						"rot":[0,-28.607523,0],
+						"scl":[0.6661652,1.6129495,0.7863027],
+						"children":[
+							{
+								"name":"vfx_glow_03",
+								"pos":[0,0,0],
+								"rot":[90,180,-180],
+								"scl":[0.31170896,0.3588851,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_backglow_blue | c0cd0c6d-5743-b88b-b754-39fd8718f0af"}]}
+								]
+							},
+							{
+								"name":"vfx_ice_03",
+								"pos":[0,0,0],
+								"rot":[0,-90,-90],
+								"scl":[0.12517264,0.07343219,0.9999999],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_ice_03 | c0cd0c6d-d3af-f64c-3335-a9c5f9671c92"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add_03",
+								"pos":[0,0,-0.1],
+								"rot":[90,180,-180],
+								"scl":[0.16320042,0.16455899,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_glow_add_blue | c0cd0c6d-14fa-b451-3483-199d90cc2999"}]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_ice_04",
+						"pos":[0.24486677,-0.06130732,0.17],
+						"rot":[0,-44.199997,-9.199978],
+						"scl":[1.0027667,0.72574806,0.80166036],
+						"children":[
+							{
+								"name":"vfx_ice_04",
+								"pos":[0,0,0],
+								"rot":[37.19999,-85.59995,-65.60998],
+								"scl":[0.24999987,0.1,0.9999996],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_ice_02 | c0cd0c6d-1886-fb9f-b8e8-a5a71e244b6a"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_04",
+								"pos":[0.04,0,-0.1],
+								"rot":[67.71,90,90],
+								"scl":[0.31,0.52,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_backglow_blue | c0cd0c6d-5743-b88b-b754-39fd8718f0af"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add_04",
+								"pos":[0.05,0,-0.11],
+								"rot":[63.37,90,90],
+								"scl":[0.14,0.17,0.5],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_glow_add_blue | c0cd0c6d-14fa-b451-3483-199d90cc2999"}]}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_ice_05",
+						"pos":[0.7,0.3378011,0.09],
+						"rot":[0,-35.007526,0],
+						"scl":[1.2,1.2752934,1.5262244],
+						"children":[
+							{
+								"name":"vfx_glow_05",
+								"pos":[0,0,0],
+								"rot":[90,0,0],
+								"scl":[0.27,0.32,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_backglow_blue | c0cd0c6d-5743-b88b-b754-39fd8718f0af"}]}
+								]
+							},
+							{
+								"name":"vfx_ice_05",
+								"pos":[0,0,0],
+								"rot":[0,-90,-90],
+								"scl":[0.13,0.07,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_ice_03 | c0cd0c6d-d3af-f64c-3335-a9c5f9671c92"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add_05",
+								"pos":[0,0,-0.1],
+								"rot":[90,0,0],
+								"scl":[0.18421544,0.10896907,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_glow_add_blue | c0cd0c6d-14fa-b451-3483-199d90cc2999"}]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_ice_06",
+						"pos":[0.05324429,0.34618667,0.093854696],
+						"rot":[-31.8,10.368985,0],
+						"scl":[0.6199814,0.9488499,0.73179007],
+						"children":[
+							{
+								"name":"vfx_glow_06",
+								"pos":[0,0,0],
+								"rot":[90,0,0],
+								"scl":[0.31170896,0.3588851,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_backglow_blue | c0cd0c6d-5743-b88b-b754-39fd8718f0af"}]}
+								]
+							},
+							{
+								"name":"vfx_ice_06",
+								"pos":[0,0,0],
+								"rot":[0,-90,-90],
+								"scl":[0.12517264,0.07343219,0.9999999],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_ice_03 | c0cd0c6d-d3af-f64c-3335-a9c5f9671c92"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add_06",
+								"pos":[0,0,-0.1],
+								"rot":[90,0,0],
+								"scl":[0.16,0.16,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak03_glow_add_blue | c0cd0c6d-14fa-b451-3483-199d90cc2999"}]
+									}
+								]
+							}
+						]
+					},
+					{"name":"vfx_impact_01","pos":[-0.4,0.2,0],"rot":[-90,180,-180],"scl":[2.25,2.25,2.25]},
+					{"name":"vfx_impact_02","pos":[0.4,0.2,0],"rot":[-90,0,0],"scl":[2.25,2.25,2.25]},
+					{
+						"name":"vfx_helix_01",
+						"pos":[-0.39414585,0.14061345,0.0040011257],
+						"rot":[78.01263,-44.118893,-8.017122],
+						"scl":[0.705968,0.98627836,0.016353898],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_202 | ec79f249-f3dd-e49d-b31a-f2eb67f65509",
+								"Geometries":[{"Name":"sm_plane_202","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_heilx | c0cd0c6d-ff0e-2d92-1fee-df9c6e0c5102"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_helix_02",
+						"pos":[0.40585417,0.14061345,0.0040011257],
+						"rot":[75.41284,-148.93127,-8.017122],
+						"scl":[0.9781359,1.1355475,0.41991603],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_202 | ec79f249-f3dd-e49d-b31a-f2eb67f65509",
+								"Geometries":[{"Name":"sm_plane_202","MaterialOverride":"sc3d/characters/hero/hero_icegolem/effect/materials/mat_icegolem_hero_meta_idlebreak02_heilx | c0cd0c6d-ff0e-2d92-1fee-df9c6e0c5102"}]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_icegolem_hero_meta_idlebreak02_impact_timeline","asset":"sc3d/characters/hero/hero_icegolem/effect/timeline/tml_icegolem_hero_meta_idlebreak02_impact_timeline | 0644802f-a7fa-e376-47e8-2339f4eff95b"}]},
+			{"objectType":5016,"TimelineName":"tml_icegolem_hero_meta_idlebreak02_impact_timeline"}
+		]
+	}
+}

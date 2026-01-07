@@ -1,0 +1,36 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"root_vfx",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"ForeArm_R",
+						"pos":[0,0.0047646016,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_dust",
+								"pos":[0.1,-0.0027672425,0],
+								"rot":[0,0,0],
+								"scl":[1,1,1],
+								"components":[{"objectType":5004,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_idlebreak_01_smoke | 21fb952f-3c15-f7ac-7cce-ec8fe7f37f12","Layer":1,"Offset":[0,0,0]}]
+							}
+						],
+						"components":[{"objectType":5012,"BoneName":"R_wrist_s","Offset":[0,0,0]}]
+					}
+				]
+			}
+		],
+		"components":[{"objectType":5005}]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"Attack","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_attack | ec79f249-26ff-ff2c-2660-09025d6b524c","Events":[{"Event":"Marker","Name":"action_frame","Frame":12}]},
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_basicidle | ec79f249-9d10-3d5a-3d55-c754f1a0e5bd"},
+		{"Type":"AnimClip","Name":"IdleBreak","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_idlebreak | ec79f249-5e12-6785-7e34-6112e26514ec","BaseSpeed":0.5},
+		{"Type":"AnimClip","Name":"DefeatedStart","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_defeated | ec79f249-9d3a-a5e5-7d01-bb0882f6410b","StartFrame":0,"EndFrame":83},
+		{"Type":"AnimClip","Name":"DefeatedLoop","Loop":true,"Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_defeated | ec79f249-9d3a-a5e5-7d01-bb0882f6410b","StartFrame":84,"EndFrame":140},
+		{"Type":"AnimClip","Name":"OnHit","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_onhit | ec79f249-54ac-e870-34c1-d57223372f72"},
+		{"Type":"AnimClip","Name":"Spawn","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_spawn | ec79f249-8550-2571-a582-c2d9f78632ac","BaseSpeed":0.7},
+		{"Type":"AnimClip","Name":"VictoryStart","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_victory | ec79f249-cf49-318f-2f15-09c4ba30a09e","StartFrame":0,"EndFrame":73},
+		{"Type":"Sequence","Name":"Defeated","SubStates":["DefeatedStart","DefeatedLoop"]},
+		{"Type":"Sequence","Name":"Victory","SubStates":["VictoryStart","VictoryLoop"]},
+		{"Type":"Random","Name":"Idle","SubStates":["BasicIdle","BasicIdle","BasicIdle","BasicIdle","BasicIdle","BasicIdle","BasicIdle","IdleBreak"]},
+		{"Type":"AnimClip","Name":"VictoryLoop","Loop":true,"Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_victory | ec79f249-cf49-318f-2f15-09c4ba30a09e","StartFrame":74,"EndFrame":143}
+	],
+	"DefaultState":"Idle"
+}

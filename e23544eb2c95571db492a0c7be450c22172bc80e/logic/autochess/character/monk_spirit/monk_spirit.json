@@ -1,0 +1,23 @@
+{
+	"components":[
+		{"_c":"Ability","AbilityBaseRef":"logic/autochess/character/monk_spirit/ability/monk_spirit_attack | 9c17865c-7037-2775-f046-b2a0f60f3b54","AbilitySuperRef":"logic/autochess/character/monk_spirit/ability/monk_spirit_super | 9c17865c-2fbc-e6e7-ef92-350908d60bd3","GrowthAbilitySlot":2},
+		{"_c":"AutoChessMovement"},
+		{"_c":"Behavior","FSMData":"logic/autochess/fsm/shared/normal_character | d81930b5-4f30-e469-af4a-636df46a895f"},
+		{"_c":"Buff","DefaultBuffs":["logic/autochess/character/monk_spirit/buff/monk_spirit_onkill_buff | f5fa09ea-cea0-6cf3-aeac-33680849c0ee"]},
+		{"_c":"Hitpoint"},
+		{"_c":"Transform"},
+		{
+			"_c":"Attribute",
+			"AttributeSheetList":["logic/autochess/battle_rule/autochess_unit_attributes | ca8ffa0e-668e-7a3b-2682-12f8d3ddf546"],
+			"AttributeOverrides":[
+				{"Name":"energyperattack","Value":[8,9,12,24]},
+				{"Name":"maxenergy","Value":[72]},
+				{"Name":"maxhp","Value":[600],"LevelUpFactor":150},
+				{"Name":"curhp","Value":[600]}
+			]
+		},
+		{"_c":"AutoChessUnit","Tid":"TID_AUTOCHESS_SET_1_MONK_SPIRIT","Icon":"sc/ac_ruler_echo_monk/ac_echo_monk_spirit | 49e9c85e-9efd-4b5a-a442-857f92c39604","DoNotOccupyTeamSize":true,"CanNotSell":true,"CanNotBench":true},
+		{"_c":"Display","Prefab":"sc3d/characters/monkspirit/default/chr_echomonk_spirit | 28de9f14-71ab-f0c1-b126-56337956d2d8"},
+		{"_c":"CircleCollision","Radius":500}
+	]
+}

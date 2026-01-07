@@ -1,0 +1,57 @@
+{
+	"r":{
+		"name":"trait_clan_effect",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[20,60],"m_nextNodeID":-1}},
+			{"obj":{"name":"Delay","id":1001,"pos":[1180,320],"m_duration":50,"m_nextNodeID":1006}},
+			{
+				"obj":{
+					"name":"ApplyBuff",
+					"id":1003,
+					"pos":[1170,210],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{"node_action_type":4,"node_action_obj":{"m_track":1,"BuffAsset":"logic/autochess/traits/clan/buff/trait_clan_heal_buff | f5fa09ea-0b00-e789-eb8a-27436e698614","PassDownVars":["bonuspercent"],"CustomBuffDuration":{"Value":3000},"CustomTargetVar":{}}},
+						{"node_action_type":4,"node_action_obj":{"m_track":2,"BuffAsset":"logic/autochess/traits/clan/buff/trait_clan_as_buff | f5fa09ea-b795-783b-170f-840f8e11f923","PassDownVars":["bonuspercent"],"CustomBuffDuration":{"Value":5000},"CustomTargetVar":{}}}
+					]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"ConditionNode",
+					"id":1004,
+					"pos":[210,210],
+					"m_trueNodeID":1006,
+					"m_falseNodeID":-1,
+					"conditions":[
+						{"type":4,"obj":{"TraitReq":"logic/autochess/traits/clan/trait_clan | cac04ecf-b81f-ebd2-f8b7-d21665c82cb1","CustomTargetVar":{}}}
+					]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"ConditionNode",
+					"id":1005,
+					"pos":[920,210],
+					"m_trueNodeID":1003,
+					"m_falseNodeID":1001,
+					"conditions":[{"type":3,"obj":{"key":"hpvshalfmax","op":4}}]
+				}
+			},
+			{
+				"obj":{
+					"name":"CalcHalfHp",
+					"id":1006,
+					"pos":[750,210],
+					"m_nextNodeID":1005,
+					"node_actions":[
+						{"node_action_type":6,"node_action_obj":{"m_track":1,"Expression":{"m_raw":"attr_all_curhp-attr_all_maxhp/2"},"Result":{"VariableName":"hpvshalfmax"},"CustomTarget":{}}}
+					]
+				}
+			},
+			{"type":4,"obj":{"name":"OnBattleStartNode","id":4000,"pos":[-70,210],"m_nextNodeID":1004}}
+		]
+	}
+}

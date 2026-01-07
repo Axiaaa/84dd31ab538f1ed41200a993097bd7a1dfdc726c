@@ -1,0 +1,12 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"CollectionIdle","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_basicidle_clt | ec79f249-16ad-e8fa-16b8-f518f6e385c7"},
+		{"Type":"Random","Name":"Idle","SubStates":["CollectionIdle","CollectionIdle","CollectionIdle","CollectionIdle","CollectionIdle","CollectionIdleBreak01","CollectionIdleBreak02","CollectionIdleBreak03","CollectionIdle","CollectionIdle",
+				"CollectionIdle"]},
+		{"Type":"AnimClip","Name":"CollectionIdleBreak01","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_idlebreak01_clt | ec79f249-05d9-ed1f-854f-c241984e34af"},
+		{"Type":"AnimClip","Name":"CollectionIdleBreak02","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_idlebreak02_clt | ec79f249-46b7-38ae-e6e9-a5babb1d8fbe"},
+		{"Type":"AnimClip","Name":"CollectionIdleBreak03","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_idlebreak03_clt | ec79f249-a17f-fade-815e-935648ff68ac","Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/yellow/effect/prefabs/vfx_rs_t4_echomonk_yellow_idlebreak03 | 28de9f14-e3d2-2ff6-837f-583b5a819c0d","Frame":5}]},
+		{"Type":"AnimClip","Name":"CollectionIntro","Animation":"sc3d/rulers/echomonk/default/animation/rul_echomonk_intro_clt | ec79f249-9e23-3de9-7ee0-acab0cbac58d","TransOutTime":0.5,"Events":[{"Event":"Effect","Effect":"sc3d/rulers/echomonk/yellow/effect/prefabs/vfx_rs_t4_echomonk_yellow_collectionintro | 28de9f14-72e3-36fa-92cd-772f4cfb34d4"}]}
+	],
+	"DefaultState":"Idle"
+}

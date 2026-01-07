@@ -1,0 +1,65 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"light",
+				"pos":[0,0,0],
+				"rot":[-48.80001,-179.9999,70.59998],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"Color":{"r":144,"g":144,"b":144,"a":255},
+						"Ambient":{"r":60,"g":60,"b":60,"a":25}
+					}
+				]
+			},
+			{"name":"ground","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]},
+			{
+				"name":"chr_mergemaiden_rig",
+				"pos":[15.96512,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/mergemaiden/default/model/chr_mergemaiden_rig | ec79f249-79ea-2dd8-5918-d32037534444"}]
+			},
+			{
+				"name":"test_metal_ball",
+				"pos":[22.269192,11920929e-14,37461876e-12],
+				"rot":[0,15155735e-11,0],
+				"scl":[1,1,1],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/external_lookdev/test/test_metal_ball | ec79f249-180d-2a9c-f888-f20e6a24cff1","Geometries":[{"Name":"Sphere","MaterialOverride":"sc3d/shared/materials/default | c0cd0c6d-da82-63cc-bada-1f1475a039c7"}]}
+				]
+			},
+			{
+				"name":"rul_battlemachine_iron_rig",
+				"pos":[18.375807,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/battlemachine/iron/model/rul_battlemachine_iron_rig | ec79f249-ab05-b852-eb8f-75c3ac1f4368"}]
+			},
+			{
+				"name":"hero_giant_lod0_rig",
+				"pos":[0,0,0],
+				"rot":[0,0,45],
+				"scl":[1,1,1],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/characters/hero/hero_giant/model/hero_giant_lod0_rig | ec79f249-fe30-fd4b-1e0b-ea10867c33b1","Geometries":[{"Name":"Main_LOD0","MaterialOverride":"sc3d/external_lookdev/test/mat_test | c0cd0c6d-cff7-ebd7-cf15-5bf72a971f86"}]}
+				]
+			},
+			{
+				"name":"Node",
+				"pos":[-23469275e-14,-24.310156,29.553753],
+				"rot":[-50.639423,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":2,"Far":1000,"Fov":13.3618,"OrthoWidth":10,"OrthoHeight":10}]
+			}
+		]
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_glow",
+						"pos":[0,1.4372629,0],
+						"rot":[0,0,0],
+						"scl":[1.8,2.2,2],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t4/echomonk/materials/mat_ra_t4_echomonk_def_hit_glow | c0cd0c6d-d8fd-f512-58c8-699d5cf7c848"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_aura",
+						"pos":[-0.006604547,1.5,0.041699678],
+						"rot":[0,0,-90],
+						"scl":[2.7,2.7,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/materials/mat_ra_t3_femalemonk_levelup_01_hit_aura | c0cd0c6d-63b8-7d6e-835b-b4cf494d5a58"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_aura_add",
+						"pos":[-0.0066046054,1.25,0.041699678],
+						"rot":[0,0,-90],
+						"scl":[1.9,2.1,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_02 | ec79f249-6d2c-fb21-0d41-dd61ff59b1c6","Geometries":[{"Name":"sm_plane_02","MaterialOverride":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/materials/mat_ra_t3_femalemonk_levelup_01_hit_aura_add | c0cd0c6d-7796-ba16-7783-8d85adbaff5a"}]}
+						]
+					},
+					{
+						"name":"vfx_shockwave",
+						"pos":[0,-0.94323313,41229992e-15],
+						"rot":[-90,180,-180],
+						"scl":[3.0227761,3.0227761,3.3674226],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/shockwave/sm_bowl_02 | ec79f249-cab1-a1a1-eac7-cf59255034f2",
+								"Geometries":[{"Name":"sm_bowl_02","MaterialOverride":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/materials/mat_ra_t3_femalemonk_levelup_01_hit_shockwave | c0cd0c6d-f146-7324-51b3-e6dd5529af68"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_impact",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[
+							{
+								"objectType":5004,
+								"Particle":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/particles/ps_ra_t3_femalemonk_levelup_01_hit_impact | 21fb952f-daed-b544-da55-8a7d425f26e3",
+								"FollowAngle":true,
+								"FollowScale":true,
+								"Layer":1,
+								"Basis":2,
+								"SimulationSpace":1,
+								"Offset":[0,-0.7,0]
+							}
+						]
+					},
+					{
+						"name":"vfx_spark",
+						"pos":[0,-0.19332421,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[
+							{
+								"objectType":5004,
+								"MinDeviceCap":2,
+								"Particle":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/particles/ps_ra_t3_femalemonk_levelup_01_hit_sparks | 21fb952f-0980-eee6-a994-1f93fd742b8d",
+								"FollowAngle":true,
+								"FollowScale":true,
+								"Layer":1,
+								"Basis":2,
+								"SimulationSpace":1,
+								"Offset":[0,0,0]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_ra_t4_femalemonk_hit_timeline","asset":"sc3d/effects/ruler_attacks/t4/echomonk/timelines/vfx_ra_t4_echomonk_def_hit_timeline | 0644802f-775f-2bdc-b7df-ecacad5c06cc"}]},
+			{"objectType":5016,"TimelineName":"vfx_ra_t4_femalemonk_hit_timeline"},
+			{"objectType":5002,"Sound":"soundbanks/ruler_echo_monk_def/ruler_echo_monk_t3_levelup_01_atk_hit 2 | 0e32651a-01aa-a53b-a144-c92da5d6c9a9"}
+		]
+	}
+}

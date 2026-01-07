@@ -1,0 +1,20 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[0.05,0.05,0.05],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/exorcist/model/stars | ec79f249-04fa-6df4-4403-fb3630f20329","Geometries":[{"Name":"Cube","MaterialOverride":"sc3d/rulers/echomonk/exorcist/materials/mat_em_star | c0cd0c6d-7652-e47b-b6fd-453beb005588"}]}
+				]
+			}
+		]
+	}
+}

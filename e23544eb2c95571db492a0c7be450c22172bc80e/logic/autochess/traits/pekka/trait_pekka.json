@@ -1,0 +1,7 @@
+{
+	"TID":"TID_TRAIT_PEKKA",
+	"DescTID":"TID_TRAIT_PEKKA_DES",
+	"Icon":"sc/ui_trait_icon/trait_icon_pekka | 49e9c85e-f70a-4e11-9672-76dbe9cce6f9",
+	"Attributes":[{"Name":"healpct","Value":[60]},{"Name":"bonusatkdmg","Value":[40]}],
+	"Tiers":[{"DescTid":"TID_TRAIT_PEKKA_DES_A","MinUnits":2,"MaxUnits":2,"UnitEffects":["logic/autochess/traits/pekka/trait_pekka_effect | d88fcdc1-f641-37fd-169c-971d90b633d4"],"ActivationVfx":"sc3d/effects/traits/pekka/activation/vfx_trait_pekka_active | 28de9f14-3630-f79e-762b-e74d09511cf6"}]
+}

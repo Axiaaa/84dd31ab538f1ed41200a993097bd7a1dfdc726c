@@ -1,0 +1,39 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1.4,1.4,1.4],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/exorcist/model/rul_echomonk_exorcist_rig | ec79f249-b031-a5a2-d067-4e59df3af831"},{"objectType":5003,"AsmAsset":"sc3d/rulers/echomonk/exorcist/animation/asm_echomonk_exorcist | defe63bc-d501-f04b-9531-dc88e12b64c2"}]
+			},
+			{
+				"name":"Node",
+				"pos":[0,0,0],
+				"rot":[-49.399998,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":2,
+						"Color":{"r":255,"g":255,"b":255,"a":255},
+						"Ambient":{"r":25,"g":25,"b":25,"a":25}
+					}
+				]
+			},
+			{
+				"name":"cam",
+				"pos":[-7.4654713,-9.8805895,18.746523],
+				"rot":[-52.86696,-1.9721925,-37.05397],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":1,"Far":1000,"Fov":45}]
+			}
+		]
+	}
+}

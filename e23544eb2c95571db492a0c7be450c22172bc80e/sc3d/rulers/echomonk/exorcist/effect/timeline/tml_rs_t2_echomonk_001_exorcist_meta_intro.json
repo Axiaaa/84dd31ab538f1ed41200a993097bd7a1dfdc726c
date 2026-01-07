@@ -1,0 +1,16 @@
+{
+	"anims":{
+		"nodes":["vfx_intro"],
+		"data":[
+			{
+				"events":[
+					{"_t":1857824372,"Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/vfx_rs_t2_echomonk_001_exorcist_meta_intro_01 | 28de9f14-de17-ace5-fe0d-023be17de8b7"},
+					{"_t":1857824372,"Time":0.72,"Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/vfx_rs_t2_echomonk_001_exorcist_meta_intro_02 | 28de9f14-2127-a8e5-01b2-f4dbe945394d"},
+					{"_t":1857824372,"Time":1.25,"Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/vfx_rs_t2_echomonk_001_exorcist_meta_intro_03 | 28de9f14-4cd6-34f6-6c6d-d2014aed73e5"},
+					{"_t":1857824372,"Time":2.39,"Effect":"sc3d/rulers/echomonk/exorcist/effect/prefabs/vfx_rs_t2_echomonk_001_exorcist_meta_intro_04 | 28de9f14-7cdd-bca4-5cc9-861332853923"}
+				]
+			}
+		]
+	},
+	"total_time":4
+}

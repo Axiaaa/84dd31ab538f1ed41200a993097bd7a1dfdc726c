@@ -1,0 +1,22 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_basic_idle | ec79f249-47e8-2715-c711-297e5fcdda49"},
+		{"Type":"AnimClip","Name":"ChargeStart","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_charge | ec79f249-645c-7a3b-8411-f08e9813651b","StartFrame":0,"EndFrame":67},
+		{"Type":"AnimClip","Name":"ChargeLoop","Loop":true,"Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_charge | ec79f249-645c-7a3b-8411-f08e9813651b","StartFrame":28,"EndFrame":68},
+		{"Type":"AnimClip","Name":"DizzyStart","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_dizzy | ec79f249-613b-2630-0133-ffe49510b57e","StartFrame":0,"EndFrame":21},
+		{"Type":"AnimClip","Name":"DizzyLoop","Loop":true,"Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_dizzy | ec79f249-613b-2630-0133-ffe49510b57e","StartFrame":22,"EndFrame":40},
+		{"Type":"AnimClip","Name":"Drop","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_drop | ec79f249-1d08-b870-9dd2-ae2fcb62d94b"},
+		{"Type":"AnimClip","Name":"SkillWaveup","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_skill | ec79f249-e842-ed2c-a83b-d5018cc3f703","StartFrame":0,"EndFrame":23},
+		{"Type":"AnimClip","Name":"SkillLoop","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_skill | ec79f249-e842-ed2c-a83b-d5018cc3f703","BaseSpeed":2,"StartFrame":24,"EndFrame":54},
+		{"Type":"AnimClip","Name":"SkillWavedown","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_skill | ec79f249-e842-ed2c-a83b-d5018cc3f703","StartFrame":55,"EndFrame":96},
+		{"Type":"AnimClip","Name":"Spawn","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_spawn | ec79f249-b8b3-bbef-3861-2359099941eb"},
+		{"Type":"AnimClip","Name":"VictoryStart","Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_victory | ec79f249-57a7-3207-f7fb-f9fba5e3f7ba","StartFrame":0,"EndFrame":130},
+		{"Type":"AnimClip","Name":"VictoryLoop","Loop":true,"Animation":"sc3d/characters/monkspirit/default/animation/chr_echomonk_spirit_victory | ec79f249-57a7-3207-f7fb-f9fba5e3f7ba","StartFrame":131,"EndFrame":191},
+		{"Type":"Sequence","Name":"Charge","SubStates":["ChargeStart","ChargeLoop"]},
+		{"Type":"Sequence","Name":"Dizzy","SubStates":["DizzyStart","DizzyLoop"]},
+		{"Type":"Sequence","Name":"Victory","SubStates":["VictoryStart","VictoryLoop"]},
+		{"Type":"Random","Name":"Prepare","SubStates":["BasicIdle"]},
+		{"Type":"Sequence","Name":"Skill","SubStates":["SkillWaveup","SkillLoop","SkillWavedown"]}
+	],
+	"DefaultState":"Prepare"
+}

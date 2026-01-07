@@ -1,0 +1,116 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0.5],
+				"rot":[0,0,0],
+				"scl":[0.5,0.5,0.5],
+				"children":[
+					{
+						"name":"vfx_backglow",
+						"pos":[0,0,0],
+						"rot":[0,-90,-90],
+						"scl":[2.5,2.5,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":-1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_hit_backglow | c0cd0c6d-2e9d-3e7a-2e2d-969f2236b7a4"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_hit",
+						"pos":[0,0,0],
+						"rot":[0,-90,-90],
+						"scl":[4,4,2.0000002],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":-1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_hit | c0cd0c6d-6948-fef9-499e-29b5ba9fd11e"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_hit_black",
+						"pos":[0,0,0],
+						"rot":[0,-90,-90],
+						"scl":[4,4,4.0000005],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":-1,
+								"Layer":1,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_hit | c0cd0c6d-6948-fef9-499e-29b5ba9fd11e"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_wave",
+						"pos":[0,0,0],
+						"rot":[0,-90,-90],
+						"scl":[1.9999189,1.9999189,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":-1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_hit_wave_04 | c0cd0c6d-fa59-204e-fa86-864fed911e73"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_sparks",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[2,2,2],
+						"components":[{"objectType":5004,"MinDeviceCap":-1,"Particle":"sc3d/characters/monkspirit/exorcist/effect/particles/ps_monkspirit_exorcist_atk_hit_sparks | 21fb952f-4d4b-be2d-eda6-47737716ca53","Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_flare",
+						"pos":[0,0,0],
+						"rot":[0,-90,-90],
+						"scl":[3.990922,3.990922,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":-1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_hit_flare | c0cd0c6d-6040-b0a3-c078-e1a4e3fcb59b"}]
+							}
+						]
+					}
+				],
+				"components":[
+					{"objectType":5014,"timelines":[{"name":"tml_monkspirit_exorcist_atk_hit_timeline","asset":"sc3d/characters/monkspirit/exorcist/effect/timeline/tml_monkspirit_exorcist_atk_hit_timeline | 0644802f-3a68-7dfd-3ae4-634df4644ed3"}]},
+					{"objectType":5016,"TimelineName":"tml_monkspirit_exorcist_atk_hit_timeline"}
+				]
+			}
+		],
+		"components":[{"objectType":5005},{"objectType":5002,"Sound":"soundbanks/unit_merge_tactics_monk_spirit/unit_merge_tactics_monk_spirit_atk_hit | 0e32651a-f250-7c87-f25d-55a26769e1e6"}]
+	}
+}

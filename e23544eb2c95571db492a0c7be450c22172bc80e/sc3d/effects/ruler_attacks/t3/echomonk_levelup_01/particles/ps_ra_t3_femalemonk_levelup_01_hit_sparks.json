@@ -1,0 +1,40 @@
+{
+	"emitterDataVersion":6,
+	"emitter":{
+		"maxParticleCount":55,
+		"lifetime":[0.5442709,0.0052083433,0.421875,0.94791675,0.4,0.8],
+		"lifetimeJitter":0.2,
+		"mass":1,
+		"spawnPointOffset":{},
+		"components":[
+			{
+				"__class":"SpawnPlanar",
+				"spawnMinSize":0.1,
+				"spawnMaxSize":1.75,
+				"minAngle":[0,1.0755209,0.5104167,0.9947917,80,20],
+				"maxAngle":[0,1.0052084,0.4713542,0.9791667,100,160],
+				"minSpeedXY":0.1,
+				"maxSpeedXY":0.1,
+				"minSpeedZ":0.1,
+				"maxSpeedZ":0.1,
+				"randomAngle":true
+			},
+			{"__class":"SpawnRate","duration":0.2,"spawnRate":45}
+		]
+	},
+	"render":{
+		"globalScale":0.1,
+		"scale":[0,0.7083334,0.09635419,0.98697925,0.025,0.25],
+		"scaleJitter":0.05,
+		"color":[0.390625,0.013020843,0.22916669,0.99479175,[0.30588236,0.64705884,1],[0.77254903,0.2784314,1]],
+		"alpha":1,
+		"gradient":[{"a":1},{"offset":1,"r":1,"g":1,"b":1,"a":1}],
+		"angle":-90,
+		"angleJitter":5,
+		"orientToDirection":true,
+		"trailDuration":1,
+		"trailWidth":1,
+		"blendMode":2
+	},
+	"movieclip":["sc/vfx_autochess/vmc_general_showup_sparks_02 | 49e9c85e-88c0-45cf-b92f-fd3235d65370","sc/vfx_autochess/vmc_general_showup_sparks_01 | 49e9c85e-8f6a-4b00-939d-871426bf04a4","sc/vfx_autochess/vmc_general_showup_sparks_03 | 49e9c85e-6b7d-40b8-a8be-684253624f59"]
+}

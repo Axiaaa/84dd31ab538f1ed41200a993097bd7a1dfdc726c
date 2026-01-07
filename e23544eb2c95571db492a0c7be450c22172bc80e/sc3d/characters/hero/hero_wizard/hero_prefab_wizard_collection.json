@@ -1,0 +1,67 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[-90,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"shadow_plane",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[3,3,3],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/props/uv_animation_test/test_planer | ec79f249-467d-58a3-a6c8-287d8b343860","Geometries":[{"Name":"Plane","MaterialOverride":"sc3d/shared/materials/mat_shadow_as_alpha | c0cd0c6d-2556-aa21-0553-b959cccc06ab"}]}
+						]
+					}
+				],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Color":8529425,
+						"Model":"sc3d/characters/hero/hero_wizard/model/hero_wizard_lod0_rig | ec79f249-abbd-ba9a-cb65-86e7f0b52f89",
+						"Geometries":[
+							{"Name":"wings_LOD0","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/materials/mat_wizard_hero_wings | c0cd0c6d-1314-e512-533a-97cffffc1585","GeomIndex":1},
+							{"Name":"innerWing_LOD0","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/materials/mat_wizard_hero_wings_inner | c0cd0c6d-e362-e7cd-8365-b447c85111ac","GeomIndex":2},
+							{"Name":"eye_LOD0","MaterialOverride":"sc3d/characters/hero/mat_heroes_glowy_eyes | c0cd0c6d-dd4e-ee2c-7d56-7815bfd2347f","GeomIndex":3},
+							{"Name":"wizard__LOD0","MaterialOverride":"sc3d/characters/hero/mat_rimlight_heroes_collection | c0cd0c6d-123f-2c55-32d2-7d103e61bb90"}
+						]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/characters/hero/hero_wizard/animation/asm_hero_wizard_collection | defe63bc-61b1-e7e5-21be-9ec3838e76f2"}
+				]
+			},
+			{
+				"name":"camera",
+				"pos":[-20174059e-14,1.85,5.319496],
+				"rot":[-84.699615,-179.9999,179.9999],
+				"scl":[1,1,1],
+				"components":[{"objectType":5003,"AsmAsset":"sc3d/characters/hero/hero_wizard/animation/asm_hero_wizard_collection | defe63bc-61b1-e7e5-21be-9ec3838e76f2"},{"objectType":5011,"Near":2,"Far":1000,"Fov":37.7341}]
+			},
+			{
+				"name":"light",
+				"pos":[0,0,0],
+				"rot":[-36.55778,-162.64807,132.14517],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":2.5,
+						"MainLight":true,
+						"Color":{"r":177,"g":184,"b":191,"a":255},
+						"Ambient":{"r":84,"g":69,"b":78,"a":25}
+					}
+				]
+			}
+		]
+	}
+}

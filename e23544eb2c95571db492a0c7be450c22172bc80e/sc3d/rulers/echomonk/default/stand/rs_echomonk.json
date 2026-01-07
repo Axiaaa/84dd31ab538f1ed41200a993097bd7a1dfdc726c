@@ -1,0 +1,40 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0.115492865],
+				"rot":[0,0,-179.99998],
+				"scl":[1.2,1.2,1.2],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/default/stand/model/rs_echomonk_rig | ec79f249-1280-61e2-b26e-fffe572dd9ab"}]
+			},
+			{
+				"name":"Node",
+				"pos":[0,0,0],
+				"rot":[-80.600075,0,-359.80002],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"Color":{"r":221,"g":184,"b":172,"a":255},
+						"Ambient":{"r":57,"g":140,"b":131,"a":25}
+					}
+				]
+			},
+			{"name":"ruler_base","pos":[18805594e-14,-0.050287098,1.7834721],"rot":[0,0,0],"scl":[1,1,1]},
+			{
+				"name":"camera",
+				"pos":[-38,-54,83],
+				"rot":[-50,0,-35],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":1,"Far":2000,"Fov":15}]
+			}
+		]
+	}
+}

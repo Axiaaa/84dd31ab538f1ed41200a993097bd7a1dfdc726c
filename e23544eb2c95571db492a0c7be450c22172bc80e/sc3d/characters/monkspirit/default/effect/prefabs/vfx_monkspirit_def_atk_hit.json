@@ -1,0 +1,97 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0.5],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_impact_02",
+						"pos":[0,0,0],
+						"rot":[67.54865,90.00008,90.00008],
+						"scl":[0.7,0.7,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/default/effect/materials/mat_monkspirit_def_atk_hit_impact_02 | c0cd0c6d-a1d7-f902-a1f2-847f796fe904"}]},
+							{"objectType":5015,"MinDeviceCap":-1}
+						]
+					},
+					{
+						"name":"vfx_impact_01",
+						"pos":[-0.0006564148,0,0.05],
+						"rot":[0,-90.00008,-90],
+						"scl":[0.70005465,0.70005465,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/default/effect/materials/mat_monkspirit_def_atk_hit_impact_01 | c0cd0c6d-10a4-3a52-90bc-c090fc3ccdb3"}]
+							},
+							{"objectType":5015,"MinDeviceCap":-1}
+						]
+					},
+					{
+						"name":"vfx_shockwave",
+						"pos":[-0.03,0,0.1],
+						"rot":[90,0,0],
+						"scl":[1.499903,1.7,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+								"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/characters/monkspirit/default/effect/materials/mat_monkspirit_def_atk_hit_shockwave | c0cd0c6d-2dfa-7e56-6d78-f94c9fa67558"}]
+							},
+							{"objectType":5015,"MinDeviceCap":-1}
+						]
+					},
+					{
+						"name":"vfx_glow",
+						"pos":[0,0,0],
+						"rot":[90,180,-180],
+						"scl":[1.9999859,1.9999859,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":1,
+								"MinDeviceCap":-1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/default/effect/materials/mat_monkspirit_def_atk_hit_glow | c0cd0c6d-1eda-3f5f-bebe-baadfa3fe39e"}]
+							},
+							{"objectType":5015,"MinDeviceCap":-1}
+						]
+					},
+					{
+						"name":"vfx_glow_add",
+						"pos":[0,0,0],
+						"rot":[90,0,0],
+						"scl":[2,2,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/default/effect/materials/mat_monkspirit_def_atk_hit_glow_add | c0cd0c6d-2174-740f-010d-623a284128e5"}]}
+						]
+					}
+				],
+				"components":[
+					{"objectType":5014,"timelines":[{"name":"tml_monkspirit_def_atk_hit","asset":"sc3d/characters/monkspirit/default/effect/timeline/tml_monkspirit_def_atk_hit | 0644802f-8c38-b0d4-2c91-13978179745c"}]},
+					{"objectType":5016,"TimelineName":"tml_monkspirit_def_atk_hit"}
+				]
+			}
+		],
+		"components":[{"objectType":5005},{"objectType":5002,"Sound":"soundbanks/unit_merge_tactics_monk_spirit/unit_merge_tactics_monk_spirit_atk_hit | 0e32651a-f250-7c87-f25d-55a26769e1e6"}]
+	}
+}

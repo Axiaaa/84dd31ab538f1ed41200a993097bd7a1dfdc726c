@@ -1,0 +1,21 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_basic_idle | ec79f249-d8ca-bcd9-78c3-9f27311dc900"},
+		{"Type":"AnimClip","Name":"ChargeStart","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_charge | ec79f249-75b5-2391-d57f-a8b9e74b4aac"},
+		{"Type":"AnimClip","Name":"ChargeLoop","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_charge | ec79f249-75b5-2391-d57f-a8b9e74b4aac"},
+		{"Type":"AnimClip","Name":"DizzyStart","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_dizzy | ec79f249-0aba-baa2-ea1a-0ba3364e524c"},
+		{"Type":"AnimClip","Name":"DizzyLoop","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_dizzy | ec79f249-0aba-baa2-ea1a-0ba3364e524c"},
+		{"Type":"AnimClip","Name":"Drop","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_drop | ec79f249-d5c8-6f96-35e4-4e0b2aca35fc","Events":[{"Event":"Audio","Sound":"soundbanks/unit_merge_tactics_monk_spirit/unit_merge_tactics_monk_spirit_drop | 0e32651a-a321-7f89-6315-e003418ee316"}]},
+		{"Type":"AnimClip","Name":"SkillWaveup","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_skill | ec79f249-d855-27cd-78ba-1b1a7118e718"},
+		{"Type":"AnimClip","Name":"SkillLoop","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_skill | ec79f249-d855-27cd-78ba-1b1a7118e718"},
+		{"Type":"AnimClip","Name":"SkillWavedown","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_skill | ec79f249-d855-27cd-78ba-1b1a7118e718"},
+		{"Type":"AnimClip","Name":"Spawn","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_spawn | ec79f249-39d4-efe2-f98f-823c8749b5fd"},
+		{"Type":"AnimClip","Name":"VictoryStart","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_victory | ec79f249-aa9c-e469-8af3-9a28c411d207"},
+		{"Type":"AnimClip","Name":"VictoryLoop","Animation":"sc3d/characters/monkspirit/exorcist/animation/chr_echomonk_exorcist_spirit_victory | ec79f249-aa9c-e469-8af3-9a28c411d207"},
+		{"Type":"Sequence","Name":"Charge","SubStates":["ChargeStart","ChargeLoop"]},
+		{"Type":"Sequence","Name":"Dizzy","SubStates":["DizzyStart","DizzyLoop"]},
+		{"Type":"Sequence","Name":"Victory","SubStates":["VictoryStart","VictoryLoop"]},
+		{"Type":"Random","Name":"Prepare","SubStates":["BasicIdle"]}
+	],
+	"DefaultState":"Prepare"
+}

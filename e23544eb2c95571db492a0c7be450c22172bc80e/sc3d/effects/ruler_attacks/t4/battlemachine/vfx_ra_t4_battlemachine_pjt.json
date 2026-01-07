@@ -1,0 +1,76 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,2,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"missile",
+						"pos":[0,-0.74,0],
+						"rot":[0,107.156494,179.9999],
+						"scl":[3.5000002,3.5,3.5000002],
+						"components":[{"objectType":5001,"ShadowVisible":true,"Model":"sc3d/rulers/battlemachine/default/model/pjt_battlemachine_rig | ec79f249-db14-7e2a-7b0d-89e70e2e6c01"}]
+					},
+					{
+						"name":"vfx_backglow",
+						"pos":[34365718e-14,-2.4646082,0],
+						"rot":[0,0,-179.9999],
+						"scl":[1.6,2.5,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t3/battlemachine_levelup_01/materials/mat_ra_t3_battlemachine_levelup_01_pjt_backglow | c0cd0c6d-72dc-60f1-1294-ac099555394e"}]}
+						]
+					},
+					{
+						"name":"vfx_smoke",
+						"pos":[-3714477e-14,-3.8602273,0],
+						"rot":[0,0,90],
+						"scl":[2.5,1,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_101 | ec79f249-48f6-a872-2836-65f97a725f6d","Geometries":[{"Name":"sm_plane_101","MaterialOverride":"sc3d/effects/ruler_attacks/t3/battlemachine_levelup_01/materials/mat_ra_t3_battlemachine_levelup_01_pjt_smoke | c0cd0c6d-a0b0-f950-0010-72bd57959409"}]}
+						]
+					},
+					{
+						"name":"vfx_spark",
+						"pos":[0,-0.9993006,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/effects/ruler_attacks/t3/battlemachine_levelup_01/particles/ps_ra_t3_battlemachine_levelup_01_pjt_spark | 21fb952f-78d6-fc2a-78d1-8633219b9f1e","FollowAngle":true,"Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_bowl",
+						"pos":[-64760926e-15,-1.0608863,-16190253e-15],
+						"rot":[90,180,-180],
+						"scl":[0.6,0.6,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/shockwave/sm_sphere_01 | ec79f249-0858-63f2-a86b-4d75e1c9b0ef","Geometries":[{"Name":"sm_sphere_01","MaterialOverride":"sc3d/effects/ruler_attacks/t4/battlemachine/materials/mat_ra_t4_battlemachine_pjt_wave | c0cd0c6d-bdbd-25ea-1dee-7f26ccd5307c"}]}
+						]
+					},
+					{
+						"name":"vfx_trail_01",
+						"pos":[6385991e-15,-2.1460948,0],
+						"rot":[0,0,90],
+						"scl":[1,0.4,0.9999995],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_101 | ec79f249-48f6-a872-2836-65f97a725f6d","Geometries":[{"Name":"sm_plane_101","MaterialOverride":"sc3d/effects/ruler_attacks/t4/battlemachine/materials/mat_ra_t4_battlemachine_pjt_trail | c0cd0c6d-dc44-b575-dc6d-b751bc500d08"}]}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5010,"LifeTime":0.7},
+			{"objectType":5014,"timelines":[{"name":"vfx_ra_t4_battlemachine_pjt_timeline","asset":"sc3d/effects/ruler_attacks/t4/battlemachine/timelines/vfx_ra_t4_battlemachine_pjt_timeline | 0644802f-6167-71b6-e1a9-a5865be7d591"}]},
+			{"objectType":5016,"TimelineName":"vfx_ra_t4_battlemachine_pjt_timeline"},
+			{"objectType":5002,"Sound":"soundbanks/ruler_battle_machine_def/ruler_battle_machine_def_atk_projectile | 0e32651a-9238-f52f-12d0-dd1542f46607"}
+		]
+	}
+}

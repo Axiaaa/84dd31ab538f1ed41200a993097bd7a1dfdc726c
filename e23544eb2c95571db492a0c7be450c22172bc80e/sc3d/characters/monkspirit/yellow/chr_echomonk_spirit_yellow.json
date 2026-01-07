@@ -1,0 +1,35 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1.2,1.2,1.2],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/characters/monkspirit/default/model/chr_echomonkspirit_rig_lod1 | ec79f249-1c5e-7f95-fcaf-aafdc1149d25","Geometries":[{"Name":"main_LOD1","MaterialOverride":"sc3d/characters/monkspirit/yellow/materials/mat_echomonk_spirit_yellow | c0cd0c6d-2769-6b39-c761-90dd3dc46ac0"}]},
+					{"objectType":5003,"AsmAsset":"sc3d/characters/monkspirit/yellow/animation/asm_monkspirit_yellow | defe63bc-6917-3635-4959-2e7f9ecb328c"}
+				]
+			},
+			{
+				"name":"Node.000",
+				"pos":[0,0,0],
+				"rot":[-51.400005,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":2,
+						"Color":{"r":255,"g":255,"b":255,"a":255},
+						"Ambient":{"r":25,"g":25,"b":25,"a":25}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+{"NameTID":"TID_AUGMENT_DAMAGE_TILE_TITLE","DescTID":"TID_AUGMENT_DAMAGE_TILE_DES","Icon":"sc/ui_autochess_icons/augment_icon_damage_tile | 49e9c85e-f807-4fd5-bd03-79f04b5d9b58","Weight":20,"Rules":[{"RuleType":2,"FlowAsset":"logic/autochess/augments/augment_25q4/damage_tile/augment_damage_tile_flow | 7c56ba3f-92fc-76b2-f255-119354fca542"}]}

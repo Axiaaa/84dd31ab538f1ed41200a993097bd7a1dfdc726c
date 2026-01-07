@@ -1,0 +1,61 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[-0.33984995,0,1.4717454],
+				"rot":[0,0,0],
+				"scl":[0.2,0.2,0.2],
+				"children":[
+					{
+						"name":"vfx_backglow",
+						"pos":[-0.3332255,-0.37300053,0.7041135],
+						"rot":[0,0,0],
+						"scl":[0.5,0.5,0.5],
+						"components":[{"objectType":5004,"MinDeviceCap":1,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_idlebreak_02_fire_backglow | 21fb952f-fdde-34db-1dad-fe297e8255b7","FollowScale":true,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_sparks",
+						"pos":[-0.29,0,-1.6904578],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_01_fire_sparks | 21fb952f-d92a-f585-19b4-611ea71f749c","FollowScale":true,"Layer":1,"Offset":[0,0,0.5]}]
+					},
+					{
+						"name":"vfx_fire",
+						"pos":[-0.38999996,14273409e-12,0.98705244],
+						"rot":[0,-90.00008,-57.800003],
+						"scl":[1,0.7,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/materials/mat_wizard_hero_meta_idle_fire | c0cd0c6d-10fa-30b7-303d-ea5d3038b66c"}]}
+						]
+					},
+					{
+						"name":"vfx_impact",
+						"pos":[-0.34527683,15701433e-12,0.54187775],
+						"rot":[0,0,0],
+						"scl":[0.3,0.5,1],
+						"components":[{"objectType":5004,"MinDeviceCap":-1,"Particle":"sc3d/characters/hero/hero_giant/effect/particles/ps_giant_hero_screen_intro_01_impact | 21fb952f-c6d5-f9c0-6628-49ac4c5d4659","FollowScale":true,"Layer":1,"SimulationSpace":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_glow",
+						"pos":[-0.43768072,-0.37299973,0.5061016],
+						"rot":[0,0,0],
+						"scl":[0.3,0.3,0.3],
+						"components":[{"objectType":5004,"MinDeviceCap":1,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_idlebreak_02_fire_glow | 21fb952f-2ca3-2708-6c2b-4e6bbc03233d","FollowScale":true,"Layer":1,"Offset":[0,0,0]}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_trait_fire_buff_end_timeline","asset":"sc3d/characters/hero/hero_wizard/effect/timeline/tml_wizard_hero_meta_idlebreak_02_fire | 0644802f-63d2-6d87-c37d-a36e00cd75a7"}]},
+			{"objectType":5016,"TimelineName":"vfx_trait_fire_buff_end_timeline"}
+		]
+	}
+}

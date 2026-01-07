@@ -1,0 +1,1 @@
+{"NameTID":"TID_AUGMENT_CLONE_TILE_TITLE","DescTID":"TID_AUGMENT_CLONE_TILE_DES","Icon":"sc/ui_autochess_icons/augment_icon_clone_tile | 49e9c85e-1cdb-41c7-bc9c-bc7c7ac82ce1","Weight":20,"Rules":[{"RuleType":2,"FlowAsset":"logic/autochess/augments/augment_25q4/clone_tile/augment_clone_tile_flow | 7c56ba3f-b9eb-bdff-b9d1-9e0e1ecdffd3"}]}

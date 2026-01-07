@@ -1,0 +1,1 @@
+{"NameTID":"TID_AUGMENT_IMMUNE_TILE_TITLE","DescTID":"TID_AUGMENT_IMMUNE_TILE_DES","Icon":"sc/ui_autochess_icons/augment_icon_immune_tile | 49e9c85e-9a21-412f-976e-147b3244abe3","Weight":20,"Rules":[{"RuleType":2,"FlowAsset":"logic/autochess/augments/augment_25q4/immune_tile/augment_immune_tile_flow | 7c56ba3f-baca-ae04-5acb-e0b411bb2108"}]}

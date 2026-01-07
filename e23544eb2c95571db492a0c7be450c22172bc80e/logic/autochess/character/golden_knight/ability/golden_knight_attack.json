@@ -1,0 +1,16 @@
+{
+	"description":"TID_SKILL_SET_1_GOLDEN_KNIGHT_DES",
+	"GrowthAttrNames":["passivedmg"],
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/golden_knight/ability/golden_knight_attack_flow | d88fcdc1-eafd-3ff9-4a4c-f9b74ddc27d8",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"Attributes":[{"Name":"passivedmg","NameTID":"TID_AUTOCHESS_SKILL_ATTR_DMG_TITLE","Value":[50,80,150,500],"Unit":9}],
+	"AttributeOverrides":[
+		{"Name":"damage","Value":[117],"LevelUpFactor":160},
+		{"Name":"speed","Value":[100]},
+		{"Name":"criticalrate","Value":[15]},
+		{"Name":"criticalvalue","Value":[50]}
+	],
+	"HitEffect":"sc3d/characters/goldenknight/effects/prefabs/vfx_golden_knight_def_atk_hit | 28de9f14-0c6c-bd91-ec37-b9dae1239ee8"
+}

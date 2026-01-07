@@ -1,0 +1,25 @@
+{
+	"components":[
+		{"_c":"Ability","AbilityBaseRef":"logic/autochess/character/bandit/ability/bandit_attack | 9c17865c-d19e-214f-514a-067147939f4e","AbilitySuperRef":"logic/autochess/character/bandit/ability/bandit_super | 9c17865c-308b-2014-50e3-5a3234a6b4c8"},
+		{"_c":"AutoChessMovement"},
+		{"_c":"Behavior","FSMData":"logic/autochess/fsm/shared/normal_character | d81930b5-4f30-e469-af4a-636df46a895f"},
+		{"_c":"Hitpoint"},
+		{"_c":"Transform"},
+		{"_c":"AutoChessUnit","Tid":"TID_AUTOCHESS_SET_1_BANDIT","Icon":"sc/ui_autochess_icons/ac_bandit | 49e9c85e-faf3-4a8a-8660-eede17047972","Traits":["logic/autochess/traits/ace/trait_ace | cac04ecf-9a75-baac-1ae5-06ca2e07fa55","logic/autochess/traits/assassin/trait_assassin | cac04ecf-b6a1-28ce-5644-4b1f682cd82c"]},
+		{"_c":"Buff"},
+		{
+			"_c":"Attribute",
+			"AttributeSheetList":["logic/autochess/battle_rule/autochess_unit_attributes | ca8ffa0e-668e-7a3b-2682-12f8d3ddf546"],
+			"AttributeOverrides":[
+				{"Name":"movespeed","Value":[3000]},
+				{"Name":"curhp","Value":[776]},
+				{"Name":"maxhp","Value":[776],"LevelUpFactor":180},
+				{"Name":"initenergy","Value":[0]},
+				{"Name":"maxenergy","Value":[120]},
+				{"Name":"energyperattack","Value":[30,40,60,120]}
+			]
+		},
+		{"_c":"CircleCollision","Radius":500},
+		{"_c":"Display","Prefab":"sc3d/characters/bandit/chr_prefab_bandit | 28de9f14-5bcf-e6db-9b3c-7a2bb2c276b7"}
+	]
+}

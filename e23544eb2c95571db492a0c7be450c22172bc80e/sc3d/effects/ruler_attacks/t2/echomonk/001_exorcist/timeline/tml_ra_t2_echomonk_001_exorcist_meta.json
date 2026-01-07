@@ -1,0 +1,25 @@
+{
+	"anims":{
+		"nodes":["pos_arena/Tower_Attack/ruler","pos_arena/Tower_Hit/king","vfx/charging","vfx/hit","vfx/pjt","vfx/pjt/offset"],
+		"data":[
+			{"events":[{"_t":-1822335734,"Time":0.2,"AnimName":"Attack","DelegateToChildren":true}]},
+			{"events":[{"_t":-1822335734,"Time":1.5,"AnimName":"OnHit","DelegateToChildren":true}]},
+			{"events":[{"_t":1857824372,"Time":0.22,"Effect":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/vfx_ra_t2_echomonk_001_exorcist_charging | 28de9f14-8958-76ec-8925-271f3e16c8ce"}]},
+			{"events":[{"_t":1857824372,"Time":1,"Effect":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/vfx_ra_t2_echomonk_001_exorcist_hit | 28de9f14-ab41-3cc4-cbc8-3e26b222b446"}]},
+			{
+				"anims":[
+					{
+						"id":"x",
+						"value":{
+							"_v":{
+								"timelineValue":{"keys":[{"c":-7.29}]}
+							}
+						}
+					}
+				]
+			},
+			{"events":[{"_t":1857824372,"Time":1,"Effect":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/vfx_ra_t2_echomonk_001_exorcist_pjt | 28de9f14-1e5f-7c97-fe0a-eb03d7ebb5a8","Attached":true}]}
+		]
+	},
+	"total_time":2.25
+}

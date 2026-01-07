@@ -1,0 +1,45 @@
+{
+	"r":{
+		"name":"augment_elixir_collector_flow",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[402,295],"m_nextNodeID":-1}},
+			{
+				"obj":{
+					"name":"DurationNode",
+					"id":1001,
+					"pos":[830,410],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{
+							"node_action_type":3,
+							"node_action_obj":{
+								"m_duration":1000,
+								"m_track":1,
+								"RandomFunc":4,
+								"DraftUnitAsset":"logic/autochess/draft_units/chess_elixir_collector | 0d6456f0-7071-b72d-90c7-497fd45304c0",
+								"Star":1,
+								"SpawnOrb":true,
+								"NotUsePool":true,
+								"OnBench":true,
+								"CustomTargetVar":{}
+							}
+						},
+						{"node_action_type":1,"node_action_obj":{"m_duration":100,"m_track":2,"Expression":{"m_raw":"1"},"Result":{"VariableName":"spawncount"},"CustomTarget":{}}}
+					]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"Condition",
+					"id":1002,
+					"pos":[610,410],
+					"m_trueNodeID":1001,
+					"m_falseNodeID":-1,
+					"conditions":[{"type":3,"obj":{"key":"spawncount"}}]
+				}
+			},
+			{"type":11,"obj":{"name":"OnPreparing","id":3200,"pos":[380,410],"m_nextNodeID":1002}}
+		]
+	}
+}

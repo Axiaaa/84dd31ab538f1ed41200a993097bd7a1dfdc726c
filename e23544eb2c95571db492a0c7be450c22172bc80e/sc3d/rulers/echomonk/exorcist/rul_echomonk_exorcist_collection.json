@@ -1,0 +1,51 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0.07,0],
+				"rot":[-90,0,0],
+				"scl":[1.1,1.1,1.1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/echomonk/exorcist/model/rul_echomonk_exorcist_rig | ec79f249-b031-a5a2-d067-4e59df3af831",
+						"Geometries":[{"Name":"spirit_main_LOD","MaterialOverride":"sc3d/rulers/echomonk/exorcist/materials/mat_exorcist_spirit | c0cd0c6d-0804-f359-c897-44e04ba67038"},{"Name":"spirit_eyes_LOD","MaterialOverride":"sc3d/rulers/echomonk/exorcist/materials/mat_exorcist_spirit | c0cd0c6d-0804-f359-c897-44e04ba67038","GeomIndex":1}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/echomonk/exorcist/animation/asm_echomonk_exorcist_clt | defe63bc-cc33-f520-0cdf-568431621f9b"}
+				]
+			},
+			{
+				"name":"light",
+				"pos":[0,0,0],
+				"rot":[-39.999996,-179.9999,143.79999],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"MainLight":true,
+						"Color":{"r":212,"g":221,"b":223,"a":255},
+						"Ambient":{"r":114,"g":84,"b":151,"a":25}
+					}
+				]
+			},
+			{
+				"name":"camera",
+				"pos":[19876388e-13,2.86,18.458702],
+				"rot":[-84.699615,-179.9999,179.9999],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":0.1,"Far":1000,"Fov":13.5}]
+			}
+		],
+		"components":[{"objectType":5005,"Loop":true}]
+	}
+}

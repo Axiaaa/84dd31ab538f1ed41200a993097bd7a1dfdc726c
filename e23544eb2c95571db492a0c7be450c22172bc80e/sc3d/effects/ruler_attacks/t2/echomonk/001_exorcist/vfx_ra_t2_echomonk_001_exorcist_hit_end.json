@@ -1,0 +1,110 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[0.9,0.9,0.9],
+				"children":[
+					{
+						"name":"vfx_impact",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[7.946398,7.946398,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947","Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_impact | c0cd0c6d-008b-7132-207f-144aa1683b87"}]}
+						]
+					},
+					{
+						"name":"vfx_dome",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[4.6,4.6,5.099999],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/shockwave/sm_bowl_03 | ec79f249-177e-f149-3744-dac63d075cfe",
+								"Geometries":[{"Name":"sm_bowl_03","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_dome | c0cd0c6d-fb01-6d78-db4e-c90e51a97953"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_helix_01",
+						"pos":[0,0,1],
+						"rot":[-14.4,-1.7999998,-61.399998],
+						"scl":[5.7499995,5.7499995,0.9],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/ring/sm_cylinder_01 | ec79f249-2173-6405-c1d3-8ef0d1f78451",
+								"Geometries":[{"Name":"sm_cylinder_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_helix | c0cd0c6d-4687-fabe-8653-3cf269d36e8e"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_helix_02",
+						"pos":[0,0,1.0000001],
+						"rot":[-21.599997,-12.8,65.19998],
+						"scl":[5,5,0.80833334],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/ring/sm_cylinder_01 | ec79f249-2173-6405-c1d3-8ef0d1f78451",
+								"Geometries":[{"Name":"sm_cylinder_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_helix | c0cd0c6d-4687-fabe-8653-3cf269d36e8e"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_bowl",
+						"pos":[0,0,-0.3],
+						"rot":[0,0,-111.79981],
+						"scl":[6.2199993,6.2199993,3.5],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/shockwave/sm_bowl_01 | ec79f249-332a-b4f5-53e4-1d6d9ee6ba27","Geometries":[{"Name":"sm_bowl_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_bowl | c0cd0c6d-cb4c-7aee-0b3c-d9c82753b9ee"}]}
+						]
+					},
+					{
+						"name":"vfx_bowl_add",
+						"pos":[0,0,-0.3],
+						"rot":[0,0,0],
+						"scl":[5.719607,5.719607,3.5],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/shockwave/sm_bowl_01 | ec79f249-332a-b4f5-53e4-1d6d9ee6ba27","Geometries":[{"Name":"sm_bowl_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_bowl_add | c0cd0c6d-d414-b676-1439-d817d9b89f15"}]}
+						]
+					},
+					{
+						"name":"vfx_spark",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/particles/ps_ra_t2_echomonk_001_exorcist_hit_sparks_end | 21fb952f-4716-6c98-87f6-132c1f44aa12","FollowAngle":true,"FollowScale":true,"Layer":1,"Offset":[0,0,0]}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_ra_t2_echomonk_001_exorcist_hit_end_timeline","asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/timeline/tml_ra_t2_echomonk_001_exorcist_hit_end | 0644802f-bb21-fe8d-1b29-f445da114e2a"}]},
+			{"objectType":5016,"TimelineName":"tml_ra_t2_echomonk_001_exorcist_hit_end_timeline"},
+			{"objectType":5002,"Sound":"soundbanks/ruler_echo_monk_t2_exorcist/ruler_echo_monk_t2_exorcist_atk_hit 2 | 0e32651a-54b0-2fcb-3437-e61ce5d91b74"}
+		]
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0.5],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_impact",
+						"pos":[-0.0006564148,0,0],
+						"rot":[0,-90.00008,-90],
+						"scl":[2,2,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/purple/effect/materials/mat_monkspirit_purple_atk_hit_impact_01 | c0cd0c6d-c9c9-bbf5-0916-fd1199a31bac"}]},
+							{"objectType":5015,"MinDeviceCap":-1}
+						]
+					},
+					{
+						"name":"vfx_shockwave_01",
+						"pos":[0,0,0],
+						"rot":[90,180,-180],
+						"scl":[0.85,0.85,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+								"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/characters/monkspirit/purple/effect/materials/mat_monkspirit_purple_atk_hit_shockwave_01 | c0cd0c6d-1873-2fdc-9864-ce20109dd0fd"}]
+							},
+							{"objectType":5015,"MinDeviceCap":-1}
+						]
+					},
+					{
+						"name":"vfx_shockwave_02",
+						"pos":[0,0,0],
+						"rot":[90,180,-180],
+						"scl":[0.75,0.75,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+								"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/characters/monkspirit/purple/effect/materials/mat_monkspirit_purple_atk_hit_shockwave_02 | c0cd0c6d-c99c-e918-09e9-0bb4efac1561"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_shockwave_03",
+						"pos":[0,0,0],
+						"rot":[90,180,-180],
+						"scl":[1.25,1.25,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+								"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/characters/monkspirit/purple/effect/materials/mat_monkspirit_purple_atk_hit_shockwave_03 | c0cd0c6d-bca8-fb22-9c30-2ed061290e99"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_glow",
+						"pos":[0,0,0],
+						"rot":[90,0,0],
+						"scl":[1,1,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/purple/effect/materials/mat_monkspirit_purple_atk_hit_impact_02 | c0cd0c6d-18da-3ece-1868-186380ddca05"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_spark",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/characters/monkspirit/purple/effect/particles/ps_monkspirit_purple_atk_hit_particle | 21fb952f-9d75-a734-3da6-34dc6b8dc808","Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_backglow",
+						"pos":[0,0,0],
+						"rot":[90,0,0],
+						"scl":[2,2,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/purple/effect/materials/mat_monkspirit_purple_atk_hit_backglow | c0cd0c6d-92b4-f299-5264-e7498a328ad1"}]}
+						]
+					}
+				],
+				"components":[
+					{"objectType":5014,"timelines":[{"name":"tml_monkspirit_purple_atk_hit","asset":"sc3d/characters/monkspirit/purple/effect/timeline/tml_monkspirit_purple_atk_hit | 0644802f-a59d-ec92-a5c1-52a21ac44de1"}]},
+					{"objectType":5016,"TimelineName":"tml_monkspirit_purple_atk_hit"}
+				]
+			}
+		],
+		"components":[{"objectType":5005}]
+	}
+}

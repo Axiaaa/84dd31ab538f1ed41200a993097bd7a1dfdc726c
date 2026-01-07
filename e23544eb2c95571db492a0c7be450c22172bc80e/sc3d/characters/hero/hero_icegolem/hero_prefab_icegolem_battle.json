@@ -1,0 +1,40 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0.095014445,0],
+				"rot":[0,0,0],
+				"scl":[0.55,0.55,0.55],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/characters/hero/hero_icegolem/model/hero_icegolem_lod1_rig | ec79f249-2df7-65f4-edee-96742cec96db","Geometries":[{"Name":"Icegolem__LOD1","MaterialOverride":"sc3d/shared/materials/mat_override_normal_map | c0cd0c6d-3079-28de-30e6-994aeba8b1b7"}]},
+					{"objectType":5003,"AsmAsset":"sc3d/characters/hero/hero_icegolem/animation/asm_hero_icegolem_battle | defe63bc-4d63-6904-ad41-940465eddffe"}
+				]
+			},
+			{
+				"name":"sun",
+				"pos":[0,0,0],
+				"rot":[-80.60001,0,-32.60003],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"Color":{"r":128,"g":128,"b":128},
+						"Ambient":{"r":111,"g":138,"b":114}
+					}
+				]
+			},
+			{"name":"hudoffset","pos":[0,0,1.7497005],"rot":[0,0,0],"scl":[1,1,1]}
+		],
+		"components":[
+			{"objectType":5017},
+			{"objectType":5019,"PivotPoints":[{"PivotName":"hudoffset"}]}
+		]
+	}
+}

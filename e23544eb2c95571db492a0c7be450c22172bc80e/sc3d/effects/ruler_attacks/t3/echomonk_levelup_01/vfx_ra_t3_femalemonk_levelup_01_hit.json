@@ -1,0 +1,35 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"hit",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{"name":"vfx_hit_01","pos":[-0.06716657,0,0.20840657],"rot":[0,0,0],"scl":[1,1,1]},
+							{"name":"vfx_hit_02","pos":[0.06276131,0.4144341,0],"rot":[0,0,0],"scl":[1,1,1]},
+							{"name":"vfx_hit_03","pos":[0,0,0],"rot":[0,0,0],"scl":[1.275,1.275,1.27]}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_ra_t3_femalemonk_levelup_01_hit_timeline","asset":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/timelines/tml_ra_t3_femalemonk_levelup_01_hit | 0644802f-5caf-6146-1c55-73e035b5ec2f"}]},
+			{"objectType":5016,"TimelineName":"vfx_ra_t3_femalemonk_levelup_01_hit_timeline"}
+		]
+	}
+}

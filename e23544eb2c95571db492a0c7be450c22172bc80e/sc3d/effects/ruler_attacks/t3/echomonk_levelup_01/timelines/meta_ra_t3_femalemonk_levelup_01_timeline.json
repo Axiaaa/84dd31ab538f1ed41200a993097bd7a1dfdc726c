@@ -1,0 +1,24 @@
+{
+	"anims":{
+		"nodes":["pos_arena/Tower_Attack/ruler","pos_arena/Tower_Hit/king","vfx/hit","vfx/pjt","vfx/pjt/offset"],
+		"data":[
+			{"events":[{"_t":-1822335734,"AnimName":"Attack","DelegateToChildren":true}]},
+			{"events":[{"_t":-1822335734,"Time":0.95,"AnimName":"OnHit","DelegateToChildren":true}]},
+			{"events":[{"_t":1857824372,"Time":0.5,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_hit | 28de9f14-fc30-b269-5c5e-ed685f350e77"}]},
+			{
+				"anims":[
+					{
+						"id":"x",
+						"value":{
+							"_v":{
+								"timelineValue":{"keys":[{"t":1,"e":0.5,"lf":6.8,"lt":-7.42},{"s":0.5,"e":0.5,"c":-7.42}]}
+							}
+						}
+					}
+				]
+			},
+			{"events":[{"_t":1857824372,"Time":0.5,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_pjt | 28de9f14-f795-35b5-37f7-988eb3503504","Attached":true}]}
+		]
+	},
+	"total_time":1.3
+}

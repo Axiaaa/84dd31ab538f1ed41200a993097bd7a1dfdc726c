@@ -1,0 +1,13 @@
+{
+	"anims":{
+		"nodes":["pos/vfx_chest_01","pos/vfx_chest_02","pos/vfx_chest_03","pos/vfx_chest_04","pos/vfx_yell"],
+		"data":[
+			{"events":[{"_t":1857824372,"Time":0.4784588,"Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/subs/vfx_icegolem_hero_meta_idlebreak03_chest | 28de9f14-17ad-3562-f70a-8304efa08165","Attached":true}]},
+			{"events":[{"_t":1857824372,"Time":0.66249996,"Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/subs/vfx_icegolem_hero_meta_idlebreak03_chest | 28de9f14-17ad-3562-f70a-8304efa08165","Attached":true}]},
+			{"events":[{"_t":1857824372,"Time":0.93499976,"Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/subs/vfx_icegolem_hero_meta_idlebreak03_chest | 28de9f14-17ad-3562-f70a-8304efa08165","Attached":true}]},
+			{"events":[{"_t":1857824372,"Time":1.1274999,"Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/subs/vfx_icegolem_hero_meta_idlebreak03_chest | 28de9f14-17ad-3562-f70a-8304efa08165","Attached":true}]},
+			{"events":[{"_t":1857824372,"Time":1.6962842,"Effect":"sc3d/characters/hero/hero_icegolem/effect/prefabs/subs/vfx_icegolem_hero_meta_idlebreak03_yell | 28de9f14-7f76-6235-3f2b-15dcfb63ae37","Attached":true}]}
+		]
+	},
+	"total_time":3.5
+}

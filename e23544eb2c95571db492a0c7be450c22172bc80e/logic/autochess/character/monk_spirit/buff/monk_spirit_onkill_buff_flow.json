@@ -1,0 +1,142 @@
+{
+	"r":{
+		"name":"monk_spirit_onkill_buff_flow",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[180,150],"m_nextNodeID":-1}},
+			{
+				"obj":{
+					"name":"stacks",
+					"id":1001,
+					"pos":[180,400],
+					"m_nextNodeID":1011,
+					"node_actions":[
+						{"node_action_type":45,"node_action_obj":{"m_duration":100,"m_track":1,"BuffAsset":"logic/autochess/character/monk_spirit/buff/monk_spirit_growth_buff | f5fa09ea-03fa-6d80-e302-cf8674413de9","StackCountVarName":"stacks","CustomTargetVar":{}}},
+						{
+							"node_action_type":6,
+							"node_action_obj":{"m_duration":100,"m_track":2,"BlackboardInputs":["stacks"],"Expression":{"m_raw":"input(0)+1"},"Result":{"VariableName":"stacks"},"CustomTarget":{}}
+						},
+						{"node_action_type":44,"node_action_obj":{"m_duration":100,"m_track":3,"BuffAsset":"logic/autochess/character/monk_spirit/buff/monk_spirit_growth_buff | f5fa09ea-03fa-6d80-e302-cf8674413de9","StackCount":{"VariableName":"stacks"},"CustomTargetVar":{}}}
+					]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"stacks>=1",
+					"id":1002,
+					"pos":[330,810],
+					"m_trueNodeID":1010,
+					"m_falseNodeID":-1,
+					"conditions":[{"type":3,"obj":{"key":"stacks","op":3,"value":1}}]
+				}
+			},
+			{
+				"obj":{
+					"name":"Modify Level 2",
+					"id":1003,
+					"pos":[660,810],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{"node_action_type":6,"node_action_obj":{"m_duration":100,"m_track":1,"Expression":{"m_raw":"2-star"},"Result":{"VariableName":"star_delta"},"CustomTarget":{}}},
+						{"node_action_type":48,"node_action_obj":{"m_duration":100,"m_track":2,"StarDelta":{"VariableName":"star_delta"}}},
+						{"node_action_type":30,"node_action_obj":{"CustomTargetVar":{},"m_duration":100,"m_track":3,"EffectPrefab":"sc3d/effects/general/levelup/vfx_general_levelup | 28de9f14-ddfb-7fc1-3d6a-51658e7ed566","Detached":true,"EffectScale":100,"CustomLinkToVar":{}}}
+					]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"stacks>=3",
+					"id":1004,
+					"pos":[330,660],
+					"m_trueNodeID":1009,
+					"m_falseNodeID":1002,
+					"conditions":[{"type":3,"obj":{"key":"stacks","op":3,"value":3}}]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"stacks>=7",
+					"id":1005,
+					"pos":[330,530],
+					"m_trueNodeID":1008,
+					"m_falseNodeID":1004,
+					"conditions":[{"type":3,"obj":{"key":"stacks","op":3,"value":7}}]
+				}
+			},
+			{
+				"obj":{
+					"name":"Modify Level 3",
+					"id":1006,
+					"pos":[660,660],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{"node_action_type":6,"node_action_obj":{"m_duration":100,"m_track":1,"Expression":{"m_raw":"3-star"},"Result":{"VariableName":"star_delta"},"CustomTarget":{}}},
+						{"node_action_type":48,"node_action_obj":{"m_duration":100,"m_track":2,"StarDelta":{"VariableName":"star_delta"}}},
+						{"node_action_type":30,"node_action_obj":{"CustomTargetVar":{},"m_duration":100,"m_track":3,"EffectPrefab":"sc3d/effects/general/levelup/vfx_general_levelup_3star | 28de9f14-e599-a015-e5a1-d3836d61ffad","Detached":true,"EffectScale":100,"CustomLinkToVar":{}}}
+					]
+				}
+			},
+			{
+				"obj":{
+					"name":"Modify Level 4",
+					"id":1007,
+					"pos":[660,530],
+					"m_nextNodeID":-1,
+					"node_actions":[
+						{"node_action_type":6,"node_action_obj":{"m_duration":100,"m_track":1,"Expression":{"m_raw":"4-star"},"Result":{"VariableName":"star_delta"},"CustomTarget":{}}},
+						{"node_action_type":48,"node_action_obj":{"m_duration":100,"m_track":2,"StarDelta":{"VariableName":"star_delta"}}},
+						{"node_action_type":30,"node_action_obj":{"CustomTargetVar":{},"m_duration":100,"m_track":3,"EffectPrefab":"sc3d/effects/general/levelup/vfx_general_levelup_4star | 28de9f14-cdd5-e720-cd61-bb4a9d67337f","Detached":true,"EffectScale":100,"CustomLinkToVar":{}}}
+					]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"star < 4",
+					"id":1008,
+					"pos":[490,530],
+					"m_trueNodeID":1007,
+					"m_falseNodeID":-1,
+					"conditions":[{"type":9,"obj":{"Op":2,"Value":4}}]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"star < 3",
+					"id":1009,
+					"pos":[490,660],
+					"m_trueNodeID":1006,
+					"m_falseNodeID":-1,
+					"conditions":[{"type":9,"obj":{"Op":2,"Value":3}}]
+				}
+			},
+			{
+				"type":1,
+				"obj":{
+					"name":"star < 2",
+					"id":1010,
+					"pos":[490,810],
+					"m_trueNodeID":1003,
+					"m_falseNodeID":-1,
+					"conditions":[{"type":9,"obj":{"Op":2,"Value":2}}]
+				}
+			},
+			{
+				"obj":{
+					"name":"DurationNode",
+					"id":1011,
+					"pos":[170,530],
+					"m_nextNodeID":1005,
+					"node_actions":[
+						{"node_action_type":45,"node_action_obj":{"m_duration":100,"m_track":1,"BuffAsset":"logic/autochess/character/monk_spirit/buff/monk_spirit_growth_buff | f5fa09ea-03fa-6d80-e302-cf8674413de9","StackCountVarName":"stacks","CustomTargetVar":{}}}
+					]
+				}
+			},
+			{"type":23,"obj":{"name":"OnPreparing","id":3200,"pos":[10,530],"m_nextNodeID":-1}},
+			{"type":8,"obj":{"name":"OnKill","id":6000,"pos":[30,400],"m_nextNodeID":-1}}
+		]
+	}
+}

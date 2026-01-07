@@ -1,0 +1,27 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"BasicIdle","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_idle | ec79f249-8d6b-7cb9-6d1a-8dc06259831a","TransInTime":0.2,"TransOutTime":0.2},
+		{"Type":"AnimClip","Name":"IdleBreak01","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_idle01 | ec79f249-24f2-71e2-e4a5-b04c05b58c9d","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_mini_pekka/card_hero_mini_pekka_idlebreak_01 | 0e32651a-d833-3213-d86f-fb98fa635189"}]},
+		{"Type":"AnimClip","Name":"IdleBreak02","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_idle02 | ec79f249-e0af-ea2f-a02f-b3566084128f","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_mini_pekka/card_hero_mini_pekka_idlebreak_02 | 0e32651a-9138-3216-f174-fb98fa665189"}]},
+		{"Type":"AnimClip","Name":"IdleBreak03","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_idle03 | ec79f249-ee87-bf04-6e15-689e29823e25","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_mini_pekka/card_hero_mini_pekka_idlebreak_03 | 0e32651a-fe36-3215-3e73-fb98fa655189"}]},
+		{
+			"Type":"AnimClip",
+			"Name":"Intro",
+			"Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_intro | ec79f249-896b-70ef-a9be-0416de177848",
+			"TransOutTime":0.2,
+			"Events":[
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_minipekka/effect/prefabs/meta/vfx_minipekka_hero_meta_intro_01 | 28de9f14-8399-ee18-6365-23f6334b7bee"},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_minipekka/effect/prefabs/meta/vfx_minipekka_hero_meta_intro_02 | 28de9f14-fc43-bf1a-1c5a-8f57596a1f1c","Frame":78},
+				{"Event":"Effect","Effect":"sc3d/characters/hero/hero_minipekka/effect/prefabs/meta/vfx_minipekka_hero_intro_03 | 28de9f14-dd88-b178-9df7-39e63762cd1d","Frame":180},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_mini_pekka/card_hero_mini_pekka_idlebreak_intro | 0e32651a-1f51-a491-5fed-541757e7019c"}
+			]
+		},
+		{"Type":"AnimClip","Name":"SkillStart","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_skill | ec79f249-bcd9-a994-7cea-92c55a45e7b0","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":0,"EndFrame":30},
+		{"Type":"Random","Name":"RandomIdleBreak","SubStates":["IdleBreak01","IdleBreak02","IdleBreak03"]},
+		{"Type":"Random","Name":"Idle","SubStates":["BasicIdle","IdleBreak01","BasicIdle","BasicIdle","IdleBreak02","BasicIdle","BasicIdle","IdleBreak03","BasicIdle"]},
+		{"Type":"Sequence","Name":"Skill","SubStates":["SkillStart","SkillLoop","SkillLoop","SkillLoop","SkillEnd"]},
+		{"Type":"AnimClip","Name":"SkillLoop","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_skill | ec79f249-bcd9-a994-7cea-92c55a45e7b0","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":31,"EndFrame":62},
+		{"Type":"AnimClip","Name":"SkillEnd","Animation":"sc3d/characters/hero/hero_minipekka/animation/hero_minipekka_meta_skill | ec79f249-bcd9-a994-7cea-92c55a45e7b0","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":63,"EndFrame":124}
+	],
+	"DefaultState":"Idle"
+}

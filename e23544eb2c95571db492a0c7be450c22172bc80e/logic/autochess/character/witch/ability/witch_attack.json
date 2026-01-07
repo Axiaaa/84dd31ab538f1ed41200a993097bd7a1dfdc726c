@@ -1,0 +1,15 @@
+{
+	"description":"TID_SKILL_SET_1_WITCH_DES",
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/witch/ability/witch_attack_flow | d88fcdc1-b825-2ece-b848-ade3486c6775",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"AttributeOverrides":[
+		{"Name":"damage","Value":[136],"LevelUpFactor":160},
+		{"Name":"speed","Value":[50]},
+		{"Name":"range","Value":[4]},
+		{"Name":"criticalrate","Value":[15]},
+		{"Name":"criticalvalue","Value":[50]}
+	],
+	"HitEffect":"sc3d/characters/witch/effect/prefabs/vfx_witch_def_atk_hit | 28de9f14-767f-b3c7-b6ea-5f4660e1a8c1"
+}

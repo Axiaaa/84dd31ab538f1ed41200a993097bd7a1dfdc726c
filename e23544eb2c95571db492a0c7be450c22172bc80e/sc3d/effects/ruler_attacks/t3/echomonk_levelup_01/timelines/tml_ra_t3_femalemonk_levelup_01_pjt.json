@@ -1,0 +1,24 @@
+{
+	"anims":{
+		"nodes":["pos","pos/pjt/vfx_pjt_01","pos/pjt/vfx_pjt_02","pos/pjt/vfx_pjt_03","pos/pjt/vfx_sparks"],
+		"data":[
+			{},
+			{"events":[{"_t":1857824372,"Time":0.012499999,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_pjt_prod_01 | 28de9f14-77f7-a4b6-97e8-67055cf2ef06"}]},
+			{"events":[{"_t":1857824372,"Time":0.265,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_pjt_prod_02 | 28de9f14-bfdc-6f03-bf54-18aaf28e8978"}]},
+			{"events":[{"_t":1857824372,"Time":0.4,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_pjt_prod_02 | 28de9f14-bfdc-6f03-bf54-18aaf28e8978"}]},
+			{
+				"anims":[
+					{
+						"id":"y",
+						"value":{
+							"_v":{
+								"timelineValue":{"keys":[{"t":1,"e":1,"lf":-15},{"s":1,"e":1}]}
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"total_time":2
+}

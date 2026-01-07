@@ -1,0 +1,132 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_aura",
+						"pos":[0,0,0],
+						"rot":[90,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_backglow",
+								"pos":[0,0,0],
+								"rot":[90,180,-180],
+								"scl":[5,5,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_cross_backglow | c0cd0c6d-b553-e3f4-156d-ffdc3b75e547"}]}
+								]
+							},
+							{
+								"name":"vfx_aura_purple",
+								"pos":[0,0,0],
+								"rot":[-90,180,-180],
+								"scl":[2.210215,1.5952157,2.0064578],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/shockwave/sm_bowl_02 | ec79f249-cab1-a1a1-eac7-cf59255034f2","Geometries":[{"Name":"sm_bowl_02","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_aura_purple | c0cd0c6d-5b3e-3262-3b79-36b4f32ba8da"}]}
+								]
+							},
+							{
+								"name":"vfx_aura_green",
+								"pos":[0,0,0],
+								"rot":[-90,180,-180],
+								"scl":[2,2,1.671176],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/shockwave/sm_bowl_01 | ec79f249-332a-b4f5-53e4-1d6d9ee6ba27","Geometries":[{"Name":"sm_bowl_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_aura_green | c0cd0c6d-35ea-3f0f-d59f-0732499b1a2b"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add",
+								"pos":[0,0,0],
+								"rot":[90,180,-180],
+								"scl":[4,4,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_cross_glow | c0cd0c6d-1ca5-f15c-bccf-c18c6eee30a6"}]
+									}
+								]
+							}
+						]
+					},
+					{"name":"vfx_cross_01","pos":[-1.6,0,8.472519],"rot":[0,0,-163.79994],"scl":[1,1,1]},
+					{"name":"vfx_cross_02","pos":[1.3399999,8940696e-14,1.1194003],"rot":[0,0,-25],"scl":[1.25,1.25,1.25]},
+					{"name":"vfx_cross_03","pos":[0.5999998,14901161e-15,-3.4250648],"rot":[0,0,177.39987],"scl":[0.85004145,0.85,0.85]},
+					{
+						"name":"vfx_trail_01",
+						"pos":[-1.7,-5684342e-20,19.599998],
+						"rot":[0,0,0],
+						"scl":[0.38972563,1,1],
+						"children":[
+							{
+								"name":"vfx_cross_trail_normal_01",
+								"pos":[0,0,-5],
+								"rot":[90,-90.00004,-90.000046],
+								"scl":[1.2364917,25.127098,0.21822742],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_trail_normal | c0cd0c6d-f387-b30a-1305-779c07479fc9"}]}
+								]
+							},
+							{
+								"name":"vfx_cross_trail_add_01",
+								"pos":[0,0,-5],
+								"rot":[90,-89.999626,-90.000175],
+								"scl":[0.78373945,25,0.21822742],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_trail_add | c0cd0c6d-feb9-b489-be9d-a79a0b30c071"}]}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_trail_02",
+						"pos":[1.34,-5684342e-20,11.099999],
+						"rot":[0,0,0],
+						"scl":[0.44623622,1,1],
+						"children":[
+							{
+								"name":"vfx_cross_trail_normal_02",
+								"pos":[0,0,0.08],
+								"rot":[90,89.999954,89.99995],
+								"scl":[1.2364917,28,0.21822742],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_trail_normal | c0cd0c6d-f387-b30a-1305-779c07479fc9"}]}
+								]
+							},
+							{
+								"name":"vfx_cross_trail_add_02",
+								"pos":[0,0,0.08],
+								"rot":[90,90.00037,89.99982],
+								"scl":[0.78373945,28,0.21822742],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_trail_add | c0cd0c6d-feb9-b489-be9d-a79a0b30c071"}]}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_ra_t2_echomonk_001_exorcist_charging_timeline","asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/timeline/tml_ra_t2_echomonk_001_exorcist_charging | 0644802f-6312-7081-43be-058a6d39edac"}]},
+			{"objectType":5016,"TimelineName":"tml_ra_t2_echomonk_001_exorcist_charging_timeline"},
+			{"objectType":5002,"Sound":"soundbanks/ruler_echo_monk_t2_exorcist/ruler_echo_monk_t2_exorcist_atk_projectile | 0e32651a-4a3d-6e73-6ab2-9e0cd62a75e0"}
+		]
+	}
+}

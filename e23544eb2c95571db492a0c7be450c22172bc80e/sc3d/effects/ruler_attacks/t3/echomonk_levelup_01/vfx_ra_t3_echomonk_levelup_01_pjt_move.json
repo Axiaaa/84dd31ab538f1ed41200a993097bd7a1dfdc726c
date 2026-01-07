@@ -1,0 +1,37 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"pjt",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"children":[
+							{"name":"pjt_01","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]},
+							{"name":"pjt_02","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]},
+							{"name":"pjt_03","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]},
+							{"name":"pjt_04","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]},
+							{"name":"pjt_05","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_ra_t3_echomonk_levelup_01_pjt_move_timeline","asset":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_echomonk_levelup_01_pjt_move_timeline | 0644802f-197f-788d-b966-100163edb51a"}]},
+			{"objectType":5016,"TimelineName":"vfx_ra_t3_echomonk_levelup_01_pjt_move_timeline"}
+		]
+	}
+}

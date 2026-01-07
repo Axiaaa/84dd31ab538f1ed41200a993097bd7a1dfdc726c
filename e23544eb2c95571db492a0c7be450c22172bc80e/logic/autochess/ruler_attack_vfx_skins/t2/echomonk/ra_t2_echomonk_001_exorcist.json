@@ -1,0 +1,3 @@
+{
+	"Entries":[{"FeatureName":"attack_vfx","Asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/vfx_ra_t2_echomonk_001_exorcist_pjt | 28de9f14-1e5f-7c97-fe0a-eb03d7ebb5a8"},{"FeatureName":"attack_hit_vfx","Asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/vfx_ra_t2_echomonk_001_exorcist_hit | 28de9f14-ab41-3cc4-cbc8-3e26b222b446"},{"FeatureName":"meta_preview","Asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/meta_ra_t2_echomonk_001_exorcist | 28de9f14-9fcb-bcfe-ff2c-c2e6ba27a725"},{"FeatureName":"attack_charge_vfx","Asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/vfx_ra_t2_echomonk_001_exorcist_charging | 28de9f14-8958-76ec-8925-271f3e16c8ce"}]
+}

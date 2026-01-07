@@ -1,0 +1,15 @@
+{
+	"anims":{
+		"nodes":["pos/intro_01","pos/intro_01_charging","pos/intro_01_fire","pos/intro_02_charging","pos/intro_03_hit","pos/intro_03_pjt","pos/intro_04"],
+		"data":[
+			{"events":[{"_t":1857824372,"Time":1.5,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_01 | 28de9f14-e68b-2f77-a679-e0627d4f8268"}]},
+			{"events":[{"_t":1857824372,"Time":0.7,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_01_charge | 28de9f14-cb87-7da1-0b58-5fb015bfd1fa"}]},
+			{"events":[{"_t":1857824372,"Time":1.8,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_01_fire | 28de9f14-d199-b4e2-9183-b7640a28b4c7"}]},
+			{"events":[{"_t":1857824372,"Time":2.3,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_02_charging | 28de9f14-847d-b91c-849a-a7f88c167fa9"}]},
+			{"events":[{"_t":1857824372,"Time":3,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_03_hit | 28de9f14-8aab-e505-4a6c-ead78e9b2172"}]},
+			{"events":[{"_t":1857824372,"Time":2.9,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_03_pjt | 28de9f14-ce77-f652-4e97-9ce5710ea995"}]},
+			{"events":[{"_t":1857824372,"Time":3.4,"Effect":"sc3d/characters/hero/hero_wizard/effect/prefabs/subs/vfx_wizard_hero_meta_intro_04 | 28de9f14-a93d-721e-294d-f368f19b450e"}]}
+		]
+	},
+	"total_time":7
+}

@@ -1,0 +1,94 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,-1.5],
+				"rot":[0,0,-34.999996],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_backglow",
+						"pos":[0,0,6.6000004],
+						"rot":[-90,0,-180],
+						"scl":[3.7629638,11,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_pjt_backglow | c0cd0c6d-dc43-e0d6-7c4e-5943729a3aa6"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_beam",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[0,0,1.35],
+						"children":[
+							{
+								"name":"vfx_beam_01",
+								"pos":[0,0,4.6],
+								"rot":[0,0,0],
+								"scl":[1.3,1.3,6.0377855],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/ring/sm_cylinder_01 | ec79f249-2173-6405-c1d3-8ef0d1f78451","Geometries":[{"Name":"sm_cylinder_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_pjt_beam_001 | c0cd0c6d-f65f-6676-56e2-b66727d0bcdc"}]}
+								]
+							},
+							{
+								"name":"vfx_beam_02",
+								"pos":[0,0,4.6],
+								"rot":[0,0,0],
+								"scl":[1.3,1.3,4.4798646],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/ring/sm_cylinder_01 | ec79f249-2173-6405-c1d3-8ef0d1f78451","Geometries":[{"Name":"sm_cylinder_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_pjt_beam_002 | c0cd0c6d-dfec-adb8-ff16-849850f3e344"}]}
+								]
+							},
+							{
+								"name":"vfx_beam_03",
+								"pos":[0,0,4.4],
+								"rot":[0,179.9999,0],
+								"scl":[1.3,1.3,4.580139],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/ring/sm_cylinder_01 | ec79f249-2173-6405-c1d3-8ef0d1f78451","Geometries":[{"Name":"sm_cylinder_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_pjt_beam_003 | c0cd0c6d-f965-3568-59ef-88d936a0dba8"}]}
+								]
+							}
+						]
+					},
+					{
+						"name":"vfx_beam_glow_add",
+						"pos":[0,0,8.2],
+						"rot":[0,-90.00007,-90.00007],
+						"scl":[6.5475926,0.1,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_pjt_beam_glow_add | c0cd0c6d-2f33-b4a4-0fb8-23464cdbd62e"}]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5010,"LifeTime":0.01},
+			{"objectType":5014,"timelines":[{"name":"tml_ra_t2_echomonk_001_exorcist_pjt","asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/timeline/tml_ra_t2_echomonk_001_exorcist_pjt | 0644802f-5a81-f548-ba4d-21ab39fa2faa"}]},
+			{"objectType":5016,"TimelineName":"tml_ra_t2_echomonk_001_exorcist_pjt"}
+		]
+	}
+}

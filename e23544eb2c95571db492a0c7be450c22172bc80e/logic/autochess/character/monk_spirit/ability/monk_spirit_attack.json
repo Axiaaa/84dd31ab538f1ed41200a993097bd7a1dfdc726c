@@ -1,0 +1,7 @@
+{
+	"description":"TID_SKILL_SET_1_MONK_SPIRIT_DES",
+	"Filter":"logic/autochess/filter/ally_self | 3508bc9a-ab1a-eedf-0bdb-8a56065cd76c",
+	"AbilityFlow":"logic/autochess/character/monk_spirit/ability/monk_spirit_attack_flow | d88fcdc1-c4f2-aca1-c449-1a37aceada34",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"AttributeOverrides":[{"Name":"criticalrate","Value":[0]},{"Name":"range","Value":[8]}]
+}

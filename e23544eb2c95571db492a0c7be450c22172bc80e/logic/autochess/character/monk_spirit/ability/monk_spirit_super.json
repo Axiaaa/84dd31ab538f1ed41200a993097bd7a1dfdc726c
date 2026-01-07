@@ -1,0 +1,10 @@
+{
+	"description":"TID_SKILL_SET_1_MONK_SPIRIT_DES",
+	"GrowthAttrNames":["cooldown"],
+	"TerminateOnTargetLost":false,
+	"Filter":"logic/autochess/filter/enemy_noinvisible | 3508bc9a-bd2c-789e-dd3b-1abe0ebfd60f",
+	"AbilityFlow":"logic/autochess/character/monk_spirit/ability/monk_spirit_super_flow | d88fcdc1-44f0-e6e4-4476-52d423994ba6",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"Attributes":[{"Name":"cooldown","NameTID":"TID_ABILITY_STAT_COOLDOWN","Value":[9,8,6,3]}],
+	"AttributeOverrides":[{"Name":"energycost","Value":[72]},{"Name":"range","Value":[10]},{"Name":"damage","Value":[100]}]
+}

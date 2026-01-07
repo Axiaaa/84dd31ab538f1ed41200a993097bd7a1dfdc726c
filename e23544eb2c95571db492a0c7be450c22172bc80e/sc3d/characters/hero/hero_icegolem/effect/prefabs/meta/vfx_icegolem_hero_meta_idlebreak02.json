@@ -1,0 +1,23 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,-1,-0.9],
+				"rot":[0,0,0],
+				"scl":[3,3,3],
+				"children":[{"name":"vfx_impact","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]}]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_icegolem_hero_meta_idlebreak02_timeline","asset":"sc3d/characters/hero/hero_icegolem/effect/timeline/tml_icegolem_hero_meta_idlebreak02_timeline | 0644802f-440d-3026-2417-3b67760aee4f"}]},
+			{"objectType":5016,"TimelineName":"tml_icegolem_hero_meta_idlebreak02_timeline"}
+		]
+	}
+}

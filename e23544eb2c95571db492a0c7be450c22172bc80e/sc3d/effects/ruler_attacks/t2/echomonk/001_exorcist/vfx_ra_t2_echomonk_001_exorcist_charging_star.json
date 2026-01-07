@@ -1,0 +1,127 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_cross",
+						"pos":[0,0,0],
+						"rot":[90,0,-180],
+						"scl":[1,1,1],
+						"children":[
+							{
+								"name":"vfx_backglow",
+								"pos":[0,0,0],
+								"rot":[0,0,0],
+								"scl":[2.5,2.5,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_cross_backglow | c0cd0c6d-b553-e3f4-156d-ffdc3b75e547"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_cross",
+								"pos":[0,0,0],
+								"rot":[0,-0.32365695,0],
+								"scl":[0.9917664,0.9917664,0.9917664],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/object/sm_cross_200 | ec79f249-8d16-f345-4da1-c15c9be2eefd","Geometries":[{"Name":"sm_cross_200","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_cross | c0cd0c6d-9d3c-a45d-bd34-a890dc3a12a7"}]}
+								]
+							},
+							{
+								"name":"vfx_aura_purple",
+								"pos":[0,0.49999994,0],
+								"rot":[0,0,-90],
+								"scl":[1.3552307,1.0894393,1],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_101 | ec79f249-48f6-a872-2836-65f97a725f6d","Geometries":[{"Name":"sm_plane_101","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_aura_purple | c0cd0c6d-5b3e-3262-3b79-36b4f32ba8da"}]}
+								]
+							},
+							{
+								"name":"vfx_aura_green",
+								"pos":[0,0.28029588,0],
+								"rot":[0,0,-90],
+								"scl":[1.2364416,0.9421306,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_101 | ec79f249-48f6-a872-2836-65f97a725f6d",
+										"Geometries":[{"Name":"sm_plane_101","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_aura_green | c0cd0c6d-35ea-3f0f-d59f-0732499b1a2b"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_helix",
+								"pos":[0,0,0],
+								"rot":[90,-104.03624,52.163765],
+								"scl":[1.2150211,1.2150211,0.21278095],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/ring/sm_cylinder_01 | ec79f249-2173-6405-c1d3-8ef0d1f78451",
+										"Geometries":[{"Name":"sm_cylinder_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_hit_helix | c0cd0c6d-4687-fabe-8653-3cf269d36e8e"}]
+									}
+								]
+							},
+							{
+								"name":"vfx_flare",
+								"pos":[0,0,0],
+								"rot":[90,0,0],
+								"scl":[0.51321554,0.51321554,1.9999999],
+								"components":[
+									{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_flare | c0cd0c6d-0987-b852-09bc-5b737b020d7b"}]}
+								]
+							},
+							{
+								"name":"vfx_glow_add",
+								"pos":[0,0,0],
+								"rot":[0,0,0],
+								"scl":[1.5,1.5,1],
+								"components":[
+									{
+										"objectType":5001,
+										"MatLODCap":-1,
+										"MinDeviceCap":1,
+										"Layer":2,
+										"ShadowVisible":true,
+										"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+										"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/materials/mat_ra_t2_echomonk_001_exorcist_charging_cross_glow | c0cd0c6d-1ca5-f15c-bccf-c18c6eee30a6"}]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_ra_t2_echomonk_001_exorcist_charging_star_timeline","asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/timeline/tml_ra_t2_echomonk_001_exorcist_charging_star | 0644802f-4efc-f4fa-ae28-7a6e8d82f8f8"}]},
+			{"objectType":5016,"TimelineName":"tml_ra_t2_echomonk_001_exorcist_charging_star_timeline"}
+		]
+	}
+}

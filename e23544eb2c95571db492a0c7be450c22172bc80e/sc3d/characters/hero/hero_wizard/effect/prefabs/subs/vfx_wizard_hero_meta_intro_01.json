@@ -1,0 +1,62 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0.2],
+				"rot":[0,0,0],
+				"scl":[0.7,0.7,0.7],
+				"children":[
+					{
+						"name":"vfx_impact",
+						"pos":[0,0.7,1.4000037],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"Particle":"sc3d/characters/hero/hero_giant/effect/particles/ps_giant_hero_screen_intro_03_impact | 21fb952f-8a62-a017-0a8a-d87ca0d40c17","FollowAngle":true,"FollowScale":true,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_ring",
+						"pos":[0,0,1.6000001],
+						"rot":[90,180,-180],
+						"scl":[3.2604413,3.2604413,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947","Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/characters/hero/hero_giant/effect/material/mat_giant_hero_screen_intro_03_ring | c0cd0c6d-3593-b699-959b-de01202f7715"}]}
+						]
+					},
+					{
+						"name":"vfx_impact_add",
+						"pos":[0,0.3,1.3999996],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_01_impact_add | 21fb952f-c570-a0e1-e5f2-5cb071b9fc01","FollowAngle":true,"FollowScale":true,"Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_twinkles",
+						"pos":[0,0,1.4],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/characters/hero/hero_giant/effect/particles/ps_giant_hero_screen_intro_03_twinkles | 21fb952f-fc3b-b119-5cf2-1a14676cb7ca","Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_sparks",
+						"pos":[0,0,1.48],
+						"rot":[0,0,0],
+						"scl":[1.5,1.5,1.5],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Delay":0.05,"Particle":"sc3d/characters/hero/hero_giant/effect/particles/ps_giant_hero_screen_intro_03_sparks | 21fb952f-6ee7-6d87-2e9b-323e34b9e228","Layer":1,"Offset":[0,0,0]}]
+					},
+					{"name":"vfx_fire_wing","pos":[0,0.2,1.7],"rot":[0,0,0],"scl":[3,3,3]}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"vfx_giant_hero_screen_intro_03_timeline","asset":"sc3d/characters/hero/hero_wizard/effect/timeline/tml_wizard_hero_meta_intro_01 | 0644802f-93a6-30ce-33ca-33b4010612a8"}]},
+			{"objectType":5016,"TimelineName":"vfx_giant_hero_screen_intro_03_timeline"}
+		]
+	}
+}

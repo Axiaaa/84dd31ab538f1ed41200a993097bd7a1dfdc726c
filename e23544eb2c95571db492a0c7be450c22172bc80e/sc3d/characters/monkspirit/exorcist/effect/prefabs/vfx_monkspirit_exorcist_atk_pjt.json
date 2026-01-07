@@ -1,0 +1,94 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_glow",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[0.5,0.9,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":2,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_pjt_glow | c0cd0c6d-bf40-faa0-ffec-bd3ab403fe19"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_trail_add_01",
+						"pos":[-46210216e-13,1.25,0],
+						"rot":[0,0,-179.9999],
+						"scl":[0.25,1.25,2],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_pjt_trail_add_01 | c0cd0c6d-76e4-b39b-36c6-2991ae7b3851"}]}
+						]
+					},
+					{
+						"name":"vfx_trail_add_02",
+						"pos":[0,1,0],
+						"rot":[0,0,-179.9999],
+						"scl":[0.3,1,2],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a",
+								"Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_pjt_trail_add_02 | c0cd0c6d-08c2-f488-482a-0213a2889087"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_trail_alpha",
+						"pos":[0,1,0],
+						"rot":[0,0,-179.9999],
+						"scl":[0.3,1,2],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_pjt_trail_alpha | c0cd0c6d-b726-e6c0-f7f2-5d052fd353a9"}]}
+						]
+					},
+					{
+						"name":"vfx_head",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[0.25,0.75,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"Layer":2,"ShadowVisible":true,"Model":"sc3d/effects/mesh/object/sm_palm_100 | ec79f249-8f1c-3fc4-6fd9-61e4d8e9407b","Geometries":[{"Name":"sm_palm_100","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_pjt_head | c0cd0c6d-c377-3de8-c3a5-e7e9ad87aa6d"}]}
+						]
+					},
+					{
+						"name":"vfx_backglow",
+						"pos":[0,0.9,0],
+						"rot":[0,0,0],
+						"scl":[0.5,1.25,1],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":1,"ShadowVisible":true,"Model":"sc3d/effects/mesh/plane/sm_plane_01 | ec79f249-7396-f8c5-f325-711d8383c13a","Geometries":[{"Name":"sm_plane_01","MaterialOverride":"sc3d/characters/monkspirit/exorcist/effect/materials/mat_monkspirit_exorcist_atk_pjt_backglow | c0cd0c6d-ab71-363b-2b8d-c2581903abb2"}]}
+						]
+					}
+				],
+				"components":[
+					{"objectType":5014,"timelines":[{"name":"vfx_monkspirit_exorcist_atk_pjt_timeline","asset":"sc3d/characters/monkspirit/exorcist/effect/timeline/tml_monkspirit_exorcist_atk_pjt_timeline | 0644802f-18c4-a6c9-b815-dcaea957ad05"}]},
+					{"objectType":5016,"TimelineName":"vfx_monkspirit_exorcist_atk_pjt_timeline"}
+				]
+			}
+		],
+		"components":[{"objectType":5005},{"objectType":5002,"Sound":"soundbanks/unit_merge_tactics_monk_spirit/unit_merge_tactics_monk_spirit_atk_cast2 | 0e32651a-1c65-78da-9c08-52dc32956d74"}]
+	}
+}

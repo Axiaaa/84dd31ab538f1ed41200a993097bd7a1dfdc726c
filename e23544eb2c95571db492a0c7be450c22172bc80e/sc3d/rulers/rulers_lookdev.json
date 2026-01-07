@@ -1,0 +1,251 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"light.000",
+				"pos":[0,0,0],
+				"rot":[-23.507738,-160.51775,130.627],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"MainLight":true,
+						"Color":{"r":135,"g":155,"b":157,"a":255},
+						"Ambient":{"r":94,"g":81,"b":91,"a":25}
+					}
+				]
+			},
+			{
+				"name":"model.000",
+				"pos":[0,0,0],
+				"rot":[-90,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/king/default/model/rul_king_rig | ec79f249-5cbf-fbfe-5cc3-787b0cc15f61",
+						"Geometries":[{"Name":"eyes","MaterialOverride":"sc3d/shared/eyes/basic/brown_eyes | c0cd0c6d-6c9a-a832-6c1a-96017aa7da17"},{"Name":"main","MaterialOverride":"sc3d/rulers/king/default/materials/mat_king | c0cd0c6d-7161-b526-b1c7-0e93ad8fe0e1","GeomIndex":2}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/king/default/animation/asm_king_collection | defe63bc-7cbc-f918-7ce4-d176a01c1407"}
+				]
+			},
+			{
+				"name":"model.001",
+				"pos":[6.213063,0,0],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{"objectType":5001,"ShadowVisible":true,"Model":"sc3d/rulers/king/ghost/model/chr_king_skin_ghost_rig | ec79f249-ee79-f7df-4e5f-0d08cd0c76dc","Geometries":[{"Name":"main.001","MaterialOverride":"sc3d/rulers/king/ghost/materials/mat_king_ghost | c0cd0c6d-2861-f6ea-e894-e90418c85976","GeomIndex":2}]},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/king/default/animation/asm_king_collection | defe63bc-7cbc-f918-7ce4-d176a01c1407"}
+				]
+			},
+			{
+				"name":"model.002",
+				"pos":[2.104347,0,0],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/king/default/model/rul_king_rig | ec79f249-5cbf-fbfe-5cc3-787b0cc15f61",
+						"Geometries":[{"Name":"eyes","MaterialOverride":"sc3d/shared/eyes/basic/brown_eyes | c0cd0c6d-6c9a-a832-6c1a-96017aa7da17"},{"Name":"main","MaterialOverride":"sc3d/rulers/king/purple/materials/mat_king_skin_purple | c0cd0c6d-e958-fcf1-694d-52aaa26073ad","GeomIndex":2}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/king/default/animation/asm_king_collection | defe63bc-7cbc-f918-7ce4-d176a01c1407"}
+				]
+			},
+			{
+				"name":"model.003",
+				"pos":[4.1462483,0,0],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/king/default/model/rul_king_rig | ec79f249-5cbf-fbfe-5cc3-787b0cc15f61",
+						"Geometries":[{"Name":"main","MaterialOverride":"sc3d/rulers/king/white/materials/mat_king_skin_white | c0cd0c6d-364f-a071-767a-4c0a51b7b8f0","GeomIndex":2},{"Name":"eyes","MaterialOverride":"sc3d/shared/eyes/basic/brown_eyes | c0cd0c6d-6c9a-a832-6c1a-96017aa7da17"}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/king/default/animation/asm_king_collection | defe63bc-7cbc-f918-7ce4-d176a01c1407"}
+				]
+			},
+			{
+				"name":"model.004",
+				"pos":[0,-3.2793527,14334495e-14],
+				"rot":[-90,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{"objectType":5001,"ShadowVisible":true,"Model":"sc3d/rulers/mergemaiden/default/model/chr_mergemaiden_rig | ec79f249-79ea-2dd8-5918-d32037534444","Geometries":[{"Name":"gem_LOD0.001","MaterialOverride":"sc3d/rulers/mergemaiden/default/stand/materials/mat_gem | c0cd0c6d-e48d-2728-24cf-08aa436a8ff7","GeomIndex":2}]},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/mergemaiden/default/animation/asm_mergemaiden_collection | defe63bc-4e47-b4f3-2e0e-8cb9073d5633"}
+				]
+			},
+			{
+				"name":"model.005",
+				"pos":[2.2544932,-3.298445,-20234587e-16],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/mergemaiden/default/model/chr_mergemaiden_rig | ec79f249-79ea-2dd8-5918-d32037534444",
+						"Geometries":[{"Name":"Arm_LOD0","MaterialOverride":"sc3d/shared/materials/base_pbr | c0cd0c6d-c443-a875-4429-bb622326c4c8"},{"Name":"MergeMaiden__LOD0","MaterialOverride":"sc3d/rulers/mergemaiden/green/materials/mat_mergemaiden_skin_green | c0cd0c6d-6bfe-b039-0b0d-0aae0eb74fc0","GeomIndex":3},{"Name":"gem_LOD0.001","MaterialOverride":"sc3d/rulers/mergemaiden/default/stand/materials/mat_gem_green | c0cd0c6d-dd80-e41b-3da1-f0351f0a41ed","GeomIndex":2}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/mergemaiden/green/animation/asm_mergemaiden_skin_green_collection | defe63bc-390e-69db-990d-50a2bf7db88b"}
+				]
+			},
+			{
+				"name":"model.006",
+				"pos":[4.3747244,-3.314576,0],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/mergemaiden/default/model/chr_mergemaiden_rig | ec79f249-79ea-2dd8-5918-d32037534444",
+						"Geometries":[
+							{"Name":"Eyes_LOD0","MaterialOverride":"sc3d/rulers/mergemaiden/red/materials/mat_mergemaiden_eyes_red | c0cd0c6d-fed8-627d-deba-7a8111f98005","GeomIndex":1},
+							{"Name":"Arm_LOD0","MaterialOverride":"sc3d/rulers/mergemaiden/red/materials/mat_mergemaiden_skin_red | c0cd0c6d-fd2e-6199-5d89-84de684b6da7"},
+							{"Name":"MergeMaiden__LOD0","MaterialOverride":"sc3d/rulers/mergemaiden/red/materials/mat_mergemaiden_skin_red | c0cd0c6d-fd2e-6199-5d89-84de684b6da7","GeomIndex":3},
+							{"Name":"gem_LOD0.001","MaterialOverride":"sc3d/rulers/mergemaiden/default/stand/materials/mat_gem_red | c0cd0c6d-6446-6247-2493-9aefd35ef11d","GeomIndex":2}
+						]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/mergemaiden/red/animation/asm_mergemaiden_skin_red_collection | defe63bc-3f8b-7722-df9a-e92518e2743e"}
+				]
+			},
+			{
+				"name":"model.007",
+				"pos":[6.4996824,-3.2982447,0],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/mergemaiden/default/model/chr_mergemaiden_rig | ec79f249-79ea-2dd8-5918-d32037534444",
+						"Geometries":[{"Name":"Arm_LOD0","MaterialOverride":"sc3d/rulers/mergemaiden/yellow/materials/mat_mergemaiden_skin_yellow | c0cd0c6d-1312-7564-b368-628be25cdb2a"},{"Name":"MergeMaiden__LOD0","MaterialOverride":"sc3d/rulers/mergemaiden/yellow/materials/mat_mergemaiden_skin_yellow | c0cd0c6d-1312-7564-b368-628be25cdb2a","GeomIndex":3},{"Name":"gem_LOD0.001","MaterialOverride":"sc3d/rulers/mergemaiden/default/stand/materials/mat_gem_yellow | c0cd0c6d-0d60-3489-ad23-062486fe5b7e","GeomIndex":2}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/mergemaiden/yellow/animation/asm_mergemaiden_skin_yellow_collection | defe63bc-b139-61c1-3181-f712a7d53d5b"}
+				]
+			},
+			{
+				"name":"Node",
+				"pos":[0,-9.776875,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5006,"Prefab":"sc3d/rulers/loong/default/rul_prefab_loong_collection | 28de9f14-0e14-69b7-2ebd-79b9ca8fbc5e"}]
+			},
+			{
+				"name":"Node.000",
+				"pos":[2.3368316,-9.776875,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5006,"Prefab":"sc3d/rulers/loong/red/rul_prefab_loong_red_collection | 28de9f14-4319-a2e4-836c-c23d9c8ed6f7"}]
+			},
+			{
+				"name":"Node.001",
+				"pos":[4.4529667,-9.776875,30733645e-14],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5006,"Prefab":"sc3d/rulers/loong/blue/rul_prefab_loong_blue_collection | 28de9f14-00e3-f307-8054-83128bbe6683"}]
+			},
+			{
+				"name":"Node.002",
+				"pos":[13.446103,-9.776875,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5006,"Prefab":"sc3d/rulers/loong/black/rul_prefab_loong_black_collection | 28de9f14-d968-a974-f9a9-7ab0eaef7592"}]
+			},
+			{
+				"name":"Node.003",
+				"pos":[6.7330413,-9.776806,0.34491983],
+				"rot":[0,-9.800019,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5006,"Prefab":"sc3d/rulers/loong/seahorse/rul_prefab_loong_seahorse_collection | 28de9f14-9203-3b07-7271-de5182f7f2e9"}]
+			},
+			{
+				"name":"model",
+				"pos":[3410846e-14,-12.599288,-66757198e-13],
+				"rot":[-90,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/mergemaiden/sailor/model/rul_mergemaiden_skin_sailor_rig | ec79f249-a540-7048-65b2-4bcb17f16103"},{"objectType":5003,"AsmAsset":"sc3d/rulers/mergemaiden/sailor/animation/asm_mergemaiden_sailor_collection | defe63bc-c5e2-af2f-4535-bfd2c216cf0a"}]
+			},
+			{
+				"name":"model.008",
+				"pos":[3410846e-14,-6.828803,-66757198e-13],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/goblinqueen/default/model/rul_goblinqueen_rig | ec79f249-e93e-7e10-a962-8dd165d4b1a1"},{"objectType":5003,"AsmAsset":"sc3d/rulers/goblinqueen/default/animation/asm_goblinqueen_collection | defe63bc-cbce-78f8-4b3b-92f344b27bf5"}]
+			},
+			{
+				"name":"model.009",
+				"pos":[2.8049357,-6.828803,-66757198e-13],
+				"rot":[-90,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/goblinqueen/default/model/rul_goblinqueen_rig | ec79f249-e93e-7e10-a962-8dd165d4b1a1",
+						"Geometries":[{"Name":"GoblinQueen","MaterialOverride":"sc3d/rulers/goblinqueen/red/materials/mat_goblinqueen_red | c0cd0c6d-1144-60b8-f1cd-0abdff2b1f22","GeomIndex":1},{"Name":"Weapon","MaterialOverride":"sc3d/rulers/goblinqueen/red/materials/mat_goblinqueen_red | c0cd0c6d-1144-60b8-f1cd-0abdff2b1f22","GeomIndex":2}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/goblinqueen/default/animation/asm_goblinqueen_collection | defe63bc-cbce-78f8-4b3b-92f344b27bf5"}
+				]
+			},
+			{
+				"name":"model.010",
+				"pos":[5.478016,-6.828803,-66757198e-13],
+				"rot":[-90,180,-180],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/rulers/goblinqueen/default/model/rul_goblinqueen_rig | ec79f249-e93e-7e10-a962-8dd165d4b1a1",
+						"Geometries":[{"Name":"GoblinQueen","MaterialOverride":"sc3d/rulers/goblinqueen/blue/materials/mat_goblinqueen_blue | c0cd0c6d-f9db-f0aa-b90b-a59f28af157e","GeomIndex":1},{"Name":"Weapon","MaterialOverride":"sc3d/rulers/goblinqueen/blue/materials/mat_goblinqueen_blue | c0cd0c6d-f9db-f0aa-b90b-a59f28af157e","GeomIndex":2}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/goblinqueen/default/animation/asm_goblinqueen_collection | defe63bc-cbce-78f8-4b3b-92f344b27bf5"}
+				]
+			},
+			{
+				"name":"model.011",
+				"pos":[2.954359,-12.5489435,-15258789e-12],
+				"rot":[-90,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/goblinqueen/gown/model/rul_goblinqueen_skin_gown_rig | ec79f249-89ef-3d8b-8956-090cc09d6e34"},{"objectType":5003,"AsmAsset":"sc3d/rulers/goblinqueen/gown/animation/asm_goblinqueen_skin_gown_collection | defe63bc-1393-6578-f3fc-7eab78dab94e"}]
+			},
+			{
+				"name":"Node.004",
+				"pos":[0,-15.905594,0],
+				"rot":[-90,0,0],
+				"scl":[1.1,1.1,1.1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/default/model/rul_echomonk_rig | ec79f249-2653-7ebe-269b-c4ddb4b674a7"},{"objectType":5003,"AsmAsset":"sc3d/rulers/echomonk/default/animation/asm_echomonk_clt | defe63bc-639e-2bcf-63af-b67dbba72cd6"}]
+			},
+			{
+				"name":"Node.005",
+				"pos":[2.2760532,-15.905591,-20009298e-20],
+				"rot":[-90,180,-180],
+				"scl":[1.1,1.1,1.1],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/exorcist/model/rul_echomonk_exorcist_rig | ec79f249-b031-a5a2-d067-4e59df3af831"},{"objectType":5003,"AsmAsset":"sc3d/rulers/echomonk/exorcist/animation/asm_echomonk_exorcist_clt | defe63bc-cc33-f520-0cdf-568431621f9b"}]
+			}
+		]
+	}
+}

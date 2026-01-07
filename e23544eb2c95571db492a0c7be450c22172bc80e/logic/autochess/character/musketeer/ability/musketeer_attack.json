@@ -1,0 +1,21 @@
+{
+	"description":"TID_SKILL_SET_1_MUSKETEER_DES_25Q3",
+	"GrowthAttrNames":["hitcount","targetcount"],
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/musketeer/ability/musketeer_attack_flow | d88fcdc1-ec43-68ce-8c34-2f6508c6e631",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"Attributes":[
+		{"Name":"hitcount","NameTID":"TID_AUTOCHESS_SKILL_ATTR_HITREQ_TITLE","Value":[5,4,3,2]},
+		{"Name":"targetcount","NameTID":"TID_AUTOCHESS_SKILL_ATTR_TARGET_TITLE","Value":[1,2,3,4]}
+	],
+	"AttributeOverrides":[
+		{"Name":"damage","Value":[115],"LevelUpFactor":140},
+		{"Name":"speed","Value":[60]},
+		{"Name":"range","Value":[3]},
+		{"Name":"criticalrate","Value":[15]},
+		{"Name":"criticalvalue","Value":[50]}
+	],
+	"AttackEffect":"sc3d/characters/musketeer/effect/prefabs/vfx_musketeer_def_atk | 28de9f14-5c98-a6ae-5c28-abc5761ef468",
+	"HitEffect":"sc3d/characters/musketeer/effect/prefabs/vfx_musketeer_def_atk_hit | 28de9f14-b6e5-b838-f60a-e20b2be725f2"
+}

@@ -1,0 +1,18 @@
+{
+	"description":"TID_SKILL_SET_1_TESLA_DES",
+	"GrowthAttrNames":["targetcount"],
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/tesla/ability/tesla_attack_flow | d88fcdc1-b860-61e6-78c6-4722f5469fc8",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"Attributes":[{"Name":"targetcount","NameTID":"TID_AUTOCHESS_SKILL_ATTR_TARGET_TITLE","Value":[2,3,4,5]}],
+	"AttributeOverrides":[
+		{"Name":"damage","Value":[60],"LevelUpFactor":160},
+		{"Name":"speed","Value":[140]},
+		{"Name":"range","Value":[2]},
+		{"Name":"criticalrate","Value":[15]},
+		{"Name":"criticalvalue","Value":[50]},
+		{"Name":"targetcount","Value":[2,3,4,5]}
+	],
+	"HitEffect":"sc3d/characters/tesla/effect/prefabs/vfx_tesla_def_atk_hit | 28de9f14-06d5-e4bf-26f1-1f499a0b2eaa"
+}

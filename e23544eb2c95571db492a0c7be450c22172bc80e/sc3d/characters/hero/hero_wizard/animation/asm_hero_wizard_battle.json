@@ -1,0 +1,30 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"Idle","Loop":true,"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_basic_idle | ec79f249-5d40-ff44-3d46-1d858c3be472","TransInTime":0.2,"TransOutTime":0.2},
+		{
+			"Type":"AnimClip",
+			"Name":"Walk",
+			"Loop":true,
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_walk | ec79f249-ea59-e9dc-0a02-65051776cb60",
+			"BaseSpeed":0.9,
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Marker","Name":"action_frame1","Frame":3},{"Event":"Marker","Name":"action_frame2","Frame":15}]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"Attack",
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_attack | ec79f249-4957-b5cc-69d3-4d1956ea98ea",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Marker","Name":"action_frame","Frame":20},{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_atk_cast | 0e32651a-248f-f145-84b0-88f75bbe5d4d"},{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_atk_cast_vo | 0e32651a-ee4c-bf57-0e29-00fa22889b2b"}]
+		},
+		{"Type":"AnimClip","Name":"Deploy","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_drop | ec79f249-ef47-f683-af72-7a314d848019","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_deploy | 0e32651a-bf62-fd73-9fbb-525d56c6ebe4"}]},
+		{"Type":"AnimClip","Name":"Skill","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_ability | ec79f249-4ef8-af94-ceec-24d8b7da52ae","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_ability activated | 0e32651a-01a1-2bbc-81fe-ec9e6cfef60d"}]},
+		{"Type":"AnimClip","Name":"Custom1","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_drop01 | ec79f249-9b67-3850-1b8c-dee671af32be","TransInTime":0.2,"TransOutTime":0.2},
+		{"Type":"AnimClip","Name":"VictoryStart","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_victory | ec79f249-a319-3bf0-c376-d89f4687eae1","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":0,"EndFrame":98},
+		{"Type":"AnimClip","Name":"VictoryLoop","Loop":true,"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_victory | ec79f249-a319-3bf0-c376-d89f4687eae1","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":99,"EndFrame":139},
+		{"Type":"Sequence","Name":"Victory","SubStates":["VictoryStart","VictoryLoop"]}
+	],
+	"DefaultState":"Idle"
+}

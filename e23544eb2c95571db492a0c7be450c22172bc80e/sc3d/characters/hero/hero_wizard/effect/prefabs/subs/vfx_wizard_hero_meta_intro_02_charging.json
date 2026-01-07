@@ -1,0 +1,38 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[-0.5,0.14478081,2.1],
+				"rot":[0,0,90],
+				"scl":[0.2,0.2,0.2],
+				"children":[
+					{
+						"name":"vfx_charging_backglow",
+						"pos":[0,0,-2],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_02_charging | 21fb952f-779f-ee35-b7d0-23b086f78926","Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_charging_spark",
+						"pos":[0,0,-2],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_02_charging_sparks | 21fb952f-6eab-e280-ae79-03a66ced9564","FollowAngle":true,"FollowScale":true,"Layer":1,"Offset":[0,0,0]}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_wizard_hero_screen_intro_02_charging","asset":"sc3d/characters/hero/hero_wizard/effect/timeline/tml_wizard_hero_meta_intro_02_charging | 0644802f-933c-6025-9328-32df8a4e370d"}],"defaultTimeline":"tml_wizard_hero_screen_intro_02_charging"},
+			{"objectType":5016,"TimelineName":"tml_wizard_hero_screen_intro_02_charging"}
+		]
+	}
+}

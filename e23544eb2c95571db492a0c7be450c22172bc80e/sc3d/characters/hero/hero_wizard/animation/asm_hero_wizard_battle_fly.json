@@ -1,0 +1,30 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"Idle","Loop":true,"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_idle_flying | ec79f249-8a63-2b22-8a4a-2871b6046364","TransInTime":0.2,"TransOutTime":0.2},
+		{
+			"Type":"AnimClip",
+			"Name":"Walk",
+			"Loop":true,
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_walk_flying | ec79f249-407d-7ae4-20b1-62a8a0dcb153",
+			"BaseSpeed":0.6,
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[
+				{"Event":"Marker","Name":"action_frame1","Frame":3},
+				{"Event":"Marker","Name":"action_frame2","Frame":15},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_fly | 0e32651a-1d9e-bbae-9d5e-4d5a4134d60d","Frame":7}
+			]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"Attack",
+			"Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_attack_flying | ec79f249-56b0-b28d-b632-70359a289011",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Marker","Name":"action_frame","Frame":17},{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_skill_cast | 0e32651a-a9ed-7258-29fa-3e7cf7616607"},{"Event":"Audio","Sound":"soundbanks/card_hero_wizard/card_hero_wizard_skill_cast_vo | 0e32651a-c9c6-ef67-e91c-5654548b9916"}]
+		},
+		{"Type":"AnimClip","Name":"Custom1","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_drop01 | ec79f249-9b67-3850-1b8c-dee671af32be","TransInTime":0.2,"TransOutTime":0.2},
+		{"Type":"AnimClip","Name":"Skill","Animation":"sc3d/characters/hero/hero_wizard/animation/hero_wizard_ability | ec79f249-4ef8-af94-ceec-24d8b7da52ae","TransInTime":0.2,"TransOutTime":0.2}
+	],
+	"DefaultState":"Idle"
+}

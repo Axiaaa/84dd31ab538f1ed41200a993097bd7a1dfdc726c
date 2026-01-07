@@ -1,0 +1,23 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"components":[
+					{"objectType":5018,"MinDeviceCap":2,"Lifetime":1,"ImpostorProxyColorMul":-1,"MaterialAsset":"sc3d/rulers/echomonk/exorcist/effect/materials/mat_rs_t2_echomonk_001_exorcist_meta_intro_impact_fresnel | c0cd0c6d-15ab-7ac0-1570-fd809a845752"},
+					{"objectType":5014,"timelines":[{"name":"tml_rs_t2_echomonk_001_exorcist_meta_intro_fresnel","asset":"sc3d/rulers/echomonk/exorcist/effect/timeline/tml_rs_t2_echomonk_001_exorcist_meta_intro_fresnel | 0644802f-aa80-2564-aac2-f17079eafadd"}]},
+					{"objectType":5016,"TimelineName":"tml_rs_t2_echomonk_001_exorcist_meta_intro_fresnel"}
+				]
+			}
+		],
+		"components":[{"objectType":5005}]
+	}
+}

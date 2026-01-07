@@ -1,0 +1,16 @@
+{
+	"description":"TID_SKILL_SET_1_BANDIT_DES_25Q3",
+	"GrowthAttrNames":["hit"],
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/bandit/ability/bandit_attack_flow | d88fcdc1-122d-e182-722e-d0f1794a3aad",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"Attributes":[{"Name":"hit","NameTID":"TID_AUTOCHESS_SKILL_ATTR_HITREQ_TITLE","Value":[4,3,2,1]}],
+	"AttributeOverrides":[
+		{"Name":"damage","Value":[78],"LevelUpFactor":140},
+		{"Name":"criticalrate","Value":[15]},
+		{"Name":"criticalvalue","Value":[50]},
+		{"Name":"speed","Value":[90]}
+	],
+	"HitEffect":"sc3d/characters/bandit/effect/prefabs/vfx_bandit_def_atk_hit | 28de9f14-649f-f5cf-442b-f7400ebd09b9"
+}

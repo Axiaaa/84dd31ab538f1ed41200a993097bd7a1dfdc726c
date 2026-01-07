@@ -1,0 +1,26 @@
+{
+	"emitterDataVersion":6,
+	"emitter":{
+		"maxParticleCount":40,
+		"lifetime":0.8,
+		"mass":1,
+		"spawnPointOffset":{},
+		"followEmitter":true,
+		"components":[{"__class":"SpawnPlanar","spawnMinSize":0.01,"spawnMaxSize":0.01,"maxAngle":360,"randomAngle":true},{"__class":"SpawnRate","duration":0.6,"spawnRate":40}]
+	},
+	"render":{
+		"globalScale":0.1,
+		"scale":[0.531,-0.003,0.609,0.987,0.1,0.07],
+		"scaleJitter":0.075,
+		"color":[1,0.5588235,0],
+		"alpha":[0,0.529,0.073,0.995,0,1],
+		"gradient":[{"a":1},{"offset":1,"r":1,"g":1,"b":1,"a":1}],
+		"angle":360,
+		"angleJitter":360,
+		"orientToDirection":true,
+		"trailDuration":1,
+		"trailWidth":1,
+		"blendMode":2
+	},
+	"movieclip":["sc/vfx_autochess/vmc_rs_t4_echomonk_def_idlebreak3_spark_1 | 49e9c85e-0e65-446b-bd76-b03a9b12d496","sc/vfx_autochess/vmc_rs_t4_echomonk_def_idlebreak3_spark_2 | 49e9c85e-efd4-449b-a30f-b8651253287d","sc/vfx_autochess/vmc_rs_t4_echomonk_def_idlebreak3_spark_3 | 49e9c85e-6746-49ef-8302-e25a70781c64"]
+}

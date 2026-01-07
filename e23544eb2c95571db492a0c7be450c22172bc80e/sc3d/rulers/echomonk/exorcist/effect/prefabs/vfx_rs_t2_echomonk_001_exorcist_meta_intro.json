@@ -1,0 +1,23 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[{"name":"vfx_intro","pos":[0,0,0],"rot":[0,0,0],"scl":[1,1,1]}],
+				"components":[
+					{"objectType":5014,"timelines":[{"name":"tml_rs_t2_echomonk_001_exorcist_meta_intro","asset":"sc3d/rulers/echomonk/exorcist/effect/timeline/tml_rs_t2_echomonk_001_exorcist_meta_intro | 0644802f-60b1-e10c-a01d-6f2e3cf19869"}]},
+					{"objectType":5016,"TimelineName":"tml_rs_t2_echomonk_001_exorcist_meta_intro"}
+				]
+			}
+		],
+		"components":[{"objectType":5005}]
+	}
+}

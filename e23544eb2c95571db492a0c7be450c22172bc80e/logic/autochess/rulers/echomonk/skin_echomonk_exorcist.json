@@ -1,0 +1,3 @@
+{
+	"Entries":[{"FeatureName":"model","Asset":"sc3d/rulers/echomonk/exorcist/rul_echomonk_exorcist | 28de9f14-9408-6dc6-3470-a8f1e51be843"},{"FeatureName":"collection","Asset":"sc3d/rulers/echomonk/exorcist/rul_echomonk_exorcist_collection | 28de9f14-823f-3739-62e5-f8cd4a9e0d7f"},{"FeatureName":"ingame_icon","Asset":"sc/ac_ruler_echo_monk_exorcist/ac_ruler_ingame_echo_monk_exorcist | 49e9c85e-251f-43ca-b597-0e4ff7086e25"},{"FeatureName":"stand_model","Asset":"sc3d/rulers/echomonk/exorcist/stand/rs_echomonk_exorcist | 28de9f14-5245-b559-f285-829fa36fc29b"}]
+}

@@ -1,0 +1,53 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0.62024474,-0.8228611,0],
+				"rot":[0,0,0],
+				"scl":[0.5,0.5,0.5],
+				"children":[
+					{
+						"name":"vfx_baseground",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_03_hit_baseground | 21fb952f-2bc1-b107-4b58-a857b9e22715","FollowScale":true,"Basis":1,"SimulationSpace":1,"Offset":[0,0,0]}]
+					},
+					{"name":"vfx_shockwave","pos":[0,0,0],"rot":[0,0,0],"scl":[2.2,2.2,1]},
+					{
+						"name":"vfx_spark_01",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_03_hit_spark_01 | 21fb952f-3839-fd9e-b821-f3b3bbebe4ad","FollowScale":true,"Layer":1,"SimulationSpace":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_impact",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_03_hit_impact | 21fb952f-6259-e879-6229-d2b0a06d2933","FollowScale":true,"Layer":1,"SimulationSpace":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_spark_02",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":2,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_03_hit_spark_02 | 21fb952f-f467-39a9-147c-78df77b17972","FollowScale":true,"Layer":1,"SimulationSpace":1,"Offset":[0,0,0]}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_wizard_hero_meta_intro_03_hit","asset":"sc3d/characters/hero/hero_wizard/effect/timeline/tml_wizard_hero_meta_intro_03_hit | 0644802f-e6cf-a064-26ff-40e7f18e8334"}],"defaultTimeline":"tml_wizard_hero_meta_intro_03_hit"},
+			{"objectType":5016,"TimelineName":"tml_wizard_hero_meta_intro_03_hit"}
+		]
+	}
+}

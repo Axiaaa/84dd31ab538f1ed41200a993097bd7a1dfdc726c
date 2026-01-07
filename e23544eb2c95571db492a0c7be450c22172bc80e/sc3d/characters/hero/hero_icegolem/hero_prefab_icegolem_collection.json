@@ -1,0 +1,62 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,18801039e-15,0.43011776],
+				"rot":[-90,180,179.99931],
+				"scl":[0.9,0.9,0.9],
+				"children":[
+					{
+						"name":"shadow_plane",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[3.3333335,3.3333335,3.3333335],
+						"components":[
+							{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/props/uv_animation_test/test_planer | ec79f249-467d-58a3-a6c8-287d8b343860","Geometries":[{"Name":"Plane","MaterialOverride":"sc3d/shared/materials/mat_shadow_as_alpha | c0cd0c6d-2556-aa21-0553-b959cccc06ab"}]}
+						]
+					}
+				],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Color":11674624,
+						"Model":"sc3d/characters/hero/hero_icegolem/model/hero_icegolem_lod0_rig | ec79f249-cdbc-f4ce-6dc7-755177363716",
+						"Geometries":[{"Name":"Icegolem__LOD0","MaterialOverride":"sc3d/characters/hero/mat_rimlight_heroes_collection | c0cd0c6d-123f-2c55-32d2-7d103e61bb90"}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/characters/hero/hero_icegolem/animation/asm_hero_icegolem_collection | defe63bc-e276-6d57-024d-b07133ce14f9"}
+				]
+			},
+			{
+				"name":"light",
+				"pos":[0,0,0],
+				"rot":[-36.55778,-162.64807,132.14517],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":2,
+						"MainLight":true,
+						"Color":{"r":218,"g":204,"b":144,"a":255},
+						"Ambient":{"r":84,"g":69,"b":78,"a":25}
+					}
+				]
+			},
+			{
+				"name":"camera",
+				"pos":[20174753e-14,2.9,8.3],
+				"rot":[-84.699615,-179.9999,179.9999],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":2,"Far":1000,"Fov":43.3216}]
+			}
+		]
+	}
+}

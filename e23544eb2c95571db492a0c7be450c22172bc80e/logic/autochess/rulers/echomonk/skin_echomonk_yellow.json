@@ -1,0 +1,3 @@
+{
+	"Entries":[{"FeatureName":"model","Asset":"sc3d/rulers/echomonk/yellow/rul_echomonk_yellow | 28de9f14-8534-adbc-656a-fc34fad85d36"},{"FeatureName":"collection","Asset":"sc3d/rulers/echomonk/yellow/rul_echomonk_yellow_clt | 28de9f14-1b94-f8ed-1b6f-541d1504d543"},{"FeatureName":"ingame_icon","Asset":"sc/ac_ruler_echo_monk_recolor_yellow/ac_ruler_ingame_echo_monk_recolor_yellow | 49e9c85e-529a-457c-94de-7e8c5bda343d"},{"FeatureName":"stand_model","Asset":"sc3d/rulers/echomonk/default/stand/rs_echomonk | 28de9f14-b547-ef8f-f588-83e3565f9c52"}]
+}

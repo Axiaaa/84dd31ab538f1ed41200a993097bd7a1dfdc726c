@@ -1,0 +1,47 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0.14707166,0],
+				"rot":[7.9999995,0,0],
+				"scl":[0.75,0.75,0.75],
+				"components":[
+					{
+						"objectType":5001,
+						"MatLODCap":-1,
+						"MinDeviceCap":-1,
+						"ShadowVisible":true,
+						"Model":"sc3d/characters/hero/hero_wizard/model/hero_wizard_lod1_rig | ec79f249-7460-6561-54c5-1e5775aeb8e5",
+						"Geometries":[{"Name":"wings_LOD1","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/test/mat_test_wings_inner | c0cd0c6d-e362-e7cd-8365-b447c85111ac"},{"Name":"innerWing_LOD1","MaterialOverride":"sc3d/characters/hero/hero_wizard/effect/test/mat_test_wings | c0cd0c6d-1314-e512-533a-97cffffc1585","GeomIndex":1},{"Name":"Eye_LOD1","MaterialOverride":"sc3d/characters/hero/mat_heroes_glowy_eyes | c0cd0c6d-dd4e-ee2c-7d56-7815bfd2347f","GeomIndex":3}]
+					},
+					{"objectType":5003,"AsmAsset":"sc3d/characters/hero/hero_wizard/animation/asm_hero_wizard_battle_fly | defe63bc-ff6a-be7a-df7e-55836ea44cb0"}
+				]
+			},
+			{
+				"name":"sun",
+				"pos":[0,0,0],
+				"rot":[-80.60001,0,-32.60003],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"Color":{"r":128,"g":128,"b":128},
+						"Ambient":{"r":111,"g":138,"b":114}
+					}
+				]
+			},
+			{"name":"hudoffset","pos":[0,0,1.162076],"rot":[0,0,0],"scl":[1,1,1]}
+		],
+		"components":[
+			{"objectType":5017},
+			{"objectType":5019,"PivotPoints":[{"PivotName":"hudoffset"}]}
+		]
+	}
+}

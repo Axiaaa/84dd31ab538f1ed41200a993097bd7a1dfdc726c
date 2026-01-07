@@ -1,0 +1,25 @@
+{
+	"components":[
+		{"_c":"Ability","AbilityBaseRef":"logic/autochess/character/witch/ability/witch_attack | 9c17865c-b463-bbac-14f2-1ccec8684aff","AbilitySuperRef":"logic/autochess/character/witch/ability/witch_super_summon | 9c17865c-f9e9-ef1f-1998-8089a7a8f20b","GrowthAbilitySlot":2},
+		{"_c":"AutoChessMovement"},
+		{"_c":"Behavior","FSMData":"logic/autochess/fsm/shared/normal_character | d81930b5-4f30-e469-af4a-636df46a895f"},
+		{"_c":"Hitpoint"},
+		{"_c":"Transform"},
+		{"_c":"AutoChessUnit","Tid":"TID_AUTOCHESS_SET_1_WITCH","Icon":"sc/ui_autochess_icons/ac_witch | 49e9c85e-6127-40c8-a5b7-3f699d04fb31","Traits":["logic/autochess/traits/undead/trait_undead | cac04ecf-d941-6f0a-790a-2207615ef3ff","logic/autochess/traits/superstar/trait_superstar | cac04ecf-2a83-3b69-aaca-58983cd99a61"]},
+		{"_c":"Buff"},
+		{
+			"_c":"Attribute",
+			"AttributeSheetList":["logic/autochess/battle_rule/autochess_unit_attributes | ca8ffa0e-668e-7a3b-2682-12f8d3ddf546"],
+			"AttributeOverrides":[
+				{"Name":"movespeed","Value":[3000]},
+				{"Name":"curhp","Value":[818]},
+				{"Name":"maxhp","Value":[818],"LevelUpFactor":180},
+				{"Name":"initenergy","Value":[0]},
+				{"Name":"maxenergy","Value":[900]},
+				{"Name":"autoenergygain","Value":[150]}
+			]
+		},
+		{"_c":"CircleCollision","Radius":500},
+		{"_c":"Display","Prefab":"sc3d/characters/witch/chr_prefab_witch | 28de9f14-12aa-e8f2-b257-bd94e9215947"}
+	]
+}

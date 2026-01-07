@@ -1,0 +1,53 @@
+{
+	"States":[
+		{"Type":"AnimClip","Name":"Idle","Loop":true,"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_basic_idle | ec79f249-84a5-3a50-44b8-265b56c3cafd","TransInTime":0.2,"TransOutTime":0.2},
+		{
+			"Type":"AnimClip",
+			"Name":"Attack01",
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_attack01 | ec79f249-b459-a96b-346e-f73c50a9890c",
+			"BaseSpeed":1.2,
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Marker","Name":"action_frame","Frame":19}]
+		},
+		{
+			"Type":"AnimClip",
+			"Name":"Attack02",
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_attack02 | ec79f249-5c6c-e927-1c9b-2652798b9db4",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[{"Event":"Marker","Name":"action_frame","Frame":22}]
+		},
+		{"Type":"AnimClip","Name":"Deploy","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_drop | ec79f249-2e21-686a-ce03-15b2e51e39ca","TransInTime":0.2,"TransOutTime":0.2,"Events":[{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_deploy | 0e32651a-beaf-64b3-be01-4d9f0a2063e3"}]},
+		{
+			"Type":"AnimClip",
+			"Name":"Walk",
+			"Loop":true,
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_walk | ec79f249-61b8-6bd1-e172-d525dc6d6b20",
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"Events":[
+				{"Event":"Marker","Name":"action_frame1","Frame":23},
+				{"Event":"Marker","Name":"action_frame2","Frame":48},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_step | 0e32651a-4fb7-a588-0f08-fc9e91fc3340"},
+				{"Event":"Audio","Sound":"soundbanks/card_hero_ice_golem/card_hero_ice_golem_step | 0e32651a-4fb7-a588-0f08-fc9e91fc3340","Frame":24}
+			]
+		},
+		{"Type":"AnimClip","Name":"VictoryStart","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_victory | ec79f249-e72d-f869-a77d-0d44cd14b91b","TransInTime":0.2,"TransOutTime":0.2,"StartFrame":0,"EndFrame":42},
+		{
+			"Type":"AnimClip",
+			"Name":"VictoryLoop",
+			"Loop":true,
+			"Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_victory | ec79f249-e72d-f869-a77d-0d44cd14b91b",
+			"BaseSpeed":0.8,
+			"TransInTime":0.2,
+			"TransOutTime":0.2,
+			"StartFrame":43,
+			"EndFrame":86
+		},
+		{"Type":"Sequence","Name":"Victory","SubStates":["VictoryStart","VictoryLoop"]},
+		{"Type":"Random","Name":"Attack","SubStates":["Attack01","Attack02"]},
+		{"Type":"AnimClip","Name":"Death","Animation":"sc3d/characters/hero/hero_icegolem/animation/hero_icegolem_defeated | ec79f249-58c5-a933-f81f-baf444901e11"}
+	],
+	"DefaultState":"Idle"
+}

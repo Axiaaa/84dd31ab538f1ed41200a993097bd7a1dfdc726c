@@ -1,0 +1,13 @@
+{
+	"anims":{
+		"nodes":["pos","pos/hit","pos/hit/vfx_hit_01","pos/hit/vfx_hit_02","pos/hit/vfx_hit_03"],
+		"data":[
+			{},
+			{},
+			{"events":[{"_t":1857824372,"Time":0.6,"Effect":"sc3d/effects/ruler_attacks/t4/echomonk/vfx_ra_t4_echomonk_def_hit | 28de9f14-d599-3b0c-75ca-64d70c2f4f4c"}]},
+			{"events":[{"_t":1857824372,"Time":0.69500005,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_hit_prod | 28de9f14-0707-72bf-87ca-11567ee1e61d"}]},
+			{"events":[{"_t":1857824372,"Time":0.845,"Effect":"sc3d/effects/ruler_attacks/t3/echomonk_levelup_01/vfx_ra_t3_femalemonk_levelup_01_hit_prod | 28de9f14-0707-72bf-87ca-11567ee1e61d"}]}
+		]
+	},
+	"total_time":2
+}

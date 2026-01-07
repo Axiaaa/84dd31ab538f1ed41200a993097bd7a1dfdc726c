@@ -1,0 +1,87 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"camera",
+				"pos":[-0.41582566,-32.284687,18.262226],
+				"rot":[-25.529058,0,0],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":0.961538,"Far":1000,"Fov":23.3721}]
+			},
+			{
+				"name":"vfx",
+				"pos":[0,0,3],
+				"rot":[90,180,-180],
+				"scl":[1,1,1],
+				"children":[
+					{"name":"hit","pos":[-7.316654,0.5,0.64655],"rot":[0,-74.99998,90],"scl":[1,1,1]},
+					{
+						"name":"pjt",
+						"pos":[-7.29,0.5,8742262e-15],
+						"rot":[0,0,0],
+						"scl":[0.88000005,0.87999994,0.88000005],
+						"children":[{"name":"offset","pos":[0,0,0],"rot":[-49.999996,-89.59999,90],"scl":[1,1,1]}]
+					},
+					{"name":"charging","pos":[6.9,0.29999852,2.196467],"rot":[-60.767166,179.99992,179.9999],"scl":[0.79,0.7900001,0.7900001]}
+				]
+			},
+			{
+				"name":"pos_arena",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"Tower_Hit",
+						"pos":[-7.421446,0,0.18],
+						"rot":[0,0,90],
+						"scl":[1.2,1.2,1.2],
+						"children":[
+							{
+								"name":"king",
+								"pos":[-0.0053471588,-0.042773247,1.9],
+								"rot":[0,0,-9.999996],
+								"scl":[1,1,1],
+								"components":[{"objectType":5006,"Prefab":"sc3d/rulers/king/default/rul_prefab_king | 28de9f14-046a-e9db-24e0-b9548c0b472f"}]
+							}
+						],
+						"components":[{"objectType":5006,"Prefab":"sc3d/rulers/king/default/stand/rs_prefab_king | 28de9f14-c2fc-a9ed-a2e4-46ea7a0badf3"}]
+					},
+					{
+						"name":"Tower_Attack",
+						"pos":[7.4199595,33873327e-20,0.31009704],
+						"rot":[0,0,-90],
+						"scl":[1.2,1.2,1.2],
+						"children":[
+							{
+								"name":"ruler",
+								"pos":[-0.13416456,-0.017685413,1.6666665],
+								"rot":[0,0,-9.999997],
+								"scl":[1,1,1],
+								"components":[{"objectType":5006,"Prefab":"sc3d/rulers/echomonk/exorcist/rul_echomonk_exorcist | 28de9f14-9408-6dc6-3470-a8f1e51be843"}]
+							}
+						],
+						"components":[{"objectType":5006,"Prefab":"sc3d/rulers/echomonk/exorcist/stand/rs_echomonk_exorcist | 28de9f14-5245-b559-f285-829fa36fc29b"}]
+					},
+					{
+						"name":"Grass",
+						"pos":[0,0,0],
+						"rot":[0,0,90],
+						"scl":[2,2,1],
+						"components":[{"objectType":5006,"Prefab":"sc3d/effects/ruler_attacks/meta_scene/default/grass | 28de9f14-6797-60a9-c723-7b44cdacbb3a"}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"1","asset":"sc3d/effects/ruler_attacks/t2/echomonk/001_exorcist/timeline/tml_ra_t2_echomonk_001_exorcist_meta | 0644802f-16d7-e868-36fb-eaeb979a571f"}],"defaultTimeline":"1"},
+			{"objectType":5016,"TimelineName":"1"}
+		]
+	}
+}

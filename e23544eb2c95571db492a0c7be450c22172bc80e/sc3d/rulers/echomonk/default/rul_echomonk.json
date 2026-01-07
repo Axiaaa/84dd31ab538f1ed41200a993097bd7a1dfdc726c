@@ -1,0 +1,42 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"model",
+				"pos":[0,0,0],
+				"rot":[0,0,0],
+				"scl":[1.5,1.5,1.5],
+				"components":[
+					{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/default/model/rul_echomonk_rig | ec79f249-2653-7ebe-269b-c4ddb4b674a7","Geometries":[{"Name":"main_LOD0","MaterialOverride":"sc3d/rulers/echomonk/default/materials/mat_echomonk | c0cd0c6d-82e0-fc9d-82b2-6c3f36b57782"}]},
+					{"objectType":5003,"AsmAsset":"sc3d/rulers/echomonk/default/animation/asm_echomonk | defe63bc-d244-7e10-b237-c94eae423fd0"}
+				]
+			},
+			{
+				"name":"Node",
+				"pos":[0,0,0],
+				"rot":[-67.200005,-179.9999,43.399967],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":5,
+						"Color":{"r":183,"g":183,"b":183,"a":255},
+						"Ambient":{"r":37,"g":48,"b":57,"a":25}
+					}
+				]
+			},
+			{
+				"name":"cam",
+				"pos":[-7.4654713,-9.8805895,18.746523],
+				"rot":[-52.86696,-1.9721925,-37.05397],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":0.83269,"Far":1000,"Fov":45}]
+			}
+		]
+	}
+}

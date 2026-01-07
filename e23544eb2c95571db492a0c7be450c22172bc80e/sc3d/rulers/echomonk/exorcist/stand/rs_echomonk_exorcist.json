@@ -1,0 +1,40 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"camera",
+				"pos":[-13.013624,-18.516308,28.524021],
+				"rot":[-50,0,-34.999996],
+				"scl":[1,1,1],
+				"components":[{"objectType":5011,"Near":1,"Far":2000,"Fov":15}]
+			},
+			{
+				"name":"Node",
+				"pos":[0,0,0],
+				"rot":[-62.400085,0,-44.000023],
+				"scl":[1,1,1],
+				"components":[
+					{
+						"objectType":5007,
+						"Intensity":3,
+						"Color":{"r":255,"g":255,"b":255,"a":255},
+						"Ambient":{"r":119,"g":133,"b":133,"a":25}
+					}
+				]
+			},
+			{"name":"ruler_base","pos":[18805594e-14,-0.050287098,1.7096636],"rot":[0,0,0],"scl":[1,1,1]},
+			{
+				"name":"model",
+				"pos":[0,0,0.18],
+				"rot":[0,0,180],
+				"scl":[1.2,1.2,1.2],
+				"components":[{"objectType":5001,"MatLODCap":-1,"MinDeviceCap":-1,"ShadowVisible":true,"Model":"sc3d/rulers/echomonk/default/stand/model/rs_echomonk_rig | ec79f249-1280-61e2-b26e-fffe572dd9ab"}]
+			}
+		]
+	}
+}

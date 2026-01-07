@@ -1,0 +1,55 @@
+{
+	"data":{
+		"objectType":5000,
+		"name":"root",
+		"pos":[0,0,0],
+		"rot":[0,0,0],
+		"scl":[1,1,1],
+		"children":[
+			{
+				"name":"pos",
+				"pos":[0,0,1],
+				"rot":[0,0,0],
+				"scl":[1,1,1],
+				"children":[
+					{
+						"name":"vfx_wave.000",
+						"pos":[10541619e-15,0.060290944,-35762787e-14],
+						"rot":[90,0,0],
+						"scl":[0.2,0.2,1],
+						"components":[
+							{
+								"objectType":5001,
+								"MatLODCap":-1,
+								"MinDeviceCap":1,
+								"Layer":2,
+								"ShadowVisible":true,
+								"Model":"sc3d/effects/mesh/circular/sm_circular_01 | ec79f249-e382-3c81-239f-0ad48abd2947",
+								"Geometries":[{"Name":"sm_circular_01","MaterialOverride":"sc3d/characters/hero/hero_giant/effect/material/mat_giant_hero_screen_intro_02_wave | c0cd0c6d-64e4-3215-042a-c34231859286"}]
+							}
+						]
+					},
+					{
+						"name":"vfx_charge",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":-1,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_01_charge | 21fb952f-1dd1-ee3f-fd7b-bc92a35451f7","Layer":1,"Offset":[0,0,0]}]
+					},
+					{
+						"name":"vfx_charge_backglow",
+						"pos":[0,0,0],
+						"rot":[0,0,0],
+						"scl":[1,1,1],
+						"components":[{"objectType":5004,"MinDeviceCap":-1,"Particle":"sc3d/characters/hero/hero_wizard/effect/particles/ps_wizard_hero_meta_intro_01_charge_backglow | 21fb952f-700a-36b0-10ab-1fa483cdad73","Offset":[0,0,0]}]
+					}
+				]
+			}
+		],
+		"components":[
+			{"objectType":5005},
+			{"objectType":5014,"timelines":[{"name":"tml_wizard_hero_meta_intro_01_charge","asset":"sc3d/characters/hero/hero_wizard/effect/timeline/tml_wizard_hero_meta_intro_01_charge | 0644802f-d017-74c0-3075-5101e5b318e1"}],"defaultTimeline":"tml_wizard_hero_meta_intro_01_charge"},
+			{"objectType":5016,"TimelineName":"tml_wizard_hero_meta_intro_01_charge"}
+		]
+	}
+}

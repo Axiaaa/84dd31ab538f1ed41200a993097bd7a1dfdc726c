@@ -1,0 +1,42 @@
+{
+	"r":{
+		"name":"monk_spirit_aoe_flow",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[420,280],"m_nextNodeID":1001}},
+			{
+				"obj":{
+					"name":"DurationNode",
+					"id":1001,
+					"pos":[600,280],
+					"m_duration":300,
+					"m_nextNodeID":-1,
+					"m_actionInstanceCounter":6,
+					"node_actions":[
+						{"node_action_type":4,"node_action_obj":{"m_actionID":100103,"m_track":1,"BuffAsset":"logic/autochess/character/monk_spirit/buff/monk_spirit_dmg_buff | f5fa09ea-3dee-229a-9d87-09bec8b26a28","TargetType":1,"CustomBuffDuration":{"Value":400},"CustomTargetVar":{}}},
+						{
+							"node_action_type":10,
+							"node_action_obj":{"m_duration":100,"m_actionID":100100,"m_track":2,"ForceMoveSpeed":2000,"ForceMoveRange":18000,"ForceMoveHeight":4000,"KnockOut":true}
+						},
+						{
+							"node_action_type":30,
+							"node_action_obj":{
+								"TargetType":1,
+								"CustomTargetVar":{},
+								"m_duration":100,
+								"m_actionID":100101,
+								"m_track":3,
+								"EffectPrefab":"sc3d/characters/monkspirit/default/effect/prefabs/vfx_monkspirit_def_atk_hit | 28de9f14-567d-33c7-16ef-763f90701c9f",
+								"ResetOnReset":true,
+								"Detached":true,
+								"EffectScale":100,
+								"LinkToType":1,
+								"CustomLinkToVar":{}
+							}
+						},
+						{"node_action_type":11,"node_action_obj":{"m_startTime":50,"m_duration":200,"m_actionID":100104,"m_track":6,"ResetOnReset":true}}
+					]
+				}
+			}
+		]
+	}
+}

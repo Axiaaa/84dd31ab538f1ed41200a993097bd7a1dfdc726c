@@ -1,0 +1,18 @@
+{
+	"description":"TID_SKILL_SET_1_MUSKETEER_DES_25Q3",
+	"GrowthAttrNames":["targetcount"],
+	"InheritedTarget":true,
+	"Filter":"logic/autochess/filter/enemy_all | 3508bc9a-0f82-622f-2fda-a8aba282f0ef",
+	"AbilityFlow":"logic/autochess/character/musketeer/ability/musketeer_super_flow | d88fcdc1-e957-b5d0-2937-286ebc232ed6",
+	"BaseAttributes":"logic/autochess/battle_rule/autochess_ability_attributes | ca8ffa0e-e8d4-abfc-8839-6e764972e07e",
+	"AttributeOverrides":[
+		{"Name":"range","Value":[8]},
+		{"Name":"energycost","Value":[900]},
+		{"Name":"targetcount","Value":[1,2,3,4]},
+		{"Name":"damage","Value":[96],"LevelUpFactor":140},
+		{"Name":"speed","Value":[70]},
+		{"Name":"hitcount","Value":[5,4,3,2]}
+	],
+	"AttackEffect":"sc3d/characters/musketeer/effect/prefabs/vfx_musketeer_def_super | 28de9f14-f9f4-3003-799e-e2d9e1a1b69d",
+	"HitEffect":"sc3d/characters/musketeer/effect/prefabs/vfx_musketeer_def_super_hit | 28de9f14-e4cc-76ac-c4e1-651b726fb253"
+}

@@ -1,0 +1,1 @@
+{"NameTID":"TID_AUGMENT_JUMP_TILE_TITLE","DescTID":"TID_AUGMENT_JUMP_TILE_DES","Icon":"sc/ui_autochess_icons/augment_icon_jump_tile | 49e9c85e-6809-4622-b353-c59083d592f1","Weight":20,"Rules":[{"RuleType":2,"FlowAsset":"logic/autochess/augments/augment_25q4/jump_tile/augment_jump_tile_flow | 7c56ba3f-41d6-a44a-c1a0-4d3c0dfae778"}]}

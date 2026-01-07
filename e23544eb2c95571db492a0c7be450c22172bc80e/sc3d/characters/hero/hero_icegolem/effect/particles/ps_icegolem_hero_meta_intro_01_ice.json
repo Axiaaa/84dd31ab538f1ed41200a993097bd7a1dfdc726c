@@ -1,0 +1,38 @@
+{
+	"emitterDataVersion":6,
+	"emitter":{
+		"maxParticleCount":30,
+		"lifetime":0.3,
+		"lifetimeJitter":0.15,
+		"mass":1,
+		"spawnPointOffset":{"y":0.05},
+		"gravity":[0,-12,0],
+		"components":[
+			{"__class":"SpawnRate","duration":0.15,"spawnRate":20},
+			{"__class":"SpawnBurst","bursts":[{"c":5}]},
+			{
+				"__class":"SpawnPlanar",
+				"spawnMinSize":0.1,
+				"spawnMaxSize":0.2,
+				"maxAngle":360,
+				"minSpeedXY":0.5,
+				"maxSpeedXY":0.5,
+				"minSpeedZ":1,
+				"maxSpeedZ":-1,
+				"randomAngle":true
+			},
+			{"__class":"SpawnVelocityComponent","velocity":[0,1.25,0]}
+		]
+	},
+	"render":{
+		"globalScale":0.1,
+		"scale":0.01,
+		"scaleJitter":0.005,
+		"color":[1,1,1],
+		"alpha":1,
+		"gradient":[{"a":1},{"offset":1,"r":1,"g":1,"b":1,"a":1}],
+		"trailDuration":1,
+		"trailWidth":1
+	},
+	"movieclip":["sc/vfx_hero_generic/vmc_icegolem_hero_deploy_ice_01 | 49e9c85e-f716-477e-bbd5-86d7a21cdb77","sc/vfx_hero_generic/vmc_icegolem_hero_deploy_ice_02 | 49e9c85e-3ee6-483b-a9ab-1c391909b8cf","sc/vfx_hero_generic/vmc_icegolem_hero_deploy_ice_03 | 49e9c85e-2d13-4eef-afdd-9dc3a1dde371","sc/chr_ice_golem_hero/vmc_ice_golem_hero_meta_intro_ice_01 | 49e9c85e-5287-4a78-9b31-445442d57757","sc/chr_ice_golem_hero/vmc_ice_golem_hero_meta_intro_ice_02 | 49e9c85e-2fe6-4587-90fc-5589f8f68421","sc/chr_ice_golem_hero/vmc_ice_golem_hero_meta_intro_ice_03 | 49e9c85e-a5bd-494b-bff8-940d75daf401"]
+}

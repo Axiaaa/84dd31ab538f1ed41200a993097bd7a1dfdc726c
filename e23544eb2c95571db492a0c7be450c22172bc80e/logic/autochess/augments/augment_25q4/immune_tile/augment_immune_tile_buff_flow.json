@@ -1,0 +1,17 @@
+{
+	"r":{
+		"name":"augment_immune_tile_buff_flow",
+		"nodes":[
+			{"type":-1,"obj":{"name":"StartNode","id":1000,"pos":[550,93],"m_nextNodeID":1001}},
+			{
+				"obj":{
+					"name":"DurationNode",
+					"id":1001,
+					"pos":[800,90],
+					"m_nextNodeID":-1,
+					"node_actions":[{"node_action_type":11,"node_action_obj":{"m_duration":100,"m_track":1,"ResetOnReset":true,"FlagType":1}}]
+				}
+			}
+		]
+	}
+}
